@@ -1,0 +1,16 @@
+---
+layout: default
+title: Home
+---
+
+<div>&nbsp;</div>
+<h3 style="text-align: center;">Confitures</h3> 
+{% assign recettes_by_categories = site.recettes | sort: "title" %}
+{% for p in recettes_by_categories %}
+  {% if p.categories contains "confitures" %}
+  <div class="columns small-12 medium-6" style="padding-left: 150px;">    
+    <a href="{{ p.url }}">{{ p.title }}</a>   
+  </div>
+   
+  {% endif %}
+{% endfor %}

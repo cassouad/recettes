@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+---
+  <div>&nbsp;</div>
+{% assign recettes_by_title = site.recettes | sort: 'order' %}
+{% for recette in recettes_by_title %}
+  <div class="columns small-12 medium-6 large-4" style="padding-left: 150px;">    
+    <a href="{{ recette.url }}">{{ recette.title }}</a>   
+  </div>
+{% endfor %}
+
