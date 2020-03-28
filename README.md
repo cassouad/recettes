@@ -18,8 +18,10 @@ jekyll build
 bundler exec jekyll build
 ```
 
+```sh
 git status
 git add . && git commit -m "save"
+```
 
 ## Ressources
 
