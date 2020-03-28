@@ -11,7 +11,7 @@ ingredients: [
     un sachet de sucre vanillé,
     225 gr de sucre,
     3 oeufs,
-    "alcool : rhum ou cognac"    
+    "alcool : rhum ou cognac" 
 ]
 cuisson: [Faire cuire 60 minutes environ à 200 degrés (four 7)., "Les démouler encore chauds. Pour une réussite complète, utiliser le moule à cannelés."]
 qui: 
