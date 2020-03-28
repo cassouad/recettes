@@ -18,6 +18,9 @@ jekyll build
 bundler exec jekyll build
 ```
 
+git status
+git add . && git commit -m "save"
+
 ## Ressources
 
 * [doc de jekyll](https://jekyllrb.com/docs/)
