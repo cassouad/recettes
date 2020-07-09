@@ -22,6 +22,12 @@ bundler exec jekyll build
 git status
 git add . && git commit -m "save"
 ```
+```Git Gui
+Utilisateur dans github cassouad
+Mot de passe catpat17
+```
+
+
 
 ## Ressources
 
