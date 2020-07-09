@@ -23,6 +23,7 @@ git status
 git add . && git commit -m "save"
 ```
 ```Git Gui
+Cliquer sur le bouton "push"
 Utilisateur dans github cassouad
 Mot de passe catpat17
 ```
