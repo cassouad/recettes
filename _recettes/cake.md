@@ -13,7 +13,7 @@ ingredients: [
       150g raisins secs,
       un paquet de levure alsacienne
 ]
-cuisson: Four 4‒5 à 180. Cuire de 3/4h à 1h (maxi) selon la forme du moule.
+cuisson: Four 4‒5 à 160. Cuire de 3/4h à 1h (maxi) selon la forme du moule.
 qui: Mam, recette provenant de A.M. Duret
 personnes: 
 ---
