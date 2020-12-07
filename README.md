@@ -25,7 +25,10 @@ git add . && git commit -m "save"
 ```Git Gui
 Cliquer sur le bouton "push"
 Utilisateur dans github cassouad
+<<<<<<< HEAD
 Mot de passe catpat17
+=======
+>>>>>>> 3cd815b8830b2dc5b67681fddb67443f852e8dbf
 ```
 
 
