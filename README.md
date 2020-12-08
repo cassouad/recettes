@@ -20,7 +20,7 @@ bundler exec jekyll build
 
 ```sh
 git status
-git add . && git commit -m "save"
+git add . && git commit -m "Nom de la sauvegarde"
 ```
 ```Git Gui
 Cliquer sur le bouton "push"
