@@ -7,7 +7,7 @@ categories: [
 ingredients: [
     1kg de baudroie ou lotte coupée en tranches,
     8 oeufs,
-    coulis de tomates (1 petite boite),
+    coulis de tomates (1 petite boite exemple Mutti),
     concentré de tomates,
     "bouquet garni (thym, persil, laurier, 1/2 oignon, ail...)",
     sel et poivre

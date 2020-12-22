@@ -15,5 +15,6 @@ qui:
 personnes: 
 ---
 
-* Battre l'oeuf, la moutarde, le sel, le poivre.
-* Cotinuer à battre tout en rajoutant de l'huile petit à petit jusqu'à la consistance voulue. (puis la rallonger si nécessaire)
+* Battre l'oeuf, la moutarde.
+* Continuer à battre tout en rajoutant de l'huile petit à petit jusqu'à la consistance voulue. (puis la rallonger si nécessaire)
+* Saler, poivrer.

@@ -13,12 +13,12 @@ ingredients: [
     "2 gros citrons<br>
     <b>Pâte sucrée :</b>",
     125g beurre,
-    75g sucre,
+    75 à 100g sucre,
     250g farine,
-    un oeuf,
+    2 jaunes oeufs,
     une pincée de sel (voir tarte Tatin)
 ]
-cuisson: Cuisson 30 mn (four 7‒6 ou 219‒230)
+cuisson: Cuisson 30 mn (four 5‒6 ou 180°)
 qui: Catherine
 personnes: 
 ---
@@ -29,4 +29,7 @@ L'intérieur :
 * Gouter, ajouter le reste du jus de citron (au gout de chacun).
 * Verser dans le fond de la tarte.
 
-* Si l'on veut couvrir de meringue, 2 blancs battus en neige très ferme avec 100g de sucre semoule et une pincée de sel. Faites blondir à feu doux.
+* Si l'on veut couvrir de meringue, <br />
+&nbsp; &nbsp; &nbsp;- 2 blancs battus en neige très ferme <br />
+&nbsp; &nbsp; &nbsp;- dans lequel on rajoute 100g de sucre semoule( 40 à 50g de sucre par oeuf) et une pincée de sel.<br />
+&nbsp; &nbsp; &nbsp;- Faites blondir à feu doux une 10aine de minutes.
