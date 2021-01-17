@@ -21,10 +21,8 @@ bundler exec jekyll build
 ```sh
 git status
 git add . && git commit -m "Nom de la sauvegarde"
+git push
 ```
-```Git Gui
-Cliquer sur le bouton "push"
-Utilisateur dans github cassouad
 
 
 
