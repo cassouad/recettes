@@ -11,11 +11,11 @@ ingredients: [
     2 gousses d'ail,
     1 c. à soupe de farine pour 4 oignons,
     1/4 de blle de vin blanc + la même quantité d'eau par personne,
-    pain,
+    Pain,
     Fromage Comté ou raclette pou morbier (coupé en petits dés),
     Un bol par personne.  
 ]
-cuisson:
+cuisson: Laisser cuire 30 minutes.
 qui: Nicolas
 personnes: pour 1 personne
 ---
@@ -26,11 +26,8 @@ personnes: pour 1 personne
 * Ajouter l'ail, faire fondre
 * Bien faire revenir les oignons dans le beurre et l'ail. Faire dorer.
 * Puis mettre la farine.
-$ Ajouter le vin blanc et l'eau
-* 
----
-cuisson: Laisser cuire 30 minutes.
----
+* Ajouter le vin blanc et l'eau
+<br />&nbsp;
 * Dans le bol mettre au fond une couche de pain
 * Puis la soupe, une 2ème couche de pain, le fromage
 * Passer le bol au grill pour que la surface soit dorée.
