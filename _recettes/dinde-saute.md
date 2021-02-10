@@ -1,7 +1,7 @@
 ---
 title: Sauté de dinde et gratin dauphinois
 categories: [
-    plats
+    plats, viandes
 ]
 ingredients: [
     800g de dinde (de la noix en gros morceaux),
