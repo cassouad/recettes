@@ -23,6 +23,7 @@ module.exports = {
     indent: ['error', 2],
     'no-var': 'error',
     'prefer-const': 'error',
+    eqeqeq: 'error',
   },
   settings: {
     react: {

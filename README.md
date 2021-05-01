@@ -2,14 +2,14 @@
 
 ## Tutorial
 
-Pour lancer le générateur de site web :
+Pour lancer le serveur web de développement :
 
 ```sh
 yarn start
 # puis ouvrir un navigateur à l'adresse : http://localhost:8080/
 ```
 
-Pour générer le site une fois :
+Pour mettre à jour la GitHub page :
 
 ```sh
 yarn build
