@@ -2,7 +2,7 @@ import React from 'react'
 
 import recettes from '../recettes'
 import ArrièrePlan from './ArrièrePlan'
-import Input from './Input'
+import ChampDeRechercheDeRecette from './ChampDeRechercheDeRecette'
 import TitrePrincipal from './TitrePrincipal'
 import TableauDeRecettes from './TableauDeRecettes'
 
@@ -21,10 +21,9 @@ const App = () => {
       <div style={{
         paddingBottom: padding,
       }}>
-        <Input
-          valeur={demandeDeRecherche}
-          setValeur={setDemandeDeRecherche}
-          texteQuiSAfficheQuandPasDeValeur='Rechercher une recette ! 🥘🥗😋'
+        <ChampDeRechercheDeRecette
+          demandeDeRecherche={demandeDeRecherche}
+          setDemandeDeRecherche={setDemandeDeRecherche}
         />
       </div>
       <TableauDeRecettes

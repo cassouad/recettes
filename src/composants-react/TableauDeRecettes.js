@@ -2,6 +2,7 @@ import React from 'react'
 
 import Recette from './Recette'
 
+////// quand on clique sur une recette, elle s'ouvre et prend toute la place
 const TableauDeRecettes = ({
   tableauDeRecettes,
   demandeDeRecherche,
@@ -11,7 +12,10 @@ const TableauDeRecettes = ({
     demandeDeRecherche
   )
   const tableauDeRecettesTriées = trieTableauDeRecettes(tableauDeRecettesFiltrées)
-  const tableauDElements = calculesTableauDElements(tableauDeRecettesTriées)
+  const tableauDElements = calculesTableauDElements(
+    tableauDeRecettesTriées,
+    demandeDeRecherche
+  )
 
   return (
     <div>
@@ -27,7 +31,7 @@ const filtreTableauDeRecettes = (tableauDeRecettes, demandeDeRecherche) => {
     .toLocaleLowerCase()
     .replace(/\s+/g, ' ')
     .split('')
-    .join('.*')
+    .join('.*?')
   return tableauDeRecettes.filter((recette) => {
     return recette.titre.toLocaleLowerCase().match(demandeDeRecherche) !== null
   })
@@ -45,7 +49,7 @@ const trieTableauDeRecettes = (tableauDeRecettes) => {
   return copieDuTableauDeRecettes.sort(compareDeuxRecettes)
 }
 
-const calculesTableauDElements = (tableauDeRecettes) => {
+const calculesTableauDElements = (tableauDeRecettes, demandeDeRecherche) => {
   return tableauDeRecettes.map((recette, index) => {
     let paddingBottom
     if (index === tableauDeRecettes.length - 1) {
@@ -56,7 +60,10 @@ const calculesTableauDElements = (tableauDeRecettes) => {
 
     return (
       <div key={recette.titre} style={{paddingBottom}}>
-        <Recette recette={recette}/>
+        <Recette
+          recette={recette}
+          demandeDeRecherche={demandeDeRecherche}
+        />
       </div>
     )
   })

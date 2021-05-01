@@ -1,20 +1,14 @@
 import React from 'react'
 
-// refactoring ///////
-const Input = ({
+const ChampDeTexte = ({
   valeur,
   setValeur,
   texteQuiSAfficheQuandPasDeValeur,
+  style,
 }) => {
   return (
     <input
-      style={{
-        width: '100%',
-        padding: '12px',
-        outline: 'none',
-        border: '1px dashed #5a5a5a',
-        fontSize: '16px',
-      }}
+      style={style}
       value={valeur}
       placeholder={texteQuiSAfficheQuandPasDeValeur}
       onChange={(event) => {
@@ -24,4 +18,4 @@ const Input = ({
   )
 }
 
-export default Input
+export default ChampDeTexte
