@@ -24,7 +24,7 @@ const App = () => {
         <Input
           valeur={demandeDeRecherche}
           setValeur={setDemandeDeRecherche}
-          texteQuiSAfficheQuandPasDeValeur='Rechercher une recette'
+          texteQuiSAfficheQuandPasDeValeur='Rechercher une recette ! 🥘🥗😋'
         />
       </div>
       <TableauDeRecettes

@@ -1,0 +1,49 @@
+{
+  "titre": "Cake",
+  "auteur": "Mam, recette provenant de A.M. Duret",
+  "nombreDePersonnes": 0,
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "nom": "oeufs",
+      "quantité": 3,
+      "unité": ""
+    },
+    {
+      "nom": "sucre",
+      "quantité": 125,
+      "unité": "g"
+    },
+    {
+      "nom": "farine",
+      "quantité": 250,
+      "unité": "g"
+    },
+    {
+      "nom": "beurre",
+      "quantité": 125,
+      "unité": "g"
+    },
+    {
+      "nom": "raisins secs",
+      "quantité": 150,
+      "unité": "g"
+    },
+    {
+      "nom": "levure alsacienne",
+      "quantité": 1,
+      "unité": "paquet"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire tremper les raisins dans l'eau 48h à l'avance et les mettre dans le rhum (ou le cognac).",
+    "Faire ramollir le beurre et le travailler avec le sucre.",
+    "Ajouter les oeufs un par un",
+    "puis la farine et la levure, et enfin les raisins.",
+    "Ajouter une bonne cuillère de rhum (ou cognac)."
+  ]
+}

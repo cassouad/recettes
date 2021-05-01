@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Carte from './Carte'
+import Recette from './Recette'
 
 const TableauDeRecettes = ({
   tableauDeRecettes,
@@ -24,11 +24,12 @@ export default TableauDeRecettes
 
 const filtreTableauDeRecettes = (tableauDeRecettes, demandeDeRecherche) => {
   demandeDeRecherche = demandeDeRecherche
+    .toLocaleLowerCase()
     .replace(/\s+/g, ' ')
     .split('')
     .join('.*')
   return tableauDeRecettes.filter((recette) => {
-    return recette.titre.match(demandeDeRecherche) !== null
+    return recette.titre.toLocaleLowerCase().match(demandeDeRecherche) !== null
   })
 }
 
@@ -55,9 +56,7 @@ const calculesTableauDElements = (tableauDeRecettes) => {
 
     return (
       <div key={recette.titre} style={{paddingBottom}}>
-        <Carte>
-          {recette.titre}
-        </Carte>
+        <Recette recette={recette}/>
       </div>
     )
   })
