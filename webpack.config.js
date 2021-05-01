@@ -36,6 +36,7 @@ module.exports = (env, options) => {
     output: {
       path: path.resolve(__dirname, outputDirectoryName),
       filename: '[name].[contenthash].bundle.js',
+      clean: true,
     },
   }
 }
