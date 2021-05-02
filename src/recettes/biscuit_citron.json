@@ -1,3 +1,58 @@
 {
-  "titre": "Biscuit au citron"
+  "$schema": "./schémaRecette.json",
+  "titre": "Biscuit au citron",
+  "auteur": "Bastos",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 5,
+      "unité": "verre(s)",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron râpé"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "verre(s)",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "huile"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "lait ou même quantité d'eau"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "levure"
+    }
+  ],
+  "tableauInstructions": [
+    "Battre le sucre avec les jaunes d'oeufs et le citron.",
+    "Ajouter l'huile, le lait ou l'eau puis la levure, la farine.",
+    "Mélanger les blancs d'oeufs montés.",
+    "Beurrer le moule.",
+    "Mettre à four doux"
+  ]
 }
