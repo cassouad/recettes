@@ -1,87 +1,55 @@
 import React from 'react'
 
 import CarteBouton from './CarteBouton'
+import CarteAvecTitreBouton from './CarteAvecTitreBouton'
+import TitreDeLaRecette from './TitreDeLaRecette'
+import TableauDesIngredientsDeLaRecette from './TableauDesIngredientsDeLaRecette'
+import TableauDesInstructionsDeLaRecette from './TableauDesInstructionsDeLaRecette'
 
 const Recette = ({
   recette,
   demandeDeRecherche,
+  couleurPrincipale,
+  stickyTopPourLeTitreDesRecettes,
 }) => {
-  const élémentDuTitre = transformeLeTitreEnÉlément(recette.titre, demandeDeRecherche)
-
-  return (
-    <CarteBouton
-      quandOnCliqueFaire={() => {
-        console.log('hello')
-      }}
-    >
-      <div>
-        {élémentDuTitre}
-      </div>
-    </CarteBouton>
+  const [laRecetteEstOuverte, setLaRecetteEstOuverte] = React.useState(false)
+  const élémentDuTitreDeLaRecette = (
+    <TitreDeLaRecette
+      titre={recette.titre}
+      demandeDeRecherche={demandeDeRecherche}
+    />
   )
+
+  if (laRecetteEstOuverte) {
+    return (
+      <CarteAvecTitreBouton
+        élémentDuTitre={élémentDuTitreDeLaRecette}
+        quandOnCliqueFaire={() => setLaRecetteEstOuverte(false)}
+        couleurPrincipale={couleurPrincipale}
+        stickyTopPourLeTitre={stickyTopPourLeTitreDesRecettes}
+      >
+        <div style={{
+          paddingBottom: '10px',
+        }}>
+          <TableauDesIngredientsDeLaRecette
+            tableauIngredients={recette.tableauIngredients}
+          />
+        </div>
+        <TableauDesInstructionsDeLaRecette
+          tableauInstructions={recette.tableauInstructions}
+        />
+      </CarteAvecTitreBouton>
+    )
+  } else {
+    return (
+      <CarteBouton
+        quandOnCliqueFaire={() => setLaRecetteEstOuverte(true)}
+        couleurPrincipale={couleurPrincipale}
+      >
+        {élémentDuTitreDeLaRecette}
+      </CarteBouton>
+    )
+  }
 }
 
 export default Recette
-
-const transformeLeTitreEnÉlément = (titre, demandeDeRecherche) => {
-  const styleDesLettresQuiMatch = {
-    fontWeight: 'bold',
-    textDecoration: 'underline',
-  }
-  const tableauDeLettres = demandeDeRecherche.split('')
-  const recursive = (titre) => {
-    if (tableauDeLettres.length) {
-      const lettre = tableauDeLettres.shift()
-      const réponse = essaieDeCouperLeTitreAvecLaLettre(titre, lettre)
-      if (réponse) {
-        return réponse
-      } else {
-        return <React.Fragment />
-      }
-    } else {
-      return <span>{titre}</span>
-    }
-  }
-
-  const essaieDeCouperLeTitreAvecLaLettre = (titre, lettre) => {
-    const lettreEnMinuscule = lettre.toLocaleLowerCase()
-    const lettreEnMajuscule = lettre.toLocaleUpperCase()
-    const minusculeMatch = titre.match(`.*?${lettreEnMinuscule}`)
-    const majusculeMatch = titre.match(`.*?${lettreEnMajuscule}`)
-
-    let match
-    if (minusculeMatch && majusculeMatch) {
-      if (minusculeMatch[0].length < majusculeMatch[0].length) {
-        match = minusculeMatch
-      } else {
-        match = majusculeMatch
-      }
-    } else if (minusculeMatch) {
-      match = minusculeMatch
-    } else if (majusculeMatch) {
-      match = majusculeMatch
-    } else {
-      match = null
-    }
-
-    if (match) {
-      return (
-        <React.Fragment>
-          <span>
-            {match[0].slice(0, -1)}
-          </span>
-          <span style={styleDesLettresQuiMatch}>
-            {match[0].slice(-1)}
-          </span>
-          <span>
-            {recursive(titre.slice(match[0].length))}
-          </span>
-        </React.Fragment>
-      )
-    } else {
-      return null
-    }
-  }
-
-  return recursive(titre)
-}

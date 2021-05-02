@@ -5,6 +5,7 @@ import Button from './Bouton'
 const CarteBouton = ({
   children,
   quandOnCliqueFaire,
+  couleurPrincipale,
 }) => {
   const styleCommun = {
     transition: 'all 0.1s ease-out 0s',
@@ -20,7 +21,7 @@ const CarteBouton = ({
       }}
       styleQuandLaSourisEstAuDessus={{
         ...styleCommun,
-        backgroundColor: 'hsl(210deg 53% 59%)',
+        backgroundColor: couleurPrincipale,
         color: 'white',
       }}
       quandOnCliqueFaire={quandOnCliqueFaire}

@@ -25,6 +25,7 @@ const Bouton = ({
         cursor: 'pointer',
         textAlign: 'inherit',
         outline: 'none',
+        font: 'inherit',
         ...styleFinal,
       }}
       onClick={quandOnCliqueFaire}

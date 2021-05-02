@@ -11,6 +11,7 @@ const App = () => {
 
   const padding = '10px'
   const couleurDeArrièrePlan = '#e6eef7'
+  const couleurPrincipale = 'hsl(210deg 53% 59%)'
 
   return (
     <ArrièrePlan
@@ -42,6 +43,8 @@ const App = () => {
         <TableauDeRecettes
           tableauDeRecettes={recettes}
           demandeDeRecherche={demandeDeRecherche}
+          couleurPrincipale={couleurPrincipale}
+          stickyTopPourLeTitreDesRecettes={'121px'}
         />
       </div>
     </ArrièrePlan>

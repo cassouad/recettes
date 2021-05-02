@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.14.0",
+    "@babel/eslint-parser": "^7.13.14",
     "@babel/preset-env": "^7.14.0",
     "@babel/preset-react": "^7.13.13",
     "@yarnpkg/pnpify": "^3.0.0-rc.3",

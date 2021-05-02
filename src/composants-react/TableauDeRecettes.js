@@ -2,20 +2,25 @@ import React from 'react'
 
 import Recette from './Recette'
 
-////// quand on clique sur une recette, elle s'ouvre et prend toute la place
 const TableauDeRecettes = ({
   tableauDeRecettes,
   demandeDeRecherche,
+  couleurPrincipale,
+  stickyTopPourLeTitreDesRecettes,
 }) => {
-  const tableauDeRecettesFiltrées = filtreTableauDeRecettes(
+  const tableauDeRecettesFiltrées = filtreTableauDeRecettes({
     tableauDeRecettes,
-    demandeDeRecherche
-  )
-  const tableauDeRecettesTriées = trieTableauDeRecettes(tableauDeRecettesFiltrées)
-  const tableauDElements = calculesTableauDElements(
-    tableauDeRecettesTriées,
-    demandeDeRecherche
-  )
+    demandeDeRecherche,
+  })
+  const tableauDeRecettesTriées = trieTableauDeRecettes({
+    tableauDeRecettes: tableauDeRecettesFiltrées,
+  })
+  const tableauDElements = calculesTableauDElements({
+    tableauDeRecettes: tableauDeRecettesTriées,
+    demandeDeRecherche,
+    couleurPrincipale,
+    stickyTopPourLeTitreDesRecettes,
+  })
 
   return (
     <div>
@@ -26,7 +31,7 @@ const TableauDeRecettes = ({
 
 export default TableauDeRecettes
 
-const filtreTableauDeRecettes = (tableauDeRecettes, demandeDeRecherche) => {
+const filtreTableauDeRecettes = ({tableauDeRecettes, demandeDeRecherche}) => {
   demandeDeRecherche = demandeDeRecherche
     .toLocaleLowerCase()
     .replace(/\s+/g, ' ')
@@ -37,7 +42,7 @@ const filtreTableauDeRecettes = (tableauDeRecettes, demandeDeRecherche) => {
   })
 }
 
-const trieTableauDeRecettes = (tableauDeRecettes) => {
+const trieTableauDeRecettes = ({tableauDeRecettes}) => {
   const copieDuTableauDeRecettes = [...tableauDeRecettes]
   const compareDeuxRecettes = (premièreRecette, secondeRecette) => {
     const premierTitre = premièreRecette.titre
@@ -49,7 +54,12 @@ const trieTableauDeRecettes = (tableauDeRecettes) => {
   return copieDuTableauDeRecettes.sort(compareDeuxRecettes)
 }
 
-const calculesTableauDElements = (tableauDeRecettes, demandeDeRecherche) => {
+const calculesTableauDElements = ({
+  tableauDeRecettes,
+  demandeDeRecherche,
+  couleurPrincipale,
+  stickyTopPourLeTitreDesRecettes,
+}) => {
   return tableauDeRecettes.map((recette, index) => {
     let paddingBottom
     if (index === tableauDeRecettes.length - 1) {
@@ -63,6 +73,8 @@ const calculesTableauDElements = (tableauDeRecettes, demandeDeRecherche) => {
         <Recette
           recette={recette}
           demandeDeRecherche={demandeDeRecherche}
+          couleurPrincipale={couleurPrincipale}
+          stickyTopPourLeTitreDesRecettes={stickyTopPourLeTitreDesRecettes}
         />
       </div>
     )
