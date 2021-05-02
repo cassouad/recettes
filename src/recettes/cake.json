@@ -1,7 +1,11 @@
 {
+  "$schema": "./schémaRecette.json",
   "titre": "Cake",
   "auteur": "Mam, recette provenant de A.M. Duret",
-  "nombreDePersonnes": 0,
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "moule long et grand"
+  },
   "tableauDeTags": [
     "patisseries",
     "gateaux",
@@ -36,7 +40,7 @@
     {
       "nom": "levure alsacienne",
       "quantité": 1,
-      "unité": "paquet"
+      "unité": "sachet"
     }
   ],
   "tableauInstructions": [
@@ -44,6 +48,7 @@
     "Faire ramollir le beurre et le travailler avec le sucre.",
     "Ajouter les oeufs un par un",
     "puis la farine et la levure, et enfin les raisins.",
-    "Ajouter une bonne cuillère de rhum (ou cognac)."
+    "Ajouter une bonne cuillère de rhum (ou cognac).",
+    "Four 4‒5 à 160°. Cuire de 3/4h à 1h (maxi) selon la forme du moule."
   ]
 }
