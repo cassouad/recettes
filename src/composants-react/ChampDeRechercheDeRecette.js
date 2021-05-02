@@ -9,6 +9,7 @@ const ChampDeRechercheDeRecette = ({
     <ChampDeTexte
       valeur={demandeDeRecherche}
       setValeur={setDemandeDeRecherche}
+      focusElementQuandIlEstCréé
       style={{
         width: '100%',
         padding: '12px',
@@ -16,7 +17,7 @@ const ChampDeRechercheDeRecette = ({
         border: '1px dashed #5a5a5a',
         fontSize: '16px',
       }}
-      texteQuiSAfficheQuandPasDeValeur={'Rechercher une recette ! 🥘🥗😋'}
+      texteQuiSAfficheQuandPasDeValeur={'recherchez une recette ! 🥘🥗😋'}
     />
   )
 }

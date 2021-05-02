@@ -5,9 +5,18 @@ const ChampDeTexte = ({
   setValeur,
   texteQuiSAfficheQuandPasDeValeur,
   style,
+  focusElementQuandIlEstCréé = false,
 }) => {
+  const ref = React.useRef(null)
+
+  useFocusElementQuandIlEstCréé({
+    ref,
+    focusElementQuandIlEstCréé,
+  })
+
   return (
     <input
+      ref={ref}
       style={style}
       value={valeur}
       placeholder={texteQuiSAfficheQuandPasDeValeur}
@@ -19,3 +28,14 @@ const ChampDeTexte = ({
 }
 
 export default ChampDeTexte
+
+const useFocusElementQuandIlEstCréé = ({
+  ref,
+  focusElementQuandIlEstCréé,
+}) => {
+  React.useEffect(() => {
+    if (focusElementQuandIlEstCréé) {
+      ref.current.focus()
+    }
+  }, [ref, focusElementQuandIlEstCréé])
+}

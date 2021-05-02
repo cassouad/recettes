@@ -6,10 +6,23 @@ const ArrièrePlan = ({
   return (
     <div style={{
       backgroundColor: '#e6eef7',
-      padding: '20px 20%',
+      padding: '20px',
       minHeight: '100vh',
+      display: 'flex',
     }}>
-      {children}
+      <div style={{
+        flex: '1 1 auto'
+      }}/>
+      <div style={{
+        width: '1000px',
+        maxWidth: '400px',
+        flex: '0 1 auto',
+      }}>
+        {children}
+      </div>
+      <div style={{
+        flex: '1 1 auto'
+      }}/>
     </div>
   )
 }

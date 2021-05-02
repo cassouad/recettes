@@ -1,7 +1,6 @@
 import React from 'react'
 
-import Bouton from './Bouton'
-import Carte from './Carte'
+import CarteBouton from './CarteBouton'
 
 const Recette = ({
   recette,
@@ -10,17 +9,15 @@ const Recette = ({
   const élémentDuTitre = transformeLeTitreEnÉlément(recette.titre, demandeDeRecherche)
 
   return (
-    <Bouton
+    <CarteBouton
       quandOnCliqueFaire={() => {
         console.log('hello')
       }}
     >
-      <Carte>
-        <div>
-          {élémentDuTitre}
-        </div>
-      </Carte>
-    </Bouton>
+      <div>
+        {élémentDuTitre}
+      </div>
+    </CarteBouton>
   )
 }
 
@@ -45,7 +42,7 @@ const transformeLeTitreEnÉlément = (titre, demandeDeRecherche) => {
         if (réponse) {
           return réponse
         } else {
-          return <React.Fragment/>
+          return <React.Fragment />
         }
       }
     } else {
