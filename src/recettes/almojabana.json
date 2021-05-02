@@ -21,7 +21,7 @@
       "unité": "g"
     },
     {
-      "nom": "oeuf",
+      "nom": "oeuf(s)",
       "quantité": 1,
       "unité": ""
     },
@@ -33,12 +33,12 @@
     {
       "nom": "huile de colza",
       "quantité": 1,
-      "unité": "cuillère à soupe"
+      "unité": "c. à soupe"
     },
     {
       "nom": "levure chimique",
       "quantité": 0.5,
-      "unité": "sachet"
+      "unité": "sachet(s)"
     }
   ],
   "tableauInstructions": [

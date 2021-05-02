@@ -1,0 +1,59 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Lottes ou baudroies au safran (autre recette)",
+  "auteur": "",
+  "pour": {
+    "quantité": 2,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "poissons"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "queue de lotte"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "tomates concassées en conserve"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "échalote(s)"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "vin blanc sec"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "",
+      "nom": "citron(s) vert(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "safran"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    }
+  ],
+  "tableauInstructions": [
+    "Peler et émincer l'échalote, la faire revenir dans l'huile.",
+    "Ajouter le jus du citron vert, le vin blanc, le safran, les tomates et la lotte coupée en petits dés.",
+    "Assaisonner et laisser mijoter 5 à 6 minutes."
+  ]
+}

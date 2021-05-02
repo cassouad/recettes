@@ -1,3 +1,28 @@
 {
-  "titre": "Artichauts à la barigoule"
+  "$schema": "./schémaRecette.json",
+  "titre": "Artichauts à la barigoule",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": "Bonne Maman"
+  },
+  "tableauDeTags": [
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "pommes de terre sautées"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "coeurs d'artichauts sautés"
+    }
+  ],
+  "tableauInstructions": [
+      "(prendre des coeurs, pas des fonds ; aucune proportion spéciale",
+      "Je pense qu'il est bon d'ajouter un peu d'oignons."
+  ]
 }

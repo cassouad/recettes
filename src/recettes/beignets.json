@@ -1,3 +1,41 @@
 {
-  "titre": "Beignets"
+  "$schema": "./schémaRecette.json",
+  "titre": "Beignets",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts",
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "huile"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "eau ou de lait"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le lait, les jaunes d'oeufs, l'huile puis la farine.",
+    "Bien travailler.",
+    "Laisser reposer 2 heures.",
+    "Ajouter alors les blancs d'oeufs en neige."
+  ]
 }

@@ -1,3 +1,32 @@
 {
-  "titre": "Anchoïade"
+  "$schema": "./schémaRecette.json",
+  "titre": "Anchoïade",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "apéritif"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "anchois déarêtés"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "ail"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olive à volonté"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout"
+  ]
 }

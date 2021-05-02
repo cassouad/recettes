@@ -13,6 +13,7 @@ export default [
   require('./baba_rhum'),
   require('./baudroie_flan'),
   require('./baudroie_safran'),
+  require('./baudroie_safran2'),
   require('./beignets'),
   require('./beurre_blanc'),
   require('./biscuit_citron'),

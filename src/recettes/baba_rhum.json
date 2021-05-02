@@ -1,3 +1,64 @@
 {
-  "titre": "Baba au rhum"
+  "$schema": "./schémaRecette.json",
+  "titre": "Baba au rhum",
+  "auteur": "dans \"L'Art culinaire français\", ed. Flammarion, 1950",
+  "pour": {
+    "quantité": 8,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 7,
+      "unité": "g",
+      "nom": "levure"
+    },
+    {
+      "quantité": 8,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 3,
+      "unité": "g",
+      "nom": "sel"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeuf(s) entier(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "dl",
+      "nom": "lait tiède"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire d'abord légèrement chauffer une terrine à l'entrée du four.",
+    "Puis y tamiser la farine, faire au milieu un trou dans lequel on met la levure.",
+    "Y verser le lait tiède pour faire dissoudre la levure.",
+    "Puis, quand elle est bien fondue, y casser les 2 oeufs et les mélanger aussitôt à la farine.",
+    "La pâte doit être très molle, presque liquide\u00a0; la battre deux ou trois minutes à la main, puis couvrir la terrine.",
+    "La mettre à la chaleur tempérée jusqu'à ce que la pâte soit doublée de volume, ce qui demande environ trois quarts d'heure.",
+    "Au bout de ce temps, faire ramollir le beurre, que l'on travaille jusqu'à ce qu'il soit devenu comme une pommade lisse.",
+    "Puis le mélanger à la pâte ainsi que le sel et le sucre.",
+    "Battre avec la main cette pâte dans la terrine en la soulevant du bout des doigts, la laisser retomber, mais moins fortement que la pâte à brioche, et cela pendant quatre ou cinq minutes seulement.",
+    "La pâte est terminée ainsi, et peut être employée tout de suite.",
+    "Garnir à moitié de pâte à baba un moule spécial dit moule à baba.",
+    "Faire lever"
+  ]
 }

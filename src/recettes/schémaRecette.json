@@ -48,13 +48,17 @@
           "gateaux",
           "desserts",
           "légumes",
-          "apéritif"
+          "apéritif",
+          "viandes",
+          "entrées",
+          "poissons"
         ]
       }
     },
     "tableauIngredients": {
       "type": "array",
       "uniqueItems": true,
+      "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -78,13 +82,17 @@
               "",
               "g",
               "kg",
-              "l",
               "ml",
               "cl",
-              "cuillère à café",
-              "cuillère à soupe",
-              "pincée",
-              "sachet"
+              "dl",
+              "l",
+              "c. à café",
+              "c. à soupe",
+              "sachet(s)",
+              "boite(s)",
+              "ptte(s) boite(s)",
+              "verre(s)",
+              "pincée(s)"
             ]
           }
         }
@@ -93,6 +101,7 @@
     "tableauInstructions": {
       "type": "array",
       "uniqueItems": true,
+      "minItems": 1,
       "items": {
         "type": "string",
         "minLength": 1

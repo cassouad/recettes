@@ -1,3 +1,78 @@
 {
-  "titre": "Aillolade d'agneau"
+  "$schema": "./schémaRecette.json",
+  "titre": "Aillolade d'agneau",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "agneau"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "poivre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "persil"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "herbes de Provence"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "gousses d'ail"
+    },
+    {
+      "quantité": 3,
+      "unité": "cuillère à soupe",
+      "nom": "concentré de tomates"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "",
+      "nom": "sucres en morceaux"
+    },
+    {
+      "quantité": 1,
+      "unité": "cuillère à soupe",
+      "nom": "cognac (facultatif)"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire chauffer l'huile dans une cocotte",
+    "Après avoir couper en morceaux moyens la viande, la faire rissoler dans l'huile d'olive + oignon haché.",
+    "Après, jeter l'excédent d'huile, mettre sur la viande du sel, du poivre, persil, herbes de provence.",
+    "Ajouter les gousses d'ail (non hachées).",
+    "Recouvrir d'eau la viande si nécéssaire.",
+    "Mettre le concentré de tomates et le sucre.",
+    "Faire cuire 1h30 environ puis lier la sauce"
+  ]
 }

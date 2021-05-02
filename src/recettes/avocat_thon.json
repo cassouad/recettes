@@ -1,3 +1,57 @@
 {
-  "titre": "Avocats au thon"
+  "$schema": "./schémaRecette.json",
+  "titre": "Avocats au thon",
+  "auteur": "",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "avocat(s) coupé(s) en 2"
+    },
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "miettes de thon"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "citron(s)"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeuf(s) dur(s)"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "tomate(s) en morceaux"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "quelques olives"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "câpres"
+    }
+  ],
+  "tableauInstructions": [
+    "Retirer la chair des avocats et garder les 1/2 écorces entières ",
+    "Couper la chair en dés",
+    "Mélanger les dés aux miettes de thon",
+    "Ajouter les oeufs durs, les tomates en morceaux, quelques olives, les câpres.",
+    "Assaisonner de vinaigrette aux herbes (la faire au jus de citron).",
+    "Farcir les écorces."
+  ]
 }

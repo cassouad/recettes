@@ -1,3 +1,54 @@
 {
-  "titre": "Flan à la baudroie ou lotte"
+  "$schema": "./schémaRecette.json",
+  "titre": "Flan à la baudroie ou lotte",
+  "auteur": "",
+  "pour": {
+    "quantité": 8,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées",
+    "poissons"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "baudroie ou lotte coupée en tranches"
+    },
+    {
+      "quantité": 8,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "ptte(s) boite(s)",
+      "nom": "coulis de tomates (exemple Mutti)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "concentré de tomates"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "bouquet garni (thym, persil, laurier, 1/2 oignon, ail...)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre les tranches de baudroie dans une cocotte sans eau ; cuire très doucement afin qu'elles rendent leur jus (10 minutes).",
+    "Quand la baudroie est cuite, la laisser refroidir et la couper en gros dés.",
+    "Faire cuire une petite boîte de tomates pelées au jus avec une cuillère à soupe de concentré de tomates. Sel. Poivre. Bouquet garni.",
+    "Laisser réduire pour obtenir une purée de tomates. Laisser refroidir.",
+    "Battre les oeufs + sel + poivre. Ajouter le coulis et la baudroie et mettre le tout dans un moule à baba bien beurré.",  
+    "Finitions : garnir la couronne avec des tranches de tomates, de cornichons, de citrons.",
+    "Servir très frais avec de la sauce rémoulade ou de la mayonnaise."
+  ]
 }
