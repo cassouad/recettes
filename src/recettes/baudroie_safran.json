@@ -18,7 +18,7 @@
     {
       "quantité": 8,
       "unité": "",
-      "nom": "ptte(s) pomme(s) de terre"
+      "nom": "petite(s) pomme(s) de terre"
     },
     {
       "quantité": 20,
@@ -58,10 +58,13 @@
   ],
   "tableauInstructions": [
     "Faites chauffer le beurre dans une cocotte, à feu moyen.",
-    "Ajoutez les échalotes et les tronçons de lotte. Faites cuire 5 minutes, en remuant souvent.",
+    "Ajoutez les échalotes et les tronçons de lotte.",
+    "Faites cuire 5 minutes, en remuant souvent.",
     "Ajoutez le vin blanc et le safran et faites cuire encore 5 minutes.",
-    "Ajoutez le coulis de tomate et la crème. Salez, poivrez et laisser mijoter encore 10 minutes.",
-    "Goûtez la sauce et rectifiez si besoin l’assaisonnement. Pour finir, ajoutez les pommes de terre cuites et servez aussitôt.",
+    "Ajoutez le coulis de tomate et la crème.",
+    "Salez, poivrez et laisser mijoter encore 10 minutes.",
+    "Goûtez la sauce et rectifiez si besoin l’assaisonnement.",
+    "Pour finir, ajoutez les pommes de terre cuites et servez aussitôt.",
     "A noter : vous pouvez préparer la lotte au safran à l’avance et la réchauffer à feu doux.",
     "Attention, la sauce ne doit pas bouillir car le poisson trop cuit deviendrait caoutchouteux."
   ]
