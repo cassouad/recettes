@@ -8,13 +8,19 @@ contenuDuFichierIndex += '// à partir des fichiers json du dossier recettes.\n'
 contenuDuFichierIndex += '\n'
 contenuDuFichierIndex += 'export default [\n'
 
-fs.readdirSync(__dirname).forEach(nomDuFichier => {
-  const extensionDuFichier = path.extname(nomDuFichier)
-  const extensionDesFichiersJson = '.json'
+const tableauDesNomsDeFichiersÀIgnorer = [
+  'schémaRecette.json',
+]
 
-  if (extensionDuFichier === extensionDesFichiersJson) {
-    const nomDuFichierSansExtension = path.basename(nomDuFichier, extensionDesFichiersJson)
-    contenuDuFichierIndex += `  require('./${nomDuFichierSansExtension}'),\n`
+fs.readdirSync(__dirname).forEach(nomDuFichier => {
+  if (tableauDesNomsDeFichiersÀIgnorer.includes(nomDuFichier) === false) {
+    const extensionDuFichier = path.extname(nomDuFichier)
+    const extensionDesFichiersJson = '.json'
+  
+    if (extensionDuFichier === extensionDesFichiersJson) {
+      const nomDuFichierSansExtension = path.basename(nomDuFichier, extensionDesFichiersJson)
+      contenuDuFichierIndex += `  require('./${nomDuFichierSansExtension}'),\n`
+    }
   }
 })
 
