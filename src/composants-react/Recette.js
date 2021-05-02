@@ -5,6 +5,8 @@ import CarteAvecTitreBouton from './CarteAvecTitreBouton'
 import TitreDeLaRecette from './TitreDeLaRecette'
 import TableauDesIngredientsDeLaRecette from './TableauDesIngredientsDeLaRecette'
 import TableauDesInstructionsDeLaRecette from './TableauDesInstructionsDeLaRecette'
+import TableauDeTagsDeLaRecette from './TableauDeTagsDeLaRecette'
+import AuteurDeLaRecette from './AuteurDeLaRecette'
 
 const Recette = ({
   recette,
@@ -31,12 +33,24 @@ const Recette = ({
         <div style={{
           paddingBottom: '10px',
         }}>
+          <TableauDeTagsDeLaRecette
+            tableauDeTags={recette.tableauDeTags}
+          />
+        </div>
+        <div style={{
+          paddingBottom: '10px',
+        }}>
           <TableauDesIngredientsDeLaRecette
             tableauIngredients={recette.tableauIngredients}
+            pour={recette.pour}
           />
         </div>
         <TableauDesInstructionsDeLaRecette
           tableauInstructions={recette.tableauInstructions}
+        />
+        <AuteurDeLaRecette
+          auteur={recette.auteur}
+          paddingTop={'10px'}
         />
       </CarteAvecTitreBouton>
     )

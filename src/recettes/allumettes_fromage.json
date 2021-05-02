@@ -1,7 +1,11 @@
 {
+  "$schema": "./schémaRecette.json",
   "titre": "Allumettes au fromage",
   "auteur": "",
-  "nombreDePersonnes": "4 douzaines",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "douzaines"
+  },
   "tableauDeTags": [
     "apéritif"
   ],

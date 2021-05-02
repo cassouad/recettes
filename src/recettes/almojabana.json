@@ -1,7 +1,11 @@
 {
+  "$schema": "./schémaRecette.json",
   "titre": "Almojabana",
   "auteur": "Nicolas et Daniella",
-  "nombreDePersonnes": 0,
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
   "tableauDeTags": [
     "patisseries"
   ],
@@ -29,12 +33,12 @@
     {
       "nom": "huile de colza",
       "quantité": 1,
-      "unité": "c. à soupe"
+      "unité": "cuillère à soupe"
     },
     {
       "nom": "levure chimique",
-      "quantité": "1/2",
-      "unité": "paquet"
+      "quantité": 0.5,
+      "unité": "sachet"
     }
   ],
   "tableauInstructions": [

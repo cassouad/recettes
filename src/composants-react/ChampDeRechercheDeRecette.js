@@ -5,10 +5,18 @@ const ChampDeRechercheDeRecette = ({
   demandeDeRecherche,
   setDemandeDeRecherche,
 }) => {
+  const [
+    demandeDeRechercheAffichée,
+    setDemandeDeRechercheAffichée
+  ] = React.useState(demandeDeRecherche)
+
   return (
     <ChampDeTexte
-      valeur={demandeDeRecherche}
-      setValeur={setDemandeDeRecherche}
+      valeur={demandeDeRechercheAffichée}
+      setValeur={(valeur) => {
+        setDemandeDeRecherche(valeur.trim())
+        setDemandeDeRechercheAffichée(valeur)
+      }}
       focusElementQuandIlEstCréé
       style={{
         width: '100%',
@@ -16,6 +24,7 @@ const ChampDeRechercheDeRecette = ({
         outline: 'none',
         border: '1px dashed #5a5a5a',
         fontSize: '16px',
+        borderRadius: '10px',
       }}
       texteQuiSAfficheQuandPasDeValeur={'recherchez une recette ! 🥘🥗😋'}
     />

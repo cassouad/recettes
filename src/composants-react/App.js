@@ -22,6 +22,7 @@ const App = () => {
         position: 'sticky',
         top: 0,
         padding: '20px 20px 0px 20px',
+        zIndex: 2,
       }}>
         <div style={{
           paddingBottom: padding,

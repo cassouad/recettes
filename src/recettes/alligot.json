@@ -2,7 +2,10 @@
   "$schema": "./schémaRecette.json",
   "titre": "Alligot",
   "auteur": "",
-  "nombreDePersonnes": 0,
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
   "tableauDeTags": [
     "légumes"
   ],

@@ -4,7 +4,7 @@
   "required": [
     "titre",
     "auteur",
-    "nombreDePersonnes",
+    "pour",
     "tableauDeTags",
     "tableauIngredients",
     "tableauInstructions"
@@ -20,9 +20,22 @@
     "auteur": {
       "type": "string"
     },
-    "nombreDePersonnes": {
-      "type": "number",
-      "minimum": 0
+    "pour": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "quantité",
+        "quiOuQuoi"
+      ],
+      "properties": {
+        "quantité": {
+          "type": "number",
+          "minimum": 0
+        },
+        "quiOuQuoi": {
+          "type": "string"
+        }
+      }
     },
     "tableauDeTags": {
       "type": "array",
@@ -34,7 +47,8 @@
           "patisseries",
           "gateaux",
           "desserts",
-          "légumes"
+          "légumes",
+          "apéritif"
         ]
       }
     },
@@ -61,6 +75,7 @@
           "unité": {
             "type": "string",
             "enum": [
+              "",
               "g",
               "kg",
               "l",
