@@ -1,0 +1,87 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "titre",
+    "auteur",
+    "nombreDePersonnes",
+    "tableauDeTags",
+    "tableauIngredients",
+    "tableauInstructions"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "titre": {
+      "type": "string",
+      "minLength": 1
+    },
+    "auteur": {
+      "type": "string"
+    },
+    "nombreDePersonnes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "tableauDeTags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "enum": [
+          "patisseries",
+          "gateaux",
+          "desserts",
+          "légumes"
+        ]
+      }
+    },
+    "tableauIngredients": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "nom",
+          "quantité",
+          "unité"
+        ],
+        "properties": {
+          "nom": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quantité": {
+            "type": "number",
+            "minimum": 0
+          },
+          "unité": {
+            "type": "string",
+            "enum": [
+              "g",
+              "kg",
+              "l",
+              "ml",
+              "cl",
+              "cuillère à café",
+              "cuillère à soupe",
+              "pincée",
+              "sachet"
+            ]
+          }
+        }
+      }
+    },
+    "tableauInstructions": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}
