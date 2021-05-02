@@ -1,3 +1,49 @@
 {
-  "titre": "Almojabana"
+  "titre": "Almojabana",
+  "auteur": "Nicolas et Daniella",
+  "nombreDePersonnes": 0,
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "nom": "farine de blé",
+      "quantité": 75,
+      "unité": "g"
+    },
+    {
+      "nom": "farine de maïs ou sarrazin ou chataigne...",
+      "quantité": 75,
+      "unité": "g"
+    },
+    {
+      "nom": "oeuf",
+      "quantité": 1,
+      "unité": ""
+    },
+    {
+      "nom": "fromage type feta",
+      "quantité": 200,
+      "unité": "g"
+    },
+    {
+      "nom": "huile de colza",
+      "quantité": 1,
+      "unité": "c. à soupe"
+    },
+    {
+      "nom": "levure chimique",
+      "quantité": "1/2",
+      "unité": "paquet"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le fromage et l'oeuf.",
+    "Rajouter le sucre et l'huile d'olive.",
+    "Puis rajouter la levure chimique.",
+    "Puis rajouter la farine.",
+    "Pétrir.",
+    "Diviser la pâte en petites boules.",
+    "Faire cuire au four à 180° pendant 20 minutes"
+  ]
 }

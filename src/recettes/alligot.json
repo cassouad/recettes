@@ -1,3 +1,37 @@
 {
-  "titre": "Alligot"
+  "$schema": "./schémaRecette.json",
+  "titre": "Alligot",
+  "auteur": "",
+  "nombreDePersonnes": 0,
+  "tableauDeTags": [
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "nom": "pommes de terre",
+      "quantité": 1,
+      "unité": "kg"
+    },
+    {
+      "nom": "crème fraîche",
+      "quantité": 25,
+      "unité": "cl"
+    },
+    {
+      "nom": "fromage (cantal ou tome d'aubrac etc...)",
+      "quantité": 500,
+      "unité": "g"
+    },
+    {
+      "nom": "beurre",
+      "quantité": 20,
+      "unité": "g"
+    }
+  ],
+  "tableauInstructions": [
+    "Couper le fromage en morceaux.",
+    "Mettre les pommes de terre en purée.",
+    "Mettre la crème et un peu de beurre.",
+    "Puis petit à petit le fromage en tournant toujours dans le même sens."
+  ]
 }

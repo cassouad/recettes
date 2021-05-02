@@ -1,3 +1,46 @@
 {
-  "titre": "Allumettes au fromage"
+  "titre": "Allumettes au fromage",
+  "auteur": "",
+  "nombreDePersonnes": "4 douzaines",
+  "tableauDeTags": [
+    "apéritif"
+  ],
+  "tableauIngredients": [
+    {
+      "nom": "farine",
+      "quantité": 250,
+      "unité": "g"
+    },
+    {
+      "nom": "beurre",
+      "quantité": 250,
+      "unité": "g"
+    },
+    {
+      "nom": "gruyère râpé",
+      "quantité": 250,
+      "unité": "g"
+    },
+    {
+      "nom": "sel",
+      "quantité": 0,
+      "unité": ""
+    },
+    {
+      "nom": "poivre",
+      "quantité": 0,
+      "unité": ""
+    },
+    {
+      "nom": "une pointe de cayenne",
+      "quantité": 0,
+      "unité": ""
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger soigneusement les ingrédients.",
+    "Pétrissez pour obtenir une pâte lisse et souple.",
+    "Étendre au rouleau sur 1/2 centimètre, couper de petits bâtonnets.",
+    "Faire cuire au four 20 minutes sur plaques beurrées."
+  ]
 }

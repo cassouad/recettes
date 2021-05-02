@@ -9,3 +9,5 @@
 
 # we should ignore development working folder of webpack
 dist
+
+.DS_Store
