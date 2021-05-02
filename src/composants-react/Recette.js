@@ -31,27 +31,39 @@ const transformeLeTitreEnÉlément = (titre, demandeDeRecherche) => {
   const tableauDeLettres = demandeDeRecherche.split('')
   const recursive = (titre) => {
     if (tableauDeLettres.length) {
-      const letter = tableauDeLettres.shift()
-      const lettreEnMinuscule = letter.toLocaleLowerCase()
-      const réponse = essaieDeCouperLeTitreAvecLaLettre(titre, lettreEnMinuscule)
+      const lettre = tableauDeLettres.shift()
+      const réponse = essaieDeCouperLeTitreAvecLaLettre(titre, lettre)
       if (réponse) {
         return réponse
       } else {
-        const lettreEnMajuscule = letter.toLocaleUpperCase()
-        const réponse = essaieDeCouperLeTitreAvecLaLettre(titre, lettreEnMajuscule)
-        if (réponse) {
-          return réponse
-        } else {
-          return <React.Fragment />
-        }
+        return <React.Fragment />
       }
     } else {
       return <span>{titre}</span>
     }
   }
 
-  const essaieDeCouperLeTitreAvecLaLettre = (titre, letter) => {
-    const match = titre.match(`.*?${letter}`)
+  const essaieDeCouperLeTitreAvecLaLettre = (titre, lettre) => {
+    const lettreEnMinuscule = lettre.toLocaleLowerCase()
+    const lettreEnMajuscule = lettre.toLocaleUpperCase()
+    const minusculeMatch = titre.match(`.*?${lettreEnMinuscule}`)
+    const majusculeMatch = titre.match(`.*?${lettreEnMajuscule}`)
+
+    let match
+    if (minusculeMatch && majusculeMatch) {
+      if (minusculeMatch[0].length < majusculeMatch[0].length) {
+        match = minusculeMatch
+      } else {
+        match = majusculeMatch
+      }
+    } else if (minusculeMatch) {
+      match = minusculeMatch
+    } else if (majusculeMatch) {
+      match = majusculeMatch
+    } else {
+      match = null
+    }
+
     if (match) {
       return (
         <React.Fragment>

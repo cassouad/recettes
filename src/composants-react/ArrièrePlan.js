@@ -1,12 +1,12 @@
 import React from 'react'
 
 const ArrièrePlan = ({
+  couleur,
   children,
 }) => {
   return (
     <div style={{
-      backgroundColor: '#e6eef7',
-      padding: '20px',
+      backgroundColor: couleur,
       minHeight: '100vh',
       display: 'flex',
     }}>

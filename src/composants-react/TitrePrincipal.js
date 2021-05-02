@@ -5,7 +5,7 @@ const TitrePrincipal = () => {
     <div style={{
       fontSize: '28px',
     }}>
-      Titre
+      Miam²
     </div>
   )
 }

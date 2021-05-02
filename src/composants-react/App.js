@@ -10,26 +10,40 @@ const App = () => {
   const [demandeDeRecherche, setDemandeDeRecherche] = React.useState('')
 
   const padding = '10px'
+  const couleurDeArrièrePlan = '#e6eef7'
 
   return (
-    <ArrièrePlan>
+    <ArrièrePlan
+      couleur={couleurDeArrièrePlan}
+    >
       <div style={{
-        paddingBottom: padding,
+        backgroundColor: couleurDeArrièrePlan,
+        position: 'sticky',
+        top: 0,
+        padding: '20px 20px 0px 20px',
       }}>
-        <TitrePrincipal/>
+        <div style={{
+          paddingBottom: padding,
+        }}>
+          <TitrePrincipal />
+        </div>
+        <div style={{
+          paddingBottom: padding,
+        }}>
+          <ChampDeRechercheDeRecette
+            demandeDeRecherche={demandeDeRecherche}
+            setDemandeDeRecherche={setDemandeDeRecherche}
+          />
+        </div>
       </div>
       <div style={{
-        paddingBottom: padding,
+        padding: '0px 20px 20px 20px'
       }}>
-        <ChampDeRechercheDeRecette
+        <TableauDeRecettes
+          tableauDeRecettes={recettes}
           demandeDeRecherche={demandeDeRecherche}
-          setDemandeDeRecherche={setDemandeDeRecherche}
         />
       </div>
-      <TableauDeRecettes
-        tableauDeRecettes={recettes}
-        demandeDeRecherche={demandeDeRecherche}
-      />
     </ArrièrePlan>
   )
 }

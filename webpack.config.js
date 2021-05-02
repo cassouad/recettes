@@ -1,4 +1,6 @@
 const path = require('path')
+const util = require('util')
+const exec = util.promisify(require('child_process').exec)
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = (env, options) => {
@@ -31,7 +33,17 @@ module.exports = (env, options) => {
       new HtmlWebpackPlugin({
         template: 'src/index.html',
         inject: true,
-      })
+      }),
+      {
+        apply: (compiler) => {
+          compiler.hooks.watchRun.tapPromise('génération du fichier recettes/index.js', async () => {
+            const { stderr } = await exec('node ./src/recettes/indexGénérateur.js')
+            if (stderr) {
+              console.log(stderr)
+            }
+          })
+        }
+      }
     ],
     output: {
       path: path.resolve(__dirname, outputDirectoryName),

@@ -12,6 +12,7 @@ module.exports = {
     es6: true,
     browser: true,
     commonjs: true,
+    node: true,
   },
   ignorePatterns: ['webpack.config.js', 'dist', 'docs'],
   rules: {
