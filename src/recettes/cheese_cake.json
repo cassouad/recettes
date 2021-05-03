@@ -1,0 +1,75 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Cheesecake ou gâteau aux fromage",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 113,
+      "unité": "g",
+      "nom": "beurre fondu"
+    },
+    {
+      "quantité": 2.35,
+      "unité": "g",
+      "nom": "cannelle"
+    },
+    {
+      "quantité": 452,
+      "unité": "g",
+      "nom": "spéculos ou petit beurre"
+    },
+    {
+      "quantité": 453,
+      "unité": "g",
+      "nom": "Philadelphia ou St Morais"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 201,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "crème fraîche épaisse"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron vert"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "vanille"
+    }
+  ],
+  "tableauInstructions": [
+    "Crème aigre = crème fraîche épaisse + citron vert, attendre 10mn qu'il y ait des bulles.",
+    "Faire la pâte et recouvrir le fond du plat. Mettre au frigo.",
+    "Battre le fromage, environ 1mn.",
+    "Ajouter les oeufs (1 à la fois).",
+    "Ajouter le sucre.",
+    "Ajouter la crème aigre.",
+    "Ajouter la vanille.",
+    "Mettre le tout dans le fond du plat.",
+    "Entourer le plat d'une feuille d'aluminium recouvrant le bas et les cotés.",
+    "Le placer dans de l'eau bouillante (moitié de la hauteur du plat).",
+    "Le mettre au four : 45 mn à 160°",
+    "Refroidir 30mn à l'air libre.", 
+    "Puis 4h au frigo."
+  ]
+}

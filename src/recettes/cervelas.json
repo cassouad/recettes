@@ -1,0 +1,64 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Cervelas en brioche",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 300,
+      "unité": "gousse(s)",
+      "nom": "farine"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "gros oeufs"
+    },
+    {
+      "quantité": 20,
+      "unité": "gousse(s)",
+      "nom": "levure de boulanger"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à café",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 150,
+      "unité": "gousse(s)",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 3,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 5,
+      "unité": "c. à soupe",
+      "nom": "lait"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "jaune d'oeuf pour dorer la brioche"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "cervelas de Lyon (cuit dans l'eau qui frémit), sans la peau"
+    }
+  ],
+  "tableauInstructions": [
+    "Délayer la levure avec les 5 cuillères de lait et 5 cuillères de farine, laisser reposer 2 heures.",
+    "Ensuite mélanger farine, oeufs, sel, sucre, beurre et levain (le mélange précédent), laisser reposer une heure.",
+    "Etaler et et mettre le cervelas chaud au milieu de la pâte, l'enrouler, mettre une cheminée et dorer avec le jaune d'oeuf."
+  ]
+}

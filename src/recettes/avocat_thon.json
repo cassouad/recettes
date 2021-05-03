@@ -20,11 +20,7 @@
       "unité": "boite(s)",
       "nom": "miettes de thon"
     },
-    {
-      "quantité": 0,
-      "unité": "",
-      "nom": "citron(s)"
-    },
+    
     {
       "quantité": 2,
       "unité": "",
@@ -36,14 +32,19 @@
       "nom": "tomate(s) en morceaux"
     },
     {
-      "quantité": 0,
-      "unité": "",
-      "nom": "quelques olives"
-    },
-    {
       "quantité": 1,
       "unité": "c. à soupe",
       "nom": "câpres"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "citron(s)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "quelques olives"
     }
   ],
   "tableauInstructions": [

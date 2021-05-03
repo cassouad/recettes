@@ -1,0 +1,52 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Crumble",
+  "auteur": "Nicolas",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "desserts",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 175,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "grosses pommes en petits morceaux"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cannelle"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "raisins secs (si on aime)"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire fondre le beurre et mélanger farine, beurre, sucre en même temps.",
+    "Mettre les pommes coupées dans un plat (on peut les enrober de confiture de framboise, de chocolat fondu...).",
+    "Saupoudrez les pommes de pâte en petits morceaux.",
+    "Four 180 degrés 20mn-30mn à une demi‒heure jusqu'à que ce soit doré."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Carbonade",
+  "auteur": "Nicolas",
+  "pour": {
+    "quantité": 5,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats",
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "filets mignons"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "gros oignons"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "canelle"
+    },
+    {
+      "quantité": 2,
+      "unité": "l",
+      "nom": "bière brune pelfort"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "Bouquet garni"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "champignons et carottes"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "riz"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire revenir les oignons et les champignons. Les enlever.",
+    "Faire revenir les morceaux de filets mignons.",
+    "Remettre le tout ensemble.",
+    "Ajouter les carottes",
+    "Ajouter la farine",
+    "Couvrir le tout de biere",
+    "Mettre le bouquet garni, la cannelle et la moutarde. ( éventuellement sur des tranches de pain).",
+    "Remettre les oignons",
+    "Laisser cuire à petit feu au moins 2 heures.",
+    "Servir bien chaud."
+  ]
+}

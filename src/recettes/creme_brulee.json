@@ -1,0 +1,49 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Crème brulée",
+  "auteur": "",
+  "pour": {
+    "quantité": 10,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts",
+    "crèmes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 800,
+      "unité": "g",
+      "nom": "crème liquide (fleurette)"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "lait"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 12,
+      "unité": "",
+      "nom": "jaune(s) d'oeufs"
+    },
+    {
+      "quantité": 2,
+      "unité": "gousse(s)",
+      "nom": "vanille"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire bouillir la crème + lait + vanille.",
+    "Blanchir jaune + sucre.",
+    "Ajouter ‒1 au mélange.",
+    "Mettre dans des petits pots.",
+    "Four 180 degrés.",
+    "Sortir du four quand la crème est prise (30 minutes environ).",
+    "Faire caraméliser du sucre par dessus."
+  ]
+}

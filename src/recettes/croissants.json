@@ -1,0 +1,40 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Croissants avec amandes",
+  "auteur": "Mila",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 110,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 70,
+      "unité": "g",
+      "nom": "sucre vanillé"
+    },
+    {
+      "quantité": 70,
+      "unité": "g",
+      "nom": "amandes râpées"
+    }
+  ],
+  "tableauInstructions": [
+    "Bien travailler en ne mettant qu'en dernier et en petite quantité la farine.",
+    "1/2 heure de repos.",
+    "Cuisson à four modérer."
+  ]
+}

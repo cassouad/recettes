@@ -1,0 +1,63 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Clafoutis aux pommes, ou pruneau, cerise, raisin",
+  "auteur": "Bastos",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 25,
+      "unité": "g",
+      "nom": "beurre fondu"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "l",
+      "nom": "lait"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillé"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "fruits"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre le sucre, le sucre vanillé, le sel dans une terrine.",
+    "Casser les oeufs dans le sucre.",
+    "Travailler le mélange pour le faire blanchir.",
+    "Ajouter la farine. Bien mélanger.",
+    "Puis incorporer le beurre fondu.",
+    "Beurrer grassement un plat allant au four.",
+    "Mettre dans le fond de ce plat une livre de cerises ou abricots crus.",
+    "Verser dans la préparation le lait (ajouter un peu de rhum).",
+    "Écumer la pâte puis la verser sur les fruits.",
+    "Four pas trop chaud 1 heure environ de cuisson."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Champignons à la provençale",
+  "auteur": "Bonne Maman",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "champignons"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    },
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "persil"
+    }
+  ],
+  "tableauInstructions": [
+    "On fait d'abord dégorger puis cuire les champignons.",
+    "Après réduction, ajouter persil et ail.",
+    "Continuer la cuisson quelques temps.",
+    "Faire cuire au four ou à la poële les champignons coupées (avec du sel et de l'huile d'olive)."
+  ]
+}

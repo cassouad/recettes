@@ -1,3 +1,78 @@
 {
-  "titre": "Bugnes lyonnaises"
+  "$schema": "./schémaRecette.json",
+  "titre": "Bugnes lyonnaises",
+  "auteur": "d'après le Carnet des mères lyonnaises, 2007",
+  "pour": {
+    "quantité": 25,
+    "quiOuQuoi": "bugnes"
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "sucre en poudre"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre mou ou fondu"
+    },
+    {
+      "quantité": 5,
+      "unité": "g",
+      "nom": "sel"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron(s) non traité(s)"
+    },
+    {
+      "quantité": 10,
+      "unité": "g",
+      "nom": "levure chimique"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'arachide pour la friture"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "lait"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre blanc"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire la pâte la veille :",
+    "Dans un saladier, mélanger le beurre ramolli, le sucre, le sel, les zestes du citron hachés et les oeufs.",
+    "Ajouter la farine en pluie, en remuant longuement et énergiquement pour obtenir une belle pâte homogène sans grumeaux. Si la pâte est trop dure, ajouter un peu de lait pour la détendre.",
+    "Rouler cette pâte en boule.",
+    "La laisser reposer une heure au frais.",
+    " --- ",
+    "L'étaler ensuite finement.",
+    "La découper en rectangles de la taille d'une plaquette de beurre.",
+    "Plonger ces derniers dans un bain d'huile d'arachide bien chaude (180°) en procédant comme pour des frites, c'est à dire en deux bains, afin d'obtenir des bugnes bien gonflées et croustillantes.",
+    "Les sortir. Les égoutter. Les servir, saupoudrées de sucre glace.",
+    "On peut parfumer la pâte de rhum ou de cognac.",
+    "Il n'est pas mauvais de déposer les bugnes, à peine sorties de la friture, sur du papier absorbant."
+  ]
 }

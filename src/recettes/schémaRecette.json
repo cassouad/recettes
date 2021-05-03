@@ -48,11 +48,17 @@
           "gateaux",
           "desserts",
           "légumes",
-          "apéritif",
+          "apéritifs",
           "viandes",
           "entrées",
           "poissons",
-          "sauces"
+          "sauces",
+          "plats",
+          "boissons",
+          "confitures",
+          "crèmes",
+          "pâtes",
+          "digestifs"
         ]
       }
     },
@@ -93,7 +99,13 @@
               "boite(s)",
               "ptte(s) boite(s)",
               "verre(s)",
-              "pincée(s)"
+              "pincée(s)",
+              "feuille(s)",
+              "gousse(s)",
+              "pot(s)",
+              "gousse(s)",
+              "grain(s)",
+              "tranche(s)"
             ]
           }
         }

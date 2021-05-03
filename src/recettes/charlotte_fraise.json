@@ -1,0 +1,24 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Charlotte au coulis de fraise",
+  "auteur": "Catherine",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "à faire"
+    }
+  ],
+  "tableauInstructions": [
+    "A faire"
+  ]
+}

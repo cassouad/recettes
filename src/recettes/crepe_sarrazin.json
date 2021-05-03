@@ -1,0 +1,43 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Crêpes sarrazin",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 330,
+      "unité": "g",
+      "nom": "farine de sarrazin"
+    },
+    {
+      "quantité": 75,
+      "unité": "cl",
+      "nom": "eau"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 10,
+      "unité": "g",
+      "nom": "sel"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "huile"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Crème rebecca",
+  "auteur": "Catherine",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts",
+    "crèmes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "farine (ou 1 cuillère à dessert de maïzena)"
+    },
+    {
+      "quantité": 0.25,
+      "unité": "l",
+      "nom": "lait"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "quelques gouttes de vanille"
+    }
+  ],
+  "tableauInstructions": [
+    "Délayer dans un bol le jaune d'oeuf avec le sucre en poudre.",
+    "Dans un autre bol, farine délayée avec le lait.",
+    "Mettre le tout ensemble en mélangeant longuement.",
+    "Mettre dans une casserole à feu doux en tournant constamment.",
+    "Quand la crème commence à épaissir, la retirer du feu et tourner vivement, puis la remettre jusqu'à consistance voulue.",
+    "La refroidir.",
+    "Battre les blancs en neige.",
+    "Mélanger et laisser refroidir."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gratin de courges",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "courge"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "béchamel"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "gruyère"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire cuire la courge dans très peu d'eau puis faire égouter longtemps.",
+    "Passer la courge au mixer.",
+    "Faire une béchamel assez liquide (saler, poivrer).",
+    "Mélanger les jaunes un par un à la béchamel.",
+    "Ajouter la courge.",
+    "puis mélanger doucement les blancs en neige.",
+    "On peut mettre du fromage râpée aussi.",
+    "Mettre au four 5 (200°)."
+  ]
+}

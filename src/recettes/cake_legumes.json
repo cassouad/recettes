@@ -1,3 +1,48 @@
 {
-  "titre": "Cake aux légumes"
+  "$schema": "./schémaRecette.json",
+  "titre": "Cake aux légumes",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "macédoine"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 80,
+      "unité": "g",
+      "nom": "crème fraîche,"
+    },
+    {
+      "quantité": 80,
+      "unité": "g",
+      "nom": "gruyère"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "persil"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout et faire cuire comme un cake"
+  ]
 }
+    

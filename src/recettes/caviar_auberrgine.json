@@ -1,0 +1,55 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Caviar d'aubergines",
+  "auteur": "",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "aubergines fermes et lisses"
+    },
+    {
+      "quantité": 6,
+      "unité": "c. à soupe",
+      "nom": "huile d'olive (bien pleines)"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oignons"
+    },{
+      "quantité": 2,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron(s)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel, poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Four th. 8.",
+    "Poser les aubergines sur une grille du four et faire cuire en les retournant plusieurs fois : cuites quand peau craquele et chair moelleuse.",
+    "Oignons finement tranchés à feu doux dans 2 ou 3 c. d'huile d'olives.",
+    "Piler l'ail et les ajouter aux oignons. 5mn puis retirer du feu. Le mettre en purée.",
+    "Eplucher les aubergines ou les couper en 2, retirer la pulpe, couper en morceaux, puis en purée.",
+    "Ajouter ail, oignons (purée), saler, poivre.",
+    "Si trop humide mettre à feu doux pour faire évaporer l'eau.",
+    "Verser dans un saladier.",
+    "Monter au fouet comme une mayonnaise en incorporant l'huile petit à petit.",
+    "Arroser de citron. Remuer. Placer au frigo."
+  ]
+}

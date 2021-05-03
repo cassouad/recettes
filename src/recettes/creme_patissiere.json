@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Crème patissière",
+  "auteur": "Catherine",
+  "pour": {
+    "quantité": 0.5,
+    "quiOuQuoi": "litre(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "crèmes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "jaune(s) d'oeufs "
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "l",
+      "nom": "lait"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "fécule"
+    },
+    {
+      "quantité": 1,
+      "unité": "pot(s)",
+      "nom": "crème"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "sachet(s)",
+      "nom": "vanille"
+    } 
+],
+  "tableauInstructions": [
+    "Travailler jaunes + sucre.",
+    "Puis fécule et lait bouillant.",
+    "Porter sur feu doux jusqu'à ébullition sans cesser de remuer <br>(la parfumer à froid)."
+  ]
+}

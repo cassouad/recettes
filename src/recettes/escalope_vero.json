@@ -1,0 +1,53 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Escalopes Véronique",
+  "auteur": "Véronique",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "escalopes de veau fines"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "jambon de Bayonne ou cru"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "tomates"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "herbes de Provence"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre au fond du plat l'huile et le poivrer.",
+    "Puis les escalopes de veau,",
+    "le jambon par-dessus.",
+    "Puis les tomates en rondelles",
+    "Les herbes de Provence",
+    "Si on aime, rajouter du fromage",
+    "Faire cuire 30 minutes au four 7."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Churros",
+  "auteur": "Espagne",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "lait"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "un peu de beurre"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger.",
+    "Couper et mettre à la poêle."
+  ]
+}

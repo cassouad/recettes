@@ -1,0 +1,51 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Le cup",
+  "auteur": "",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "litre(s)"
+  },
+  "tableauDeTags": [
+    "apéritifs",
+    "boissons"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "vin blanc"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "orange(s) en rondelles"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "",
+      "nom": "citron"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "morceaux de pelure de concombre (facultatif)"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "sucre en poudre"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "à madère de sirop de framboise"
+    }
+  ],
+  "tableauInstructions": [
+    "Pêlez le tout, mettez une heure sur glace.",
+    "Passer pour servir.",
+    "Vous pouvez ajouter du vin blanc sur la préparation si vous remarquez que vous manquerez de cup ; faites le assez tôt pour qu'il puisse un peu macérer.",
+    "Le cup sera moins fort mais excellent tout de même."
+  ]
+}

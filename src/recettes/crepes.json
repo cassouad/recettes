@@ -1,0 +1,64 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Crêpes",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts",
+    "pâtes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "lait"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "cognac"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 4,
+      "unité": "c. à soupe",
+      "nom": "huile"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre la farine dans un saladier.",
+    "Faire une fontaine Déposer le sel, l'eau.",
+    "Laisser fondre.",
+    "Casser ensuite les oeufs.",
+    "Mélanger‒les avec la farine en délayant petit à petit avec le lait froid.",
+    "Battre la préparation pour qu'elle n'est aucun grumeau.",
+    "Ajouter enfin l'huile et le cognac.",
+    "Laisser reposer la pâte pendant 2 heures.",
+    "Pour faire une crêpe :",
+    "Mettre dans la poêle une noisette de beurre ou une cuillère à café d'huile sans goût.",
+    "Verser juste assez de pâte pour couvrir le fond de la poêle en mince épaisseur.",
+    "Laisser prendre un instant dessous.",
+    "Agiter la poêle pour faire glisser la crêpe en soulevant les bords avec une fourchette si cela est nécessaire.",
+    "Lorsque la pâte est un peu doré, retourner vivement la crêpe.",
+    "Faites là cuire de la même façon de l'autre coté.",
+    "Lorsqu'elle est bien cuite, la faire glisser dans un plat.",
+    "Saupoudrer‒la de sucre Entasser les crêpes les unes sur les autres et les servir avec du sucre en poudre à part."
+  ]
+}

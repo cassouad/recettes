@@ -1,3 +1,86 @@
 {
-  "titre": "Buches de Noël"
+  "$schema": "./schémaRecette.json",
+  "titre": "Bûches de Noël",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": "Gateau roulé de 45 x 32 cm"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 5,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre semoule"
+    },
+    {
+      "quantité": 75,
+      "unité": "g",
+      "nom": "fécule de maïs (maïzena)"
+    },
+    {
+      "quantité": 25,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 30,
+      "unité": "g",
+      "nom": "amandes en poudre"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillée"
+    },
+    {
+      "quantité": 1,
+      "unité": "feuille(s)",
+      "nom": "papier sulfurisé"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "rhum (petit)"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "eau"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    }
+  ],
+  "tableauInstructions": [
+    "Les jaunes dans une terrine avec le sucre, battre jusqu'à obtenir un ruban.",
+    "Ajouter la fécule, la farine, les amandes.",
+    "Battre en neige les blancs avec une pincée de sel et le sucre vanillée.",
+    "Incorporer-les peu à peu à la pâte en soulevant la masse par-dessous.",
+    "Tailler le papier sulfurisé ou alu beurré à la taille de la tôle et étendre la pâte.",
+    "Egaliser avec une spatule.",
+    "Four chaud (20mn avant) th. 8 Cuire 10mn à peine, blondir.",
+    " ---- ",
+    "Garniture du gâteau :",
+    "Imbiber le gateau avec le cognac, rhum ou sirop (sucre + eau, rhum).",
+    "Garnir de confiture, crême au beurre, fraises etc...",
+    "Enrouler-le sur lui-même et le rouler dans le papier pourqu'il garde sa forme et se conserve (8 jours)."
+    
+  ]
 }

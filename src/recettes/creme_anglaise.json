@@ -1,0 +1,33 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Crème anglaise",
+  "auteur": "",
+  "pour": {
+    "quantité": 10,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "crèmes",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "lait"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 8,
+      "unité": "",
+      "nom": "jaune(s) d'oeufs"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout"
+  ]
+}

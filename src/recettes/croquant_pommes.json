@@ -1,0 +1,42 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Croquant aux pommes",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "pommes coupées en lamells (épluchées)"
+    },
+    {
+      "quantité": 75,
+      "unité": "g",
+      "nom": "sucre roux"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre fondu"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "farine"
+    }
+  ],
+  "tableauInstructions": [
+    "Battre le sucre et le beurre fondu.",
+    "Ajouter la farine.",
+    "Garnir le moule avec les pommes puis verser la pâte dessus enfin on soupoudre de sucre.",
+    "Cuire 40 minutes"
+  ]
+}

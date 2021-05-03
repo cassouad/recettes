@@ -1,0 +1,54 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "La créma",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "boissons",
+    "digestifs"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "café"
+    },
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "rhum blanc"
+    },
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "cognac"
+    },
+    {
+      "quantité": 2,
+      "unité": "gousse(s)",
+      "nom": "vanille"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "zeste de citron"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "un peu de sucre"
+    }
+  ],
+  "tableauInstructions": [
+    "(café espagnol au rhum et cognac, boisson chaude)",
+    "Dans un caquelon de 33cm de diamètre et 10 cm de haut, préparer le café (très chaud mais pas bouillant).",
+    "Mélanger dans une casserole le rhum et le cognac, faire chauffer (pas bouillir).",
+    "Dans le caquelon mettre la vanille, zeste de citron, un peu de sucre.",
+    "On verse dans le caquelon rhum et cognac que l'on fait flamber.",
+    "Ajouter doucement le café petit à petit en remuant tout le temps avec une spatule.",
+    "Ajouter le sucre suivant le goût. (servir très chaud)."
+  ]
+}

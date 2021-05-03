@@ -1,0 +1,33 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Cocktail gin-curaçao",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "boissons",
+    "apéritifs"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 25,
+      "unité": "cl",
+      "nom": "gin (pour enfant 1/6e)"
+    },
+    {
+      "quantité": 25,
+      "unité": "cl",
+      "nom": "curaço (pour enfant 1/6e)"
+    },
+    {
+      "quantité": 25,
+      "unité": "cl",
+      "nom": "pamplemousse (pour enfant 1/6e)"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger"
+  ]
+}

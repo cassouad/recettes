@@ -1,0 +1,80 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauté de dinde et gratin dauphinois",
+  "auteur": "",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats",
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 800,
+      "unité": "g",
+      "nom": "dinde (de la noix en gros morceaux)"
+    },
+    {
+      "quantité": 1,
+      "unité": "tranche(s)",
+      "nom": "lard fumé (en lardons)"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "échalotte"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "champignons de Paris"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "vin blanc sec ou plus + la même quantité d'eau par personne"
+    },
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "pommes de terre (agata si possible)"
+    },
+    {
+      "quantité": 2,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    },
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "crème liquide"
+    }
+  ],
+  "tableauInstructions": [
+    "Eplucher puis trancher les pommes de terre dans le robot-coupe.",
+    "Dans un plat à gratin beurré et parsemé de morceaux d'ail garnir le fond de crème, saler et poivrer..",
+    "Répartir les patates.",
+    "Remettre par dessus de la crème pour que les pommes de terre soient bien imbibées.",
+    "Mettre dans le four à 200° pendant 45mn.",
+    "Eplucher les carottes, l'oignon, l'échalotte.",
+    "Faire chauffer un peu d'huile ou  beurre dans une cocotte.",
+    "Y mettre l'oignon, l'échalotte et les lardons et les faire revenir (bien doré).",
+    "Ajouter les morceaux de dinde et les saisir puis mouiller avec le vin.",
+    "Ajouter les carottes coupées en rondelles.",
+    "Laisser mijoter 30 à 35 minutes à couvert.",
+    "Mais dans 15 minutes rajouter les champignons coupés.",
+    "Laisser cuire 45 minutes à 200°."
+  ]
+}
