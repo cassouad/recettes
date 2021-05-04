@@ -1,6 +1,6 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Le cup",
+  "titre": "Cup",
   "auteur": "",
   "pour": {
     "quantité": 1,
