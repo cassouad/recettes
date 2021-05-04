@@ -1,0 +1,41 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Melon aux fraises",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "melon(s)"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "fraises"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 2,
+      "unité": "verre(s)",
+      "nom": "vinblanc liquoreux"
+    } 
+  ],
+  "tableauInstructions": [
+    "Retirer la chair des melons et la couper en dés.",
+    "Mélanger avec les fraises.'",
+    "Ajouter le sucre et le vin.",
+    "Macérer 1h.",
+    "Servir frais dans l'écorce du melon"
+  ]
+}

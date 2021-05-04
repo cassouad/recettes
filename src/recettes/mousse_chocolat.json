@@ -1,0 +1,34 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Mousse au chocolat",
+  "auteur": "",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "barres",
+      "nom": "chocolat ou plus suivant le goût de chacun"
+    }
+  ],
+  "tableauInstructions": [
+    "Si le chocolat n'est pas sucré mettre une cuillère à café.",
+    "Mettre les billes de chocolat au bain‒marie ou au micro‒ondes.",
+    "Mélanger le sucre aux jaunes.",
+    "Verser le chocolat dessus et mélanger rapidement.",
+    "Battre les blancs en neige.",
+    "Les mettre dans le reste et remuer tout doucement afin de ne pas les laisser tomber.",
+    "Mettre au frais et servir frais."
+  ]
+}

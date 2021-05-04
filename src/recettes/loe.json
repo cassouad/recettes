@@ -1,0 +1,54 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Loe (galette hollandaise)",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 30,
+      "unité": "g",
+      "nom": "beurre frais"
+    },
+    {
+      "quantité": 1,
+      "unité": "bol(s)",
+      "nom": "lait tiède"
+    },
+    {
+      "quantité": 20,
+      "unité": "g",
+      "nom": "levure de boulanger"
+    }
+  ],
+  "tableauInstructions": [
+    "Dans le lait tiède, faire fondre la levure de boulanger.",
+    "Faire fondre le beurre et le mélanger avec l'oeuf.",
+    "Ajouter la farine, le lait puis le sel.",
+    "Laisser gonfler 2 heures à la chaleur dans une terrine recouverte d'un linge.",
+    "Beurrer une tartière.",
+    "Faire cuire ¾ d'heure.",
+    "Fendre en 2 horizontalement, beurrer l'intérieur et servir chaud."
+    ]
+}

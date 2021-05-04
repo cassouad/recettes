@@ -1,0 +1,57 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Muffins",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 175,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf"
+    },
+    {
+      "quantité": 10,
+      "unité": "cl",
+      "nom": "lait"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "sachet(s)",
+      "nom": "levure"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "garniture"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger oeuf, sucre, beurre.",
+    "Puis farine, levure.",
+    "On mélange le tout avec le lait.",
+    "Ajouter la garniture.",
+    "180° pendant 15mn."
+  ]
+}

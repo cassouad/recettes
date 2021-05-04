@@ -1,0 +1,47 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Mousse de jambon",
+  "auteur": "",
+  "pour": {
+    "quantité": 8,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "jambon maigre"
+    },
+    {
+      "quantité": 2,
+      "unité": "dl",
+      "nom": "sauce béchamel"
+    },
+    {
+      "quantité": 2,
+      "unité": "dl",
+      "nom": "gelée au Madère"
+    },
+    {
+      "quantité": 2,
+      "unité": "dl",
+      "nom": "crème épaisse"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "noix de muscade"
+    }
+  ],
+  "tableauInstructions": [
+    "Couper en gros dés le jambon cuit, maigre sans parcelle de gras.",
+    "Le passer au mixeur grossièrement (petits morceaux).",
+    "Y ajouter petit à petit la sauce béchamel (épaisse) et froide.",
+    "A l'aide d'une spatule travailler la pâte pour la lisser, assaisonner (sel, poivre).",
+    "Dans cette pâte, ajouter la gelée au Madère réduite (c. à d. la faire avec moins d'eau).","puis ajouter la crème fraîche épaisse fouettée.",
+    "Mettre au frigo ainsi que le reste de la gelée qui servira de décoration."
+  ]
+}

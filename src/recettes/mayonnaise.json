@@ -1,0 +1,40 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Mayonnaise",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "sauces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "jaune(s) d'oeuf"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "moutarde"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Battre l'oeuf, la moutarde.",
+    "Continuer à battre tout en rajoutant de l'huile petit à petit jusqu'à la consistance voulue. (puis la rallonger si nécessaire)",
+    "Saler, poivrer.",
+    "Pour la rallonger mettre du vinaigre ou du citron."
+  ]
+}

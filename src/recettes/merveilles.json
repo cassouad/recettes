@@ -1,0 +1,56 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Merveilles",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "crème fraîche"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "fleur d'oranger à volonté"
+    }
+  ],
+  "tableauInstructions": [
+    "Pétrir le tout pas trop longtemps tout ensemble.",
+    "Laisser reposer au frigo.",
+    "Puis étaler et découper des lamelles ou autres formes.",
+    "Mettre à frire dans l'huile de la friteuse ou dans une poële.",
+    "Les faire gonffler et dorer."
+  ]
+}

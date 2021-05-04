@@ -1,0 +1,29 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Meringues",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": "Pour un blanc d'oeuf"
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "c. à café",
+      "nom": "Nescafé (facultatif)"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le blanc d'oeuf avec le sucre petit à petit.",
+    "Ajouter 1/2 cuillerée à café de Nescafé (facultatif).",
+    "25-35 minutes à 1 heure à four très doux 100°."
+  ]
+}

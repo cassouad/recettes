@@ -1,0 +1,26 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Filets de maquereaux au vin blanc",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "poissons"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "Maquereaux "
+    }
+  ],
+  "tableauInstructions": [
+    "Préparer les filets de poisson, puis les passer à la farine.",
+    "Les mettre dans un plat allant au four.",
+    "Couper un oignon en fines lamelles.",
+    "Un verre de vin blanc, tomate sen purée, fines herbes, laurier, une noix de beurre.",
+    "Faire dorer le tout environ 10 minutes (!!) au four."
+  ]
+}

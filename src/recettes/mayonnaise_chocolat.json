@@ -1,0 +1,30 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Mayonnaise au chocolat",
+  "auteur": "",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "grosse(s) barre(s) de chocolat"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre dans une casserole à sec le chocolat fondu.",
+    "Mettre dans un bol séparé le blanc battu en neige et le jaune.",
+    "Délayer le tout et laisser refroidir dans une coupe."
+  ]
+}

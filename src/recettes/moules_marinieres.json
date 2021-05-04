@@ -1,0 +1,54 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Moules marinières",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "poissons"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "l",
+      "nom": "moules"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 120,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2,
+      "unité": "verre(s)",
+      "nom": "vin blanc sec"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "bouquet garni"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel, poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Eliminer toutes les moules qui ne sont pas bien fermer.",
+    "Mettre les moules dans une bassine pleine d'eau, toutes les moules qui remontent sont en principe pas bonnes.",
+    "Dans une grande cocotte, mettre la moitié du beurre à fondre, oignon haché grossièrement et les carottes en rondelles fines."
+  ]
+}

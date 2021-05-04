@@ -1,0 +1,92 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Moussaka",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "aubergines"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "gros oignon"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": " viande haché (boeuf)"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "vin blanc"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "tomates fraîches"
+    },
+    {
+      "quantité": 40,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 40,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 50,
+      "unité": "cl",
+      "nom": "lait"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "jaunes d'oeufs"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "emmenthal râpé ou parmesan"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Couper les aubergines en fines rondelles, saupoudrer de sel et de poivre et laisser reposer pendant 1 heure.",
+    "Faire blondir l'oignon dans un peu d'huile d'olive, ajouter la viande hachée.",
+    "Incorporer les tomates épépinées et coupées en dés, ainsi que le vin blanc. Saler et poivrer + origan. Laisser mijoter à couvert pendant environ 45 minutes.}",
+    "Pendant la cuisson de la viande, rincer les aubergines, puis les faire frire à l'huile d'olive dans une poêle bien chaude jusqu'à ce qu'elles soient dorées de chaque côté.",
+    "Graisser un plat à gratin et tapisser le fond du plat avec la moitié des aubergines.",
+    "Couvrir avec le mélange de viande et de tomates. (ou bien aubergine, farce, aubergine, farce)",
+    "Terminer le montage avec une couche d'aubergines.",
+    "Préparer une béchamel : sur feu doux, mélanger la farine au beurre fondu puis verser le lait. Laisser épaissir sans cesser de remuer. ** Assaisonner de sel, de poivre et de noix de muscade râpée.",
+    "Incorporer les jaunes d'oeufs battus à la sauce béchamel, ainsi que les 2/3 du fromage râpé ou ajouter la moitié du parmesan.",
+    "Napper les aubergines de ce mélange, puis saupoudrer avec le reste du fromage.",
+    "Cuire à four moyen pendant environ 45 minutes, jusqu'à ce que le gratin soit bien doré."
+  ]
+}

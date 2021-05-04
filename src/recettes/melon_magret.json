@@ -1,0 +1,57 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Melon-pineau-magret",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "mini-cocottes individuelles"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "melons"
+    },
+    {
+      "quantité": 5,
+      "unité": "cl",
+      "nom": "pineau des charentes"
+    },
+    {
+      "quantité": 8,
+      "unité": "cl",
+      "nom": "lait"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "magret de canard fumé (au bois de hêtre)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "bouquet de menthe"
+    }
+  ],
+  "tableauInstructions": [
+    "Couper les melons en 2.",
+    "Retirer les pépins.",
+    "Prélever 5 billes par cocotte.",
+    "Les mettre avec les tranches de magret de canard (5) dans la cocotte.",
+    "Récupérer le reste de la chair de melon.",
+    "Ajouter le pineau des charentes et le lait.",
+    "Mixer le tout.",
+    "Ajouter du lait si nécessaire.",
+    "Hacher finement la menthe et la mélanger au reste.",
+    "Remplir les cocottes.",
+    "Mettre au frais au moins 2 heures et servir en entrée."
+  ]
+}
