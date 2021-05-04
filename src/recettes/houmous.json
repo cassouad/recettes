@@ -1,0 +1,62 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Houmous",
+  "auteur": "site Aractingi",
+  "pour": {
+    "quantité": 10,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 300,
+      "unité": "g",
+      "nom": "pois‒chiches cuites"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "tahin (crème de sésame)"
+    },
+    {
+      "quantité": 1,
+      "unité":"c. à soupe",
+      "nom": "huile ou plus de sésame"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "cumin"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "citrons"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    }
+  ],
+  "tableauInstructions": [
+    "Tremper la veille les pois‒chiches dans un grand volume d'eau avec une cuiller à café de bicarbonate.",
+    "Le lendemain, faire cuire les pois‒chiches pendant 2 heures jusqu'à ce qu'ils soient bien tendres.",
+    "Les réduire en purée dans le moulin à légumes.",
+    "Ajouter la crème de sésame, le jus de citron, l'ail écrasé préalablement.",
+    "Rectifier au goût.",
+    "Servir avec de l'huile d'olive (pour le goût) et du paprika ou du soummak en poudre (pour la décoration)."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Lasagnes aux épinards",
+  "auteur": "Odile",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "épinards surgelés"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "moutarde"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "ricotta"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "feta coupée en ptts morceaux"
+    },
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "sauce tomate au basilic"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "feuilles de lasagnes précuites"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "Fromage rapée"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire décongeler les épinards et les mélanger à la moutarde et à la ricotta.",
+    "Verser la sauce tomate au fond du plat puis alterner des couches de lasagnes, épinards, feta etc... et finir par la sauce tomate.",
+    "Parsemer de fromage.",
+    "Faire cuire (temps indiqué sur la boite de lasagnes)."
+  ]
+}

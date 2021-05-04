@@ -1,0 +1,85 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Terrine de lapin",
+  "auteur": "Bonne Maman",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "rable(s) de lapin"
+    },
+    {
+      "quantité": 600,
+      "unité": "g",
+      "nom": "de veau (pour hâcher)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "escalope de veau"
+    },
+    {
+      "quantité": 2,
+      "unité": "tranche(s)",
+      "nom": "foie de porc (petite tranche pour hâcher)"
+    },
+    {
+      "quantité": 1,
+      "unité": "tranche(s)",
+      "nom": "jambon (1cm d'épaisseur)"
+    },
+    {
+      "quantité": 390,
+      "unité": "g",
+      "nom": "chair à saucisse"
+    },
+    {
+      "quantité": 12,
+      "unité": "",
+      "nom": "bardes de lard"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "de semoule très fine"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "eau"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "cognac"
+    },
+    {
+      "quantité": 15,
+      "unité": "g",
+      "nom": "sel"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "poivre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "feuilles de laurier"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout.",
+    "Joindre le couvercle avec de la farine délayée dans de l'eau.",
+    "Cuire 1 h 1/2 à four modéré au bain‒marie."
+  ]
+}
