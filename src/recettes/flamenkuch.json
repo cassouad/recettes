@@ -1,0 +1,46 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Flamenkuch",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "pâte à tarte"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "crème fraïche"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "lardons"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "oignons"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "(gruyère) et (champignons)"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire cuire la pâte au four.",
+    "Dans une poële faire revenir les oignons puis ajouter les lardons.",
+    "Saler et poivre, la crème fraîche en la faisant au préalable chauffer dans une casserole.",
+    "Mettre le tout sur la pâte.",
+    "cuisson au four 180°."
+  ]
+}

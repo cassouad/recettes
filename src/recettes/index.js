@@ -53,4 +53,6 @@ export default [
   require('./cup'),
   require('./dinde_saute'),
   require('./escalope_vero'),
+  require('./flamenkuch'),
+  require('./flan_caramel'),
 ]

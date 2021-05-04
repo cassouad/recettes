@@ -1,0 +1,49 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Fondue aux fromages",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 600,
+      "unité": "g",
+      "nom": "gruyère"
+    },
+    {
+      "quantité": 5,
+      "unité": "cl",
+      "nom": "Kirsch"
+    },
+    {
+      "quantité": 3,
+      "unité": "verre(s)",
+      "nom": "vin blanc sec"
+    },
+    {
+      "quantité": 01
+      "unité": "",
+      "nom": "gros pain"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Frotter le poêlon à l'ail.",
+    "Verser le vin blanc sec. Poivrer et saler.",
+    "Lorsque le vin, bout, ajouter le gruyère râpé.",
+    "Laisser fondre.",
+    "Ajouter lee Kirsch. (optionnel)",
+    "Chauffer sans arrêt : la fondue doit bouillir constamment.",
+    "Couper le pain en gros dés.",
+    "Chaque convive piquera un morceau et se servira en enroulant bien le fromage autour de sa fourchette."
+  ]
+}

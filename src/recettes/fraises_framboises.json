@@ -1,0 +1,42 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Fraises aux framboises",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "fraises"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "framboises"
+    },
+    {
+      "quantité": 1,
+      "unité": "bouteille(s)",
+      "nom": "vin liquoreux de Bordeaux (Loupiac, Ste Croix Dumont..."
+    }
+  ],
+  "tableauInstructions": [
+    "Nettoyer les fraises.",
+    "Mettre le sucre dessus.",
+    "Passer au tamis les framboises.",
+    "Ajouter cette purée sur les fraises.",
+    "Ajouter les 3/4 de bouteille de vin liquoreux de Bordeaux.",
+    "Macérer 1h et servir frais."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau Chocolat Philippe",
+  "auteur": "Philippe",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "farine"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 180,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "chocolat noir"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeuf(s)"
+    }
+  ],
+  "tableauInstructions": [
+    "Au bain marie ou micro‒ondes : faire fondre le beurre et le chocolat.",
+    "Dans un saladier, mélanger le sucre et les jaunes pour obtenir une crème blanchâtre.",
+    "Ajouter le beurre et le chocolat fondus puis la farine petit à petit puis le parfum, si l'on aime : rhum, cognac, zeste d'orange, de mandarine.",
+    "En dernier ajouter les blancs montés en neige.",
+    "Four 4 ‒ 5 ou 180° pendant 30mn Démouler aussitôt."
+  ]
+}

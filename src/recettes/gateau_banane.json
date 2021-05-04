@@ -1,0 +1,69 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteeau à la banane",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "bananes petites"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 160,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à café",
+      "nom": "levure"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "c. à café",
+      "nom": "bicarbonate"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 85,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "lait"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeuf(s)"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger 150g de farine, le sucre, la levure, le bicarbonate et le sel.",
+    "Ajouter les bananes écrasées, le beurre en petits morceaux et le lait.",
+    "Battre, mixer.",
+    "Ajouter les oeufs et le reste de la farine.",
+    "Mettre dans un moule à cake.",
+    "Four 165° pendant  à 60mn."
+  ]
+}

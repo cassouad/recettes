@@ -1,0 +1,48 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Bonne Maman",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "crèmes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre en morceaux (!! important !!)"
+    },
+    {
+      "quantité": 1,
+      "unité": "dl",
+      "nom": "eau"
+    },
+    {
+      "quantité": 5,
+      "unité": "",
+      "nom": "jaune(s) d'oeufs"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "beurre ramolli"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cacao pur Van Houten selon le goût de chacun"
+    }
+  ],
+  "tableauInstructions": [
+    "Sucre + eau (cuire au petit filet).",
+    "Dans le sirop un peu chaud, ajouter les jaunes d'oeufs progressivement.",
+    "Puis ajouter le cacao pur Van Houten selon le goût de chacun.",
+    "Puis ajouter par petits morceauxt le beurre.",
+    "(le tout en battant).",
+    "[faire des meringues avec les 5 blancs d'oeufs]."
+  ]
+}

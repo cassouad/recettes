@@ -1,0 +1,55 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau au chocolat (Mila)",
+  "auteur": "Mila",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 120,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 8,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 140,
+      "unité": "g",
+      "nom": "chocolat râpé"
+    },
+    {
+      "quantité": 140,
+      "unité": "g",
+      "nom": "amandes râpées"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "farine"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre dans un saladier en tournant ensemble d'abord :",
+    "le beurre, le sucre (pendant ¼ d'heure).",
+    "puis 8 jaunes d'oeuf, ensuite le chocolat râpé, les amandes râpées.",
+    "Mettre les blancs battus en neige.",
+    "Enfin la farine.",
+    "Beurrez le plat.",
+    "Four moyen ¾ d'heure environ."
+  ]
+}

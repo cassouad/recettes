@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau au chocolat (Bastos)",
+  "auteur": "Bastos",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 175,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "chocolat ramolli"
+    },
+    {
+      "quantité": 5,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 175,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 175,
+      "unité": "g",
+      "nom": "farine"
+    }
+  ],
+  "tableauInstructions": [
+   "Faire fondre le beurre avec le chocolat ramolli.",
+   "Batter les jaunes d'oeufs en y mettant petit à petit le sucre.",
+   "Verser le chocolat et le beurre.",
+   "Ajouter la farine.",
+   "Battre les blancs en neige ferme et les ajouter au reste.",
+   "Beurrer un moule, y verser la pâte.",
+   "Faire cuire 1 heure à feu doux."
+  ]
+}

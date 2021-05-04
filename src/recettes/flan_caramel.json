@@ -1,0 +1,39 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Flan au caramel",
+  "auteur": "Bonne Maman",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "crèmes",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "lait"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 6,
+      "unité": "c. à soupe",
+      "nom": "sucre poudre"
+    },
+    {
+      "quantité": 7,
+      "unité": "",
+      "nom": "sucre(s) pour le caramel"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire cuire au bain‒marie un certain temps (25 minutes ?) au four 5"
+  ]
+}

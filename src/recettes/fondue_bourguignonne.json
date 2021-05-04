@@ -1,0 +1,35 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Fondue bourguignonne",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 800,
+      "unité": "g",
+      "nom": "filet de boeufs"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2,
+      "unité": "dl",
+      "nom": "huile d'olive"
+    }
+  ],
+  "tableauInstructions": [
+    "Couper en petits cubes d'égales grosseurs (1 1/2 cm environ) la viande.",
+    "Piquer avec la fourchette les morceaux de viande et les cuire à volonté.",
+    "Il est recommandé de ne pas manger avec la fourchette qui a trempé dans l'huile. Les manger avec les sauces mayonnaise, bourguignonne, tartare, etc... selon votre goût.",
+    "Chauffer fortement dans un caquelon le beurre en y ajoutant l'huile d'olive pour que le beurre ne monte pas. Maintenir bouillant sur un réchaud électrique ou une lampe à alcool."
+  ]
+}
