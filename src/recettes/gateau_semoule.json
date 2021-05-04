@@ -1,0 +1,47 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau de semoule",
+  "auteur": "Bonne Maman, juillet 2007",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "lait"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "bombée(s) de semoule"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "zeste de citron (facultatif)"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire bouillir le lait et mettre la semoule en remuant.",
+    "Battre oeufs et sucre.",
+    "Puis verser lentement le mélange dans le lait-semoule bouillant.",
+    "Faire du caramel et le mettre.",
+    "Four moyen 180 : 15 minutes"
+  ]
+}

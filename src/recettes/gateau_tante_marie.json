@@ -1,0 +1,46 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau de Tante Marie",
+  "auteur": "Bonne Maman",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 75,
+      "unité": "g",
+      "nom": "fécule de pomme de terre"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "amandes en poudre (facultatif)"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger les jaunes.",
+    "Puis le sucre jusqu'à obtenir un blanc crémeux.",
+    "Puis la fécule.",
+    "Puis enfin les blancs battus en neige.",
+    "Beurrer le moule et le tapisser de sucre.",    
+    "Dans le cas d'un gâteau aux amandes :",
+    "Remplacer les 75 gr de fécule par 60 gr de fécule + 50 gr d'amandes en poudre.",
+    "Feux doux (5 1/2) pendant 3/4 h environ ou 180° pdt 3/4 heure."
+  ]
+}

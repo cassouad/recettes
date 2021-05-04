@@ -1,0 +1,44 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau Russe",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "crème"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre selon son goût"
+    }
+  ],
+  "tableauInstructions": [
+    "Battre les oeufs entiers pendant 1/2 heure dans une terrine.",
+    "Ajouter le sucre et la farine.",
+    "Puis petit à petit la crème.",
+    "Tourner pendant ¼ d'heure.",
+    "Beurrer une tourtière",
+    "Faire dorer dans un four doux."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau petit beurre",
+  "auteur": "",
+  "pour": {
+    "quantité": 24,
+    "quiOuQuoi": "Petit(s) beurre(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "petits beurres"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "sucre dans un peu d'eau"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf(s)"
+    }
+  ],
+  "tableauInstructions": [
+    "Tremper les petits beurres dans le rhum et eau.",
+    "Les ranger dans un plat bien plat.",
+    "Faire fondre le sucre dans un peu d'eau.",
+    "Laisser refroidir y mélanger le beurre, un jaune d'oeuf et le blanc battu en neige.",
+    "Mettre une couche de crème, 1 couche de gâteau et dessus une couche de chocolat en poudre.",
+    "Servir glacé."
+  ]
+}

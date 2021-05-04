@@ -1,0 +1,53 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau de Rissegg",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": "Suisse"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "carottes crues râpées,"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "amandes râpées"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "Maïzena ou fécule"
+    },
+    {
+      "quantité": 5,
+      "unité": "",
+      "nom":  "oeuf(s)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "zeste d'un citron"
+    }
+  ],
+  "tableauInstructions": [
+    "Battre le sucre et les jaunes d'oeufs pendant une 1/2 heure jusqu'à ce qu'ils moussent.",
+    "Ajouter les carottes et bien tourner puis les amandes, la maïzena ou fécule et le citron en tournant toujours.",
+    "Terminer par les blancs d'oeufs en neige.",
+    "Mettre dans un moule à pain de Gênes graissé et chapelure.",
+    "cuire à four moyen pendant une 1/2 heure."
+  ]
+}

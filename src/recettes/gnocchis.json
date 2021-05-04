@@ -1,0 +1,78 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gnocchis de pommes de terre",
+  "auteur": "Amélie",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats",
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "pommes de terre"
+    },
+    {
+      "quantité": 100,
+      "unité": "",
+      "nom": "farine tamisée"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "échalotes"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "ciboulette"
+    },
+    {
+      "quantité": 1,
+      "unité": "pot(s)",
+      "nom": "(petits) fromage blanc"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "du sel et du poivre du moulin"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "gros sel"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "noix de muscade,"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "beurre"
+    }
+  ],
+  "tableauInstructions": [
+    "Disposez sur un plateau du gros sel et mettez les pommes de terre.",
+    "Mettez au four à 180 degrés pendant une heure.",
+    "Enlevez la pulpe des pommes de terre.",
+    "Dans un grand récipient, mélangez.",
+    "Mettez la farine, l'oeuf, le jaune d'oeuf et le fromage blanc.",
+    "Râpez la noix de muscade et mélangez.",
+    "Râpez les échalotes et la ciboulette, puis mélangez.",
+    "Portez de l'eau à ébulition, salez.",
+    "Formez les gnocchis et mettez les dans l'eau pendant 10 minutes (après, si vous le voulez, mettez les au frigo).",
+    " Préparez une poële et mettez 2 cuillères à soupe de beurre.",
+    "Poëlez les gnocchis. Servir chaud."
+  ]
+}

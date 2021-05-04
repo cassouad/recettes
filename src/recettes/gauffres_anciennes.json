@@ -1,0 +1,84 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gauffres à l'ancienne",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personnes"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "jaune(s) d'oeufs"
+    },
+    {
+      "quantité": 60,
+      "unité": "g",
+      "nom": "sucre poudre"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "cannelle"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "crème fraîche"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "à liqueur de rhum"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "sachet(s)",
+      "nom": "levure chimique"
+    },
+    {
+      "quantité": 60,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2.5,
+      "unité": "dl",
+      "nom": "eau"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre glace"
+    }
+  ],
+  "tableauInstructions": [
+    "Dans une terrine, travailler la farine, les jaunes d'oeufs, le sucre, le sel, la cannelle, le rhum, la levure et l'eau. Mélanger sans faire de grumeaux.",
+    "Mélanger dans un bol le beurre ramolli et la crème fraîche, puis verser dans la pâte, travailler encore.",
+    "Laisser reposer 1 heure.",
+    "Faire chauffer le gauffrier, le huiler.",
+    "Disposer rapidement une petite quantité de pâte (valeur d'une louche).",
+    "Fermer l'appareil. Retourner pour que la pâte se répartisse bien.",
+    "Laisser cuire de 3 à 5mn par gauffre.<br>Server saupoudrer de sucre glace."
+  ]
+}

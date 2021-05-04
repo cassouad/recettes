@@ -1,0 +1,70 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau (vite‒fait)",
+  "auteur": "Martine",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 10,
+      "unité": "cl",
+      "nom": "huile (100ml ou 1/10 de l)"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à café",
+      "nom": "levure alsacienne ou 1/2 paquet"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "Cognac"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillée"
+    },
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "ruits au sirop : pêche, poire, pomme ou si fruits frais, les faire cuire avant"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre dans un bol :",
+    "Farine + sucre + sucre vanillé + levure, pincée de sel, mélanger.",
+    "Incorporer un à un les 3 oeufs.",
+    "Battre le tout au batteur électrique et incorporer huile et cognac.",
+    "Beurrer le moule à tarte et verser la pâte.",
+    "Puis faire tomber les morceaux de fruits au sirop après les avoir coupé en lamelles ou morceaux moyennes (1 bol environ), un à un bien répartis.",
+    "Mettre le four très doux 3‒4 environ 25 à 30 mn (140) Vérifier que le four ne soit pas trop chaud si nécessaire prolonger la cuisson."
+  ]
+}

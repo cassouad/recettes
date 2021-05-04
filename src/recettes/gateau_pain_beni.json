@@ -1,0 +1,52 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau (pain béni)",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 60,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "levure alsacienne"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "Pour parfumer Rhum ou citron"
+    }     
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout"
+  ]
+}
