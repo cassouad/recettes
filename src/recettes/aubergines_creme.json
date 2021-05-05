@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Aubergines farçies à lma crème",
+  "auteur": "Patrice et Bonne Maman",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "aubergines"
+    },
+    {
+      "quantité": 1,
+      "unité": "pot(s)",
+      "nom": "crème épaisse"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "gruyère râpée"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "parmesan"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olives"
+    }
+  ],
+  "tableauInstructions": [
+    "Couper les aubergines dans le sens de la longueur en 3.",
+    "Les installer sur une plaque.",
+    "Faire des croisillons sur une face de chaque lamelle.",
+    "Arroser d'huile d'olives les aubergines.",
+    "Laisser au four à 180° jusqu'à ce que les aubergines deviennent tendre.",
+    "Pendant ce temps, préparer une farce :",
+    "Mettre la crème, du gruyère râpé, éventuellement du parmesan, du sel, du poivre et de l'aubergine hachée que l'on avait gardé.",
+    "Couvrir les lamelles d'aubergines avec la farce.",
+    "Remettre au four (180°) jusqu'à ce que cela commence à dorer."
+  ]
+}

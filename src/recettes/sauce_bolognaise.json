@@ -1,0 +1,67 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauce bolognaise",
+  "auteur": "Patrice",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "sauces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "viande hachée"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "gros oignon blanc"
+    },
+    {
+      "quantité": 2,
+      "unité": "boite(s)",
+      "nom": "pulpe de tomates Mutti"
+    },
+    {
+      "quantité": 140,
+      "unité": "g",
+      "nom": "double concentré de tomates"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "sucre poudre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "herbes de provence"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olives"
+    }
+  ],
+  "tableauInstructions": [
+    "Hacher fin l'oignon.",
+    "Le faire revenir à la poële pour le faire dorer.",
+    "Mettre à part",
+    "Faire revenir la viande en ayant soin de la détacher en petits morceaux",
+    "Puis ajouter les oignons.",
+    "Bien mélanger.",
+    "Mettre de coté.",
+    "Dans une casserole, verser les boites de pulpe de tomates + le concentré de tomates (rincer la boîte avec un peu d'eau).",
+    "Ajouter le sel, le sucre, le poivre, les herbe de Provence et l,huile d'olives.",
+    "Bien remuer et faire mijoter pendant une demi-heure à feu doux. (mettre un couvercle)",
+    "Pour finir mélanger la viande et la sauce tomate."
+  ]
+}

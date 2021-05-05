@@ -1,0 +1,48 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Aubergines farçies à lma crème",
+  "auteur": "Patrice",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 12,
+      "unité": "",
+      "nom": "gros champignons de Paris"
+    },
+    {
+      "quantité": 1,
+      "unité": "pot(s)",
+      "nom": "crème épaisse"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "gruyère râpée"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "parmesan"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olives"
+    }
+  ],
+  "tableauInstructions": [
+    "Nettoyer les champignons. Mettre à part les pieds.",
+    "Huiler la plaque avec de l'huile d'olives.",
+    "Installer les chapeaux sur la plaque.",
+    "Puis préparer une farce :",
+    "Mettre la crème, du gruyère râpé, éventuellement du parmesan, du sel, du poivre et les pieds des champignons hâchés.",
+    "Remplir les champignons avec la farce.",
+    "Mettre au four à 180° jusqu'à ce que cela commence à dorer."
+  ]
+}

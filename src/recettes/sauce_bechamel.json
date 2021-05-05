@@ -1,0 +1,51 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauce béchamel",
+  "auteur": "Patrice",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "sauces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "lait"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "farine"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "noix de muscade râpée"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "crème et parmesan râpées (facultatif)"
+    }
+  ],
+  "tableauInstructions": [
+    "Dans une casserole, faire fondre le beurre.",
+    "Rajouter immédiatement la farine et remuer. (le mélange doit-être une sorte de crème).",
+    "Après un petit instant, rajouter le lait et remuer (rajouiter éventuellement du lmait si la sauce n'est pas assez liquide).",
+    "Enfin rajouter le sel, poivre et noix de muscade. Remuer.",
+    "Facultatif : ajouter de la crème et/ou du parmesan."
+  ]
+}
