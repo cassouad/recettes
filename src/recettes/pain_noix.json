@@ -1,0 +1,55 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pain aux noix",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 12.5,
+      "unité": "cl",
+      "nom": "eau tiède"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "c. à café",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "noix"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf battu,"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "levure de boulanger"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger farine, sel, sucre, oeuf, levure, eau.",
+    "Ajouter les noix.",
+    "Laisser reposer 1 heure.",
+    "Faire cuire à 190° pendant 50mn."
+  ]
+}

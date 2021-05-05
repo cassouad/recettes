@@ -1,0 +1,56 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Poulet au cognac",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "poulet"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "olives vertes"
+    },
+    {
+      "quantité": 200,
+      "unité": "",
+      "nom": "poitrine fumée en dés"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "tomates"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cognac"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire dorer le poulet, saler, poivrer.",
+    "Faire flamber avec 1 verre à liqueur de cognac.",
+    "Mettre oignon, ail, olives, poitrine, tomates.",
+    "Fermer la cocotte",
+    "25mn à partir de la levée de vapeur."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pâte à frire",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "pâtes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "huile"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 50,
+      "unité": "cl",
+      "nom": "lait froid"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger farine, jaunes d'oeufs, lait, huile, sel puis les blancs fouettés.",
+    "Ajouter : zeste de citron, rhum, cognac ou fleur d'oranger.",
+    "Laisser reposer la pâte pendant une heure au moins.",
+    "Pour beignets sucrés, saupoudrer de sucre en poudre."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pâte à pizza fine",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "pâtes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "levure de boulangerie"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "sel"
+    },
+    {
+      "quantité": 25,
+      "unité": "cl",
+      "nom": "eau tiède"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "sucre"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire un puit dans la farine.",
+    "Dans un verre doseur on mélange le sel, le sucre, la levure et l'eau.",
+    "Faire reposer la pâte 10mn (on l'a met dans un film plastique).",
+    "Mélanger et pétrir la pâte."
+  ]
+}

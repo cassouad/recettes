@@ -57,9 +57,10 @@
           "boissons",
           "confitures",
           "crèmes",
-          "pâtes",
           "digestifs",
-          "glaces"
+          "glaces",
+          "pâtes",
+          "potages"
         ]
       }
     },
@@ -109,7 +110,8 @@
               "tranche(s)",
               "bouteille(s)",
               "bol(s)",
-              "barres"
+              "barre(s)",
+              "brique(s)"
             ]
           }
         }

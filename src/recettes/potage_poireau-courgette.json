@@ -1,0 +1,38 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Potage poireaux-courgettes",
+  "auteur": "Bonne Maman, juillet 2007",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "potages"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "courgettes"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "pommes de terre"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire cuire les courgettes et les poireaux à part.",
+    "Les mouliner finement.",
+    "Faire cuire longtemps carottes et pommes de terre (rajoutées après).",
+    "Plus un oignon.",
+    "Joindre éventuellement une gousse d'ail dans la cocotte ouverte (et l'ôter assez rapidement).",
+    "Mixer séparément (les pommes de terre pas longtemps)."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pommes cuites au four",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "pommes"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre ou confiture"
+    }
+  ],
+  "tableauInstructions": [
+    "Vider les pommes.",
+    "Les mettre dans un plat.",
+    "Mettre un petit bout de beurre à l'intérieur de la pomme.",
+    "Rajouter du sucre ou de la confiture toujours à l'intérieur de la pomme.",
+    "Rajouter 2 cuillère à soupe d'eau dans le plat.",
+    "Mettre au four (180°) à peu près une 1/2 heure."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Parfait aux meringues",
+  "auteur": "tante Pat (Mme irène Lasnier)",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": "un gros moule à cake"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1.5,
+      "unité": "brique(s)",
+      "nom": "crème à fouetter"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à café",
+      "nom": "Nescafé"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "sucre glace"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "chocolat à fondre"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "lait"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeuf(s)"
+    }
+  ],
+  "tableauInstructions": [
+    "Composition :",
+    "Crème au café (crème à fouetter, Nescafé et sucre glace) : mélanger crème chantilly et Nescafé.",
+    "Mousse au chocolat : chocolat à fondre dans le lait, les jaunes d'oeufs, les blancs en neige.",
+    "Meringues : un gros paquet pour émietter (50 gr par blanc).",
+    "Préparation :",
+    "Garnir le moule de papier aluminium.",
+    "Une couche de meringue émiettée. Une couche de crème au café. Une seconde couche de meringue. Une couche de mousse au chocolat. Une troisième couche de meringue.",
+    "Mettre au congélateur une nuit (la veille).",
+    "Sortir 1/2 heure avant."
+  ]
+}

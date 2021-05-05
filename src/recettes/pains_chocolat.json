@@ -1,0 +1,69 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pains au chocolat",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "sel"
+    },
+    {
+      "quantité": 40,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "levure chimique"
+    },
+    {
+      "quantité": 12,
+      "unité": "cl",
+      "nom": "lait à température ambiante"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre mou"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf pour dorer"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "chocolat noir en tablette "
+    }
+  ],
+  "tableauInstructions": [
+    "Pétrir la farine, la levure, le sucre, le sel et le lait jusqu'à obtenir une pâte homgène (environ 10 mn).",
+    "Ajouter le beurre coupée en morceaux et pétrir 15 à 20mn.",
+    "la pâte est souple, lisse et non collante.",
+    "Former une boule et laisser à couvert pendant 1 heure.",
+    "Etaler au rouleau en un rectangle de 20cm x 50cm.",
+    "Couper en 6 bandes égales.",
+    "Poser une barre de chocolat sur le bord d'un rectagle et rouler 2 fois.",
+    "Poser une autre barre de chocolat (par exemple 2 barres de 3 carrés par pain) et finir de rouler.",
+    "Procéder de la même façon pour les 5 autres rectangles.",
+    "Poser sur une plaque à patisserie recouverte de papier cuisson et laisser lever 40mn.",
+    "Dorer à l'oeuf battu avec une cuillère à soupe de sucre.",
+    "Préchauffer le four à 220° pendant 20mn.",
+    "Enfourner 15mn."
+  ]
+}

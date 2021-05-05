@@ -1,0 +1,41 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pâte à beignets",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "pâtes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "huile"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "eau ou lait"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger lait et jaunes, huile puis farine.",
+    "Bien travailller.",
+    "Reposer 2h.",
+    "Ajouter alors les blancs d'oeufs en neige."
+  ]
+}

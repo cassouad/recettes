@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pudim brésilien",
+  "auteur": "Jean et Nelcy Coursol, janvier 2008",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "moule à pudim"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "lait concentré"
+    },
+    {
+      "quantité":200,
+      "unité": "g",
+      "nom": "lait"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "eau"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre en poudre"
+    }
+  ],
+  "tableauInstructions": [
+    "Saupoudrer le fond du moule à pudim de sucre en poudre (5 mm d'épaisseur).",
+    "Chauffer jusqu'à liquéfier le sucre.",
+    "Répartir le caramel sur la surface du moule par rotation.",
+    "Battre les oeufs entiers.",
+    "Ajouter le contenu d'une boîte de lait, puis la même quantité composée de 1/2 lait et 1/2 eau (lait seulement pour pudim riche, eau seulement pour pudim pauvre).",
+    "Bien mélanger et verser dans le moule.",
+    "Cuire doucement au bain‒marie au four un certain temps (1/2 heure est bien)."
+  ]
+}

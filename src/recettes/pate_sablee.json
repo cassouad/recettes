@@ -1,0 +1,39 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pâte sablée",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "pâtes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "jaunes d'oeufs"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout.",
+    "repos 2h"
+  ]
+}

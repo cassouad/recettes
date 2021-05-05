@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Punch créole",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "apéritifs",
+    "boissons"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "rhum blanc 50 ou 55 degrés,"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron vert (zeste)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron jaune (zeste)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "orange (zeste)"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "vanille fendue"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre de canne"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire macérer 15 jours.",
+    "Après ce délai, préparer dans les proportions 4/5 de rhum, 1/5 de sirop de sucre de canne.",
+    "Servir nature ou avec un jus d'orange pressée."
+  ]
+}

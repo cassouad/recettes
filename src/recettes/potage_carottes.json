@@ -1,0 +1,40 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Potage de carottes",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "potages"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "eau"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "crème"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "curcuma"
+    }
+  ],
+  "tableauInstructions": [
+    "Les carottes sont coupées grossièrement.",
+    "Faire cuire le tout.",
+    "Mixer après cuisson."
+  ]
+}

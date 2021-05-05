@@ -1,0 +1,53 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Potage : Velouté vert ou Délice de Matthieu",
+  "auteur": "Véronique",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "potages"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cresson (une botte)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "ou salade scarole (2 grosses poignées)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "ou de la salade laitue (moins bon)"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "grosses pommes de terre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "crème fraiche"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire étuver la salade dans une casserole avec une noix de beurre ou de margarine pendant une ou 2 minutes.",
+    "Couvrir d'eau chaude (envion un litre ou un litre ¼ d'eau pour une botte de cresson).",
+    "Ajouter les pommes de terre, du sel, et laisser cuire jusqu'à ce que les pommes de terre soient tendres.",
+    "Passer au mixer.",
+    "Rectifier l'assaisonnement et ajouter une grosse cuillère de crème fraîche.",
+    "Bon appétit."
+  ]
+}

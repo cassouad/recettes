@@ -1,0 +1,49 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pâte brisée",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": "pour un petit moule"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "pâtes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "eau"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le beurre, détaillé en tout petits morceaux, à la farine en écrasant du bout des doigts (apparence de semoule). Pour aller plus vite, on peut le faire au mixer.",
+    "Mettre le sel dans l'eau. La quantité d'eau dépend de la qualité de la farine.",
+    "Ajouter l'eau et le sel (juste assez pour que la pâte soit souple). ",
+    "Mélanger rapidement sans pétrir ou avec le mixer",
+    "Mettez en boule et roulez dans la farine.",
+    "Laisser reposer 30mn (si possible).",
+    "Etaler la pâte avec la paume ou un rouleau.",
+    "(facultatif : pliez en 4 puis étalez de nouveau).",
+    "Garnissez de cette pâte le moule à tarte préalablement beurré.",
+    "Coupez ce qui dépasse en appuyant avec les doigts sur le bord du moule.",
+    "(facultatif : piquer la pâte à la fourchette pour l'empêcher de cloquer à la cuisson).",  
+    "Cette pâte convient pour toutes sortes de tarte."
+  ]
+}

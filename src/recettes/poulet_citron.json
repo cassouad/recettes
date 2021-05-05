@@ -1,0 +1,64 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Poulet au citron",
+  "auteur": "Recette découpée dans un journal",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "poulet"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "jus de citron"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre en grains"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "salade verte"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "saumon fumé"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "pamplemousse"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "avocats"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "aneth"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire mariner des morceaux de poulet dans un mélange d'huile d'olive, jus de citron, sel et poivre en grains.",
+    "Accompagner d'une salade ainsi préparée : éplucher, laver une salade verte ; mettre les feuilles dans un saladier, ajouter du saumon fumé en petits morceaux, des quartiers de pamplemousse et des dés d'avocat ; assaisonner de citron, de sel, de poivre et d'un peu d'aneth.",
+    "Cuire doucement au barbecue."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Punch Mireille",
+  "auteur": "Mireille",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "boissons"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "jus d'ananas"
+    },
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "jus de goyave (nectar)"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "verre(s)",
+      "nom": "rhum blanc"
+    },
+    {
+      "quantité": 0.75,
+      "unité": "verre(s)",
+      "nom": "rhum vieux"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "",
+      "nom": "citron vert pressée et mettre dedans avec l'écorce"
+    },
+    {
+      "quantité": 0.25,
+      "unité": "verre(s)",
+      "nom": "sucre de canne"
+    },
+    {
+      "quantité": 0.25,
+      "unité": "c. à café",
+      "nom": "Angostina"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "zeste d'orange + clos de girofle piqué"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cannelle + muscade"
+    }
+  ],
+  "tableauInstructions": [
+    "Mariner tout cela toute la nuit : environ 10h.",
+    "Puis le passer.",
+    "Servir frais"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Punch macéré",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "apéritifs",
+    "boissons"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "rhum blanc 50 ou 55 degrés"
+    },
+    {
+      "quantité": 20,
+      "unité": "cl",
+      "nom": "sirop de sucre de canne"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron coupé en tranches fines"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "baton de cannelle"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "vanille fendue"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "piment, poivre rose, cardamone (facultatif)"
+    }
+  ],
+  "tableauInstructions": [
+    "Préparer la veille.",
+    "Pour conserver quelques jours : filtrer.",
+    "Servir nature ou avec du jus de fruits."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Potage courgettes",
+  "auteur": "Irène",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées",
+    "potages"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "eau"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "bouillons Kub"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "vache‒qui‒rit"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "belles courgettes"
+    }
+  ],
+  "tableauInstructions": [
+    "Eau bouillante + Kub.",
+    "Couper les courgettes grossièrement en laissant la peau.",
+    "Laisser bouillir 20‒25 minutes.",
+    "Ajouter vache‒qui‒rit.",
+    "Laisser cuire 15 minutes. Mixer."
+  ]
+}
