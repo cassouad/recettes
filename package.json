@@ -2,7 +2,8 @@
   "scripts": {
     "start": "yarn install && yarn webpack serve --mode development",
     "lint": "yarn eslint .",
-    "build": "yarn install && yarn lint && yarn webpack --mode production"
+    "pushDocsFolder": "git add ./docs && git commit -m 'update github page' && git push",
+    "updateGithubPage": "yarn install && yarn lint && yarn webpack --mode production && yarn pushDocsFolder"
   },
   "dependencies": {
     "@babel/core": "^7.14.0",

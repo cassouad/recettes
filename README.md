@@ -9,13 +9,6 @@ yarn start
 # le site se recharge automatiquement à chaque changement
 ```
 
-Pour générer le site web en mode production et pour mettre à jour github page :
-```sh
-yarn build
-# cette commande met à jour le dossier /docs qui
-# sera utilisé par github pour servir le site web
-```
-
 Pour envoyer les changements sur github
 ```sh
 git status
@@ -42,4 +35,11 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
+```
+
+Pour générer le site web en mode production et pour mettre à jour github page :
+```sh
+yarn updateGithubPage
+# cette commande met à jour le dossier /docs qui
+# sera utilisé par github pour servir le site web
 ```
