@@ -1,0 +1,54 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Nougat glacé",
+  "auteur": "",
+  "pour": {
+    "quantité": 30,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts",
+    "glaces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "amandes en petis morceaux"
+    },
+    {
+      "quantité": 125,
+      "unité": "",
+      "nom": "noisettes en petis morceaux"
+    },
+    {
+      "quantité": 50,
+      "unité": "cl",
+      "nom": "crème frâiche entière (très froide)"
+    },
+    {
+      "quantité": 10,
+      "unité": "",
+      "nom": "blancs d'oeufs"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "raisins trempés dans le pineau"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire sur une plaque allant au four le caramel : eau + sucre + amandes + noisettes.",
+    "Laisser refroidir.",
+    "Battre la crème pour la monter (il faut qu'elle soit froide ou mettre un glaçon) et la transformer en chantilly.",
+    "Battre en neige les oeufs.",
+    "Mélanger le tout, mettre dans un baquet et au congelateur.",
+    "Ne pas oublier d'ajouter les raisins gonflés.",
+    "La manger avec une crème anglaise par exemple."
+  ]
+}

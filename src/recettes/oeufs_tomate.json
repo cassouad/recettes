@@ -1,0 +1,29 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Oeufs pochés à la tomate",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "tomates"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire une sauce tomate un peu liquide.",
+    "Casser les oeufs dans une cuillère et jeter les dedans.",
+    "Quand les oeufs sont cuits, servez chaud."
+  ]
+}

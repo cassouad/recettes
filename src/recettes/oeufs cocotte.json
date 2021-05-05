@@ -1,0 +1,46 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Oeufs cocottes",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "farine"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "fromage rapée"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire une béchamel.",
+    "Ajouter le fromage de gruyère râpé.",
+    "Verser au fond de chaque petit plat.",
+    "Verser l'oeuf et recouvrir par du gruyère.",
+    "Mettre au four moyen ¼ d'heure environ"
+  ]
+}

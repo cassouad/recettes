@@ -80,7 +80,7 @@ export default [
   require('./lamington'),
   require('./lapin_civet'),
   require('./lapin_terrine'),
-  require('./lasagnes_terrione'),
+  require('./lasagnes_epinards'),
   require('./loe'),
   require('./maquereaux'),
   require('./mayonnaise'),
@@ -95,4 +95,5 @@ export default [
   require('./mousse_chocolat'),
   require('./mousse_jambon'),
   require('./muffins'),
+  require('./nougat_glace'),
 ]
