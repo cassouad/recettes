@@ -1,0 +1,43 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sabayon",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "crèmes",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "jaunes d'oeufs"
+    },
+    {
+      "quantité": 140,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 25,
+      "unité": "cl",
+      "nom": "lambrusco ou marsala"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "quelques feuilles de menthe fraîche"
+    }
+  ],
+  "tableauInstructions": [
+    "Battez les jaunes d'oeuf et le sucre vigoureusement avec une cuillère en bois, jusqu'à l'obtention d'une consistance mousseuse.",
+    "Placer le mélange dans une casserole à fond épais sur un bain‒marie.",
+    "Verser peu à peu le lambrusco sans cesser de fouetter.",
+    "Le sabayon est prêt s'il forme un ruban quand on le soulève avec le fouet.",
+    "Servez tiède, décoré de feuilles de menthe.",
+    "10 mn"
+  ]
+}

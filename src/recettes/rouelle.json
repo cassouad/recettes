@@ -1,0 +1,59 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Rouelle à la saintongeaise",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 2,
+      "unité": "cm",
+      "nom": " d'épaisseur, Rouelle de veau"
+    },
+    {
+      "quantité": 2,
+      "unité": "bouquets",
+      "nom": "oseille (ôter les queues)"
+    },
+    {
+      "quantité": 2,
+      "unité": "bouquets",
+      "nom": "persil (ôter les queues)"
+    },
+    {
+      "quantité": 0.66,
+      "unité": "boite(s)",
+      "nom": "chapelure (ou un petit bol)"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oignons"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "gousse d'ail hachée crue"
+    } 
+  ],
+  "tableauInstructions": [
+    "Hachés crus : oseille, persil.",
+    "Ajouter le reste pour faire une farce [Il faut que cela fasse une pâte onctueuse (ajouter de l'huile)].",
+    "Saler, poivrer la rouelle.",
+    "Etaler un petit cm de farce sur la rouelle.",
+    "Autour de la rouelle, oignons coupés en morceaux.",
+    "Arroser avec un bon verre de vin blanc.",
+    "Cuire une heure à chaleur 8.",
+    "Pendant la cuisson, arroser fréquemment (mélange vin + eau ou bouillon)."
+  ]
+}

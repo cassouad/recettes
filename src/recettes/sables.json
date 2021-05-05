@@ -1,0 +1,51 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sablés",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 120,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "jaunes d'oeufs"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "parfum (zeste d'orange ou une petite cuillère de rhum ou d'eau de vie) "
+    }
+  ],
+  "tableauInstructions": [
+    "Pétrir le tout rapidement.",
+    "Aplatir au rouleau Découper la pâte.",
+    "Déposer les gâteaux sur une plaque de tôle non beurrée.",
+    "Faire cuire à four chaud jusqu'à ce que les gâteaux soient dorés."
+  ]
+}

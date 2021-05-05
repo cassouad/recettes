@@ -95,6 +95,7 @@
               "cl",
               "dl",
               "l",
+              "cm",
               "c. à café",
               "c. à soupe",
               "sachet(s)",
@@ -111,7 +112,8 @@
               "bouteille(s)",
               "bol(s)",
               "barre(s)",
-              "brique(s)"
+              "brique(s)",
+              "bouquets"
             ]
           }
         }

@@ -1,0 +1,63 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Rosette au chocolat ou saucisson",
+  "auteur": "",
+  "pour": {
+    "quantité": 5,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "biscuits champagne"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "chocolat en morceaux"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "chocolat en poudre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "pralines"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "verre de rhum ou cognac (petit)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre glace"
+    }
+  ],
+  "tableauInstructions": [
+    "Emietter les biscuits.",
+    "Faire fondre le chocolat au bain‒marie.",
+    "Dans une casserole, déposer le beurre et faire fondre à feu très doux.",
+    "Verser les biscuits dans un plat creux.",
+    "Ajouter le chocolat et le beurre fondu, la praline et le rhum (ou cognac).",
+    "Remuer et verser le chocolat en poudre pour obtenir une pâte ferme.",
+    "Former une boule avec la pâte.",
+    "Soupoudrer une feuille d'aluminium de sucre glace, y déposer la boule de pête et avec les mains la rouler pour former un saucisson.",
+    "Rouler le saucisson dans la feuille d'aluminium et le déposer au freezer pendant une heure, puis au réfrigérateur jusqu'au moment de servir.",
+    "P.S. Pour servir, dérouler la rosette de son emballage et la couper en tranche.",
+    "On peut remplacer la praline par des petits morceaux de cédrat ou d'amande."
+  ]
+}

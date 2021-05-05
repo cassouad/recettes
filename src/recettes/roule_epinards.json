@@ -1,0 +1,53 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Roulé aux épinards",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "plats",
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 800,
+      "unité": "g",
+      "nom": "épinards en branche ou surgelés"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "grands carrés de fromage Gervais ou mieux du boursin ail et fines herbes"
+    },{
+      "quantité": 300,
+      "unité": "g",
+      "nom": "saumon fumé d'Ecosse"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "fromage blanc 0%"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Décongeler les épinards, et bien les presser pour en retirer toute l'eau.",
+    "Les mélanger avec les oeufs entiers, du sel et du poivre.",
+    "Mettre un papier sulfurisé sur la lèche-frites, étaler les épinards sur toute la plaque et enfourner environ 10mn à 200°.",
+    "Etaler les carrés de fromage dessus en une fine couche blanche, partout.",
+    "Puis recouvrir de tranches de saumon.",
+    "Rouler en retirant le papier sulfurisé au fur et à mesure.",
+    "Retirer les 2 entames moches, mettre au froid et couper en tranches d'1cm pour servir sur un lit et accompagné soit d'une sauce fromage blanc/ ciboulette, soit au fenouil."
+  ]
+}
