@@ -1,0 +1,45 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Rissoles Biarritz",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2,
+      "unité": "verre(s)",
+      "nom": "à liqueur de cognac"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    }
+  ],
+  "tableauInstructions": [
+    "Laisser reposer la pâte.",
+    "Étendre la pâte avec un rouleau.",
+    "Couper avec un verre.",
+    "Mettre le hachis, replier et fermer avec une fourchette"
+  ]
+}

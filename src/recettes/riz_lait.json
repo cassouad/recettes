@@ -1,0 +1,36 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Riz au lait",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "riz"
+    },
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "lait sucré, vanillé"
+    }
+  ],
+  "tableauInstructions": [
+    "Laver le riz à l'eau froide ; égoutter.",
+    "Plonger le riz dans un litre d'eau bouillante légèrement salée.",
+    "Laisser bouillir dans un récipient découvert pendant 2 minutes.",
+    "Verser sur une passoire.",
+    "Laver le riz à l'eau froide.",
+    "Le plonger dans un litre de lait bouillant sucré, vanillé.",
+    "Laisser cuire à tout petit feu pendant 25 minutes.",
+    "Mélanger de temps en temps.",
+    "Laisser refroidir.",
+    "Servir tel quel ou avec une confiture diluée."
+  ]
+}

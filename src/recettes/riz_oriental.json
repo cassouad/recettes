@@ -1,0 +1,89 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Riz à l'oriental",
+  "auteur": "Catherine",
+  "pour": {
+    "quantité": 5,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "riz"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "poulet roti"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "petits pois"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "",
+      "nom": "poivrons"
+    },
+    {
+      "quantité": 2,
+      "unité": "tranche(s)",
+      "nom": "lard poitrine"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "amandes émondées"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "sauce tomate"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "bouillon de poule maggi "
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "coriandre + épices"
+    },
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "germes de soja"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "tomates fraiches ou boites"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignons"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire rotir le pouler dans un peu d'huile, puis fermer la cocotte et laisser cuire 3/4 h ou 1 h selon le poulet.",
+    "Le détailler en morceaux de la grosseur d'une bouchée.",
+    "Réserver le jus de cuisson pour y faire revenir les poivrons coupés en lanières, le lard en lardons, les amandes et les germes de soja (s'ils sont frais).",
+    "Faire une sauce avec tomates fraiches, et un peu d'oignons.",
+    "Chauffer 2 cuillères à soupe d'huile et faire revenir le riz sans le laver jusqu'à ce qu'il dore, puis mouiller avec 1 l d'eau bouillante salée ou bouillon cube 20 minutes.",
+    "Ajouter les morceaux de poulet dans le ragout de légumes puis les germes de soja (si c'est en boite). Chauffer quelques instants.",
+    "Mélanger les petits pois au riz. Mouler le riz en couronne (beurrer le moule et chauffer).",
+    "On peut placer au centre la souce ou le ragout et entourer du reste (lard frais meilleur)."
+  ]
+}

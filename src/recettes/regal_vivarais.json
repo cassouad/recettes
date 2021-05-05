@@ -1,0 +1,56 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Régal du Vivarais",
+  "auteur": "Ariane",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "crême de marrons vanillée"
+    },
+    {
+      "quantité": 120,
+      "unité": "g",
+      "nom": "noix de coco (en poudre)"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "chocolat noir "
+    },
+    {
+      "quantité": 40,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "c. à café",
+      "nom": "eau"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout (crème, coco, jaunes d'oeufs).",
+    "Incorporer les blancs en neige.",
+    "Mettre à cuire.",
+    "Faire cuire 30mn four 160° C (5).",
+    "Pour le glaçage :",
+    "faire fondre au bain-marie ou au microonde (1mn) le chocolat noir + le beurre + eau pour obtenir un pâte lisse.",
+    "Verser la pâte sur le gâteau cuit."
+    
+  ]
+}

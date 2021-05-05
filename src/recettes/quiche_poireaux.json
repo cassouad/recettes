@@ -1,0 +1,72 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Quiche aux poireaux",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": "Moule à tarte moyen"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "pâte brisée"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "lard fumé"
+    },
+    {
+      "quantité": 300,
+      "unité": "g",
+      "nom": "poireaux"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "crème fraîche liquide ou 1dl de lait"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "crème épaisse ou 1dl de lait"
+    },
+    {
+      "quantité": 1,
+      "unité": "dl",
+      "nom": "lait"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "fromage râpé"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "sel, poivre, muscade"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire la pâte brisée et la rouler. La mettre dans un moule.",
+    "Cuire les blancs de poireaux dans l'eau bouillante salée pendant 20mn.",
+    "Mélanger les oeufs entiers + crème.",
+    "Puis fromage + lardons + morceaux de poireaux.",
+    "Verser le tout sur la pâte.",
+    "Mettre au four 30 à 40 minutes à 200°C."
+  ]
+}

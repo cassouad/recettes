@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Quiche",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 60,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "eau"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "lardons fumés"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "un peu de sel"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire la pâte et la rouler. La mettre dans un moule.",
+    "Vider dans la pâte : lardons fumés (avec leur graisse).",
+    "Battre les oeufs entiers en omelette, les délayer avec un grand verre de lait. Verser sur la pâte.",
+    "Mettre au four 30 minutes à 200°C"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Quatre quarts",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "un paquet de levure"
+    }
+  ],
+  "tableauInstructions": [
+    "on met tout ensemble, on mélange",
+    "on met au four à 180°."
+  ]
+}
