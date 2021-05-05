@@ -1,0 +1,31 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauce mousseline",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "sauces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf",
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "beurre"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre un oeuf (le jaune) dans une casserole au coin du feu.",
+    "Tourner pour qu'il soit lisse.",
+    "Puis mettre gros comme une cuillère à soupe de beurre.",
+    "Saler.",
+    "Puis à la dernière minute battre le blanc en neige et verser le dessus."
+  ]
+}

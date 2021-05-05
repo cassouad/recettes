@@ -1,0 +1,35 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauce au citron",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "sauces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "farine"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire chauffer le beurre environ.",
+    "Quand le beurre est fondu, y ajouter en dehors du feu les jaunes d'oeuf.",
+    "Mettre le jus des moules égoutté (si on a fait des moules), puis le citron, ainsi que le sel (attention très peu si on a mis le jus).",
+    "Faire cuire en ajoutant la farine."
+  ]
+}

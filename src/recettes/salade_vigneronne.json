@@ -1,0 +1,62 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade vigneronne",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oranges"
+    },
+    {
+      "quantité": 8,
+      "unité": "",
+      "nom": "grosses figues sèches moelleuses,"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "bananes"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "grappe de raisins noirs"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "curaçao"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "confiture d'abricot"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "citron"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "jus d'orange"
+    }
+  ],
+  "tableauInstructions": [
+    "Eplucher 2 oranges et les coupées en rondelles.",
+    "Les 2 autres sont lavées et non épluchées.",
+    "Couper les figues en lanière.",
+    "Couper les bananes en rondelle et les citronner.",
+    "Egréner les raisins.",
+    "Mélanger, sucrer et servir frais."
+  ]
+}

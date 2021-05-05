@@ -1,0 +1,82 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade multicolore",
+  "auteur": "",
+  "pour": {
+    "quantité": 7,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "endives"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "betterave"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "coeur de céleri en branches"
+    },
+    {
+      "quantité": 20,
+      "unité": "",
+      "nom": "noix"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oranges sanguines"
+    },
+    {
+      "quantité": 6,
+      "unité": "c. à soupe",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "c. à soupe",
+      "nom": "vinaigre"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "moutarde forte"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "estragon haché"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "noix hachées"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Préparer les éléments :",
+    "huile, vinaigre, sel, poivre, estragon, moutarde, noix hachées",
+    "Couper les endives en petits morceaux et garder quelques feuilles.",
+    "Couper céleri en tronçon de 1/2cm.",
+    "Betterave en dés.",
+    "Peler les oranges et less couper en fines tranches puis chaque tranche en 4.",
+    "Eplucher les noix et les hacher finement sauf quelques unes pour la décoration.",
+    "Sauce :",
+    "huile, vinaigre, sel, poivre, estragon, moutarde, noix hachées.",
+    "Disposer le tout dans un plat tapissé de quelques feuilles d'endives.",
+    "Décorer noix + 1 orange en tranches fines"
+  ]
+}

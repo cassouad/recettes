@@ -1,0 +1,71 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade de carottes cuites ou crues",
+  "auteur": "Ariane",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "orange"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "",
+      "nom": "citron"
+    },
+    {
+      "quantité": 4,
+      "unité": "c. à soupe",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "miel"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "c. à café",
+      "nom": "cumin"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "pignons de pin (facultatif)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "Coriandre ou persil (frais)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Carottes cuites : faire cuire les carottes en rondelles après les avoir pelées.",
+    "Carottes crues : râper les carottes après les avoir pelées.",
+    "Sauce : Mélanger orange, citron, miel, cumin + ail écrasé + huile d'olive, sel, poivre.",
+    "Faire torréfier</u> les pignons",
+    "Les rajouter aux carottes avec la sauce"
+  ]
+}

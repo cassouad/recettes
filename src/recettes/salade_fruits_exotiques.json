@@ -1,0 +1,52 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade de fruits exotiques",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "ananas (grande)"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "kumquats fraîches épluchées"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "amandes émondées coupées en lamelles"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "jus d'orange"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "jus de citron"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "confiture d'orange"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cerises confites"
+    }
+  ],
+  "tableauInstructions": [
+    "Tout mélanger"
+  ]
+}

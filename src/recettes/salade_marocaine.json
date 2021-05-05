@@ -1,0 +1,61 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade de fruits marocaine",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "raisins"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "pommes"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oranges"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "boite(s)",
+      "nom": "ananas en morceaux"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "dattes dénoyautées"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "cerneaux de noix"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "rhum ou cognac"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "miel"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre les raisins dans le rhum ou cognac.",
+    "Couper les pommes en dés.",
+    "Eplucher les oranges et les couper en rondelles.",
+    "Mélanger le tout.",
+    "Arroser du rhum de macération des raisins et ajouter le miel."
+  ]
+}

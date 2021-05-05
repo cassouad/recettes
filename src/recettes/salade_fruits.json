@@ -1,0 +1,45 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade de fruits",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "pommes coupées en tranches fines"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "jus de citron"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "bananes coupées en rondelles"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oranges en rondelles"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "kiwi en rondelles"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre les pommes, les recouvrir de citron (1/2 citron) avec du sucre.",
+    "Puis les bananes, les recouvrir du 2ème moitié de citron.",
+    "Puis les oranges.",
+    "Enfin le kiwi avec un peu de sucre sur celui-ci."
+  ]
+}

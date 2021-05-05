@@ -1,0 +1,49 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade de fruits rouges",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "framboises"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "fraises"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "groseilles"
+    },
+    {
+      "quantité": 300,
+      "unité": "g",
+      "nom": "cerises"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 2,
+      "unité": "verre(s)",
+      "nom": "vin rouge Bordeaux"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger sucre et vin et tout le reste.",
+    "Laisser macérer pendant 1h.",
+    "Servir frais."
+  ]
+}

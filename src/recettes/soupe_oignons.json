@@ -1,0 +1,78 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Soupe à l'oignon",
+  "auteur": "Nicolas",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées",
+    "potages"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "eau"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": " gros oignons par personne"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "gousses d'ail"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "c. à soupe",
+      "nom": "farine"
+    },
+    {
+      "quantité": 25,
+      "unité": "cl",
+      "nom": "vin blanc"
+    },
+    {
+      "quantité": 25,
+      "unité": "cl",
+      "nom": "eau"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "pain"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "Fromage Comté ou raclette ou morbier (coupé en petits dés)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "bol par personne"
+    }
+  ],
+  "tableauInstructions": [
+    "Hacher l'ail en petits morceaux.",
+    "Couoer les oignons en 2 puis en rondelles.",
+    "Mettre dans la casserole un bon morceau de beurre.",
+    "Ajouter l'ail, faire fondre.",
+    "Bien faire revenir les oignons dans le beurre et l'ail. Faire dorer.",
+    "Puis mettre la farine.",
+    "Ajouter le vin blanc et l'eau.",
+    "Dans le bol mettre au fond une couche de pain.",
+    "Puis la soupe, une 2ème couche de pain, le fromage.",
+    "Passer le bol au grill pour que la surface soit dorée.",
+    "Laisser cuire 30 minutes."
+  ]
+}

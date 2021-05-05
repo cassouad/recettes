@@ -1,0 +1,45 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sorbet citron",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts",
+    "glaces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "citrons non traités"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre,"
+    },
+    {
+      "quantité": 2.5,
+      "unité": "dl",
+      "nom": "eau minérale tiède"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "blanc d'oeuf"
+    },
+    {
+      "quantité": 30,
+      "unité": "g",
+      "nom": "sucre glace"
+    }  
+  ],
+  "tableauInstructions": [
+    "Mélanger, mixer, puis mettre au congélateur.",
+    "Avant gel complet, remixer.",
+    "Refaire cette opération deux fois pour éviter les paillettes."
+  ]
+}

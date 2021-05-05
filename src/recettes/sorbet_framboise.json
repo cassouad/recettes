@@ -1,0 +1,41 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sorbet aux framboises",
+  "auteur": "Bonne Maman",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts",
+    "glaces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "framboises"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "fraises"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "jus de citron"
+    }
+  ],
+  "tableauInstructions": [
+    "(les framboises pures sont trop fortes).",
+    "Mélanger, mixer, puis mettre au congélateur.",
+    "Avant gel complet, remixer.",
+    "Refaire cette opération deux fois pour éviter les paillettes."
+  ]
+}

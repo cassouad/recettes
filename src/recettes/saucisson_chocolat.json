@@ -1,0 +1,64 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Saucisson au chocolat",
+  "auteur": "Mila",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 15,
+      "unité": "g",
+      "nom": "sucre en poudre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "amandes râpées (non épluchées)"
+    },
+    {
+      "quantité": 40,
+      "unité": "g",
+      "nom": "amandes épluchées hachées en gros"
+    },
+    {
+      "quantité": 3,
+      "unité": "barre(s)",
+      "nom": "chocolat râpées"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "cédra coupé en petits morceaux"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "c. à café",
+      "nom": "clou de girofle"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron râpé (zeste)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre dans une casserole les amandes râpées, le sucre, le chocolat.",
+    "Mettre sur le feu et faire fondre (pas longtemps).",
+    "Retirer du feu et mettre 1 gros oeuf battu.",
+    "Mettre de nouveau sur le feu mais pas longtemps pour que le jaune soit juste cuit.",
+    "Retirer du feu et mettre cette pâte sur une planche bien saupoudrée de sucre.",
+    "Mettre dans la pâte les amandes (coupées en gros morceaux), les zestes de citron, les clous de girofle, le cédrat.",
+    "Faire le saucisson.",
+    "Envelopper dans du papier sulfurisé, attacher et accrocher."
+  ]
+}

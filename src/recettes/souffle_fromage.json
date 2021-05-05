@@ -1,0 +1,65 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Soufflé au fromage",
+  "auteur": "",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats",
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 80,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "farine"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "lait"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "gruyère"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "noix de muscade"
+    }
+  ],
+  "tableauInstructions": [
+    "Séparer les jaunes des blancs.",
+    "Battre les blancs en neige ferme à l'aide d'un fouet mécanique.",
+    "Dans une casserole, faites fondre le beurre.",
+    "Incorporer la farine et mouiller avec le lait.",
+    "Tourner à la cuillère en bois jusqu'à la consistance épaisse de cette pâte (sauce béchamel épaisse).",
+    "Retirer du feu Laisser refroidir.",
+    "Ajouter alors les jaunes. Les incorporer à la pâte.",
+    "Incoporer le gruyère râpé. Poivrer et saler légèrement.",
+    "Enfin incorporer les blancs.",
+    "Bien beurrer un plat à soufflé.",
+    "Mettre votre préparation afin que celle‒ci ne dépasse pas en hauteur les 2/3 du plat (préparation devant gonflée)",
+    "Cuire au four modéré 20 à 25mn ou plus dès que le soufflé et bien monté.",
+    "Servir rapidement sans attendre."
+  ]
+}
