@@ -3,7 +3,7 @@
     "start": "yarn install && yarn webpack serve --mode development",
     "lint": "yarn eslint .",
     "pushDocsFolder": "git add ./docs && git commit -m 'update github page' && git push",
-    "updateGithubPage": "yarn install && yarn lint && yarn webpack --mode production && yarn pushDocsFolder"
+    "updateGithubPage": "yarn lint && yarn webpack --mode production && yarn pushDocsFolder"
   },
   "dependencies": {
     "@babel/core": "^7.14.0",
