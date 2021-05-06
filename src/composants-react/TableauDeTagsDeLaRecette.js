@@ -4,16 +4,24 @@ const TableauDeTagsDeLaRecette = ({
   tableauDeTags,
 }) => {
   return (
-    <div>
+    <div style={{
+      display: 'flex',
+      flexWrap: 'wrap',
+    }}>
       {tableauDeTags?.map((tag, index) => {
+        let paddingRight
+        if (index !== tableauDeTags.length - 1) {
+          paddingRight = '10px'
+        }
+
         return (
-          <span key={index} style={{
+          <div key={index} style={{
             color: '#7d7d7d',
             fontStyle: 'italic',
-            paddingRight: '10px',
+            paddingRight,
           }}>
             {`#${tag}`}
-          </span>
+          </div>
         )
       }) ?? []}
     </div>
