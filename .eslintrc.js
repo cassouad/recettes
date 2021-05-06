@@ -13,6 +13,7 @@ module.exports = {
     browser: true,
     commonjs: true,
     node: true,
+    jest: true,
   },
   ignorePatterns: ['webpack.config.js', 'dist', 'docs'],
   rules: {

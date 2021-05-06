@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Recette from './Recette'
+import Recherche from '../modules/recherche'
 
 const TableauDeRecettes = ({
   tableauDeRecettes,
@@ -32,13 +33,11 @@ const TableauDeRecettes = ({
 export default TableauDeRecettes
 
 const filtreTableauDeRecettes = ({tableauDeRecettes, demandeDeRecherche}) => {
-  demandeDeRecherche = demandeDeRecherche
-    .toLocaleLowerCase()
-    .replace(/\s+/g, ' ')
-    .split('')
-    .join('.*?')
   return tableauDeRecettes.filter((recette) => {
-    return recette.titre.toLocaleLowerCase().match(demandeDeRecherche) !== null
+    return Recherche.estCeQueLaChaîneCorrespondÀLaDemande({
+      demande: demandeDeRecherche,
+      chaîne: recette.titre,
+    })
   })
 }
 
