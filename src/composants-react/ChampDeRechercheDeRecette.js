@@ -26,7 +26,8 @@ const ChampDeRechercheDeRecette = ({
         fontSize: '16px',
         borderRadius: '10px',
       }}
-      texteQuiSAfficheQuandPasDeValeur={'recherchez une recette ! 🥘🥗😋'}
+      texteQuiSAfficheQuandPasDeValeur={'recherchez une recette !'}
+      // texteQuiSAfficheQuandPasDeValeur={'recherchez une recette ! 🥘🥗😋'}
     />
   )
 }
