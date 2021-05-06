@@ -19,6 +19,7 @@ const ChampDeTexte = ({
       ref={ref}
       style={{
         font: 'inherit',
+        lineHeight: 'normal',
         ...style
       }}
       value={valeur}
