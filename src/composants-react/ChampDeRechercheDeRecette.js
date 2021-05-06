@@ -27,7 +27,6 @@ const ChampDeRechercheDeRecette = ({
         borderRadius: '10px',
       }}
       texteQuiSAfficheQuandPasDeValeur={'recherchez une recette !'}
-      // texteQuiSAfficheQuandPasDeValeur={'recherchez une recette ! 🥘🥗😋'}
     />
   )
 }
