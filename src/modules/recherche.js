@@ -1,16 +1,16 @@
+const formateLaDemande = ({demande}) => formateLaChaîne(demande)
+
+const formateLaChaîne = (chaîne) =>
+  chaîne
+    .toLocaleLowerCase()
+    .replace(/\s+/g, ' ')
+    .replace(/[âà]/g, 'a')
+    .replace(/[éèê]/g, 'e')
+
 const estCeQueLaChaîneCorrespondÀLaDemande = ({
   chaîne,
   demande,
 }) => {
-  const formateLaChaîne = (chaîne) =>
-    chaîne
-      .toLocaleLowerCase()
-      .replace(/\s+/g, ' ')
-  // .replace(/â/g, 'a')
-  // .replace(/éèê/g, 'e')
-
-  // mettre en place les test jest dans le pipe update github ///
-
   demande = formateLaChaîne(demande)
   demande = demande.split('').join('.*?')
   chaîne = formateLaChaîne(chaîne)
@@ -22,9 +22,15 @@ const coupeLaChaîneAvecLaLettre = ({
   chaîne,
   lettre,
 }) => {
-  const tableauDeLettresÀEssayer = [
-    lettre.toLocaleLowerCase(),
-    lettre.toLocaleUpperCase(),
+  let tableauDeLettresÀEssayer = [lettre.toLocaleLowerCase()]
+  if (tableauDeLettresÀEssayer[0] === 'e') {
+    tableauDeLettresÀEssayer.push('é', 'è', 'ê')
+  } else if (tableauDeLettresÀEssayer[0] === 'a') {
+    tableauDeLettresÀEssayer.push('à', 'â')
+  }
+  tableauDeLettresÀEssayer = [
+    ...tableauDeLettresÀEssayer,
+    ...tableauDeLettresÀEssayer.map(x => x.toLocaleUpperCase())
   ]
   let matchDeLaLettreRetenue = null
 
@@ -57,4 +63,5 @@ const coupeLaChaîneAvecLaLettre = ({
 export default {
   estCeQueLaChaîneCorrespondÀLaDemande,
   coupeLaChaîneAvecLaLettre,
+  formateLaDemande,
 }

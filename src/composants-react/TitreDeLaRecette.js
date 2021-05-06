@@ -15,7 +15,11 @@ const transformeLeTitreEnÉlément = (titre, demandeDeRecherche) => {
     fontWeight: 'bold',
     textDecoration: 'underline',
   }
-  const tableauDeLettres = demandeDeRecherche.split('')
+
+  const tableauDeLettres = Recherche.formateLaDemande({
+    demande: demandeDeRecherche,
+  }).split('')
+
   const recursive = (titre) => {
     if (tableauDeLettres.length) {
       const lettre = tableauDeLettres.shift()
