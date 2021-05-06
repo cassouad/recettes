@@ -17,11 +17,7 @@ const ChampDeTexte = ({
   return (
     <input
       ref={ref}
-      style={{
-        font: 'inherit',
-        lineHeight: 'normal',
-        ...style
-      }}
+      style={style}
       value={valeur}
       placeholder={texteQuiSAfficheQuandPasDeValeur}
       onChange={(event) => {
