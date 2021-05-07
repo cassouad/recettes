@@ -25,20 +25,23 @@ const CarteAvecTitreBouton = ({
         top: stickyTopPourLeTitre,        
       }}>
         <div style={{
-          position: 'absolute',
-          top: 0,
-          width: '100%',
-          height: '100%',
-          background: couleurDeArrièrePlan,
-          display: 'none',
-        }}/>
-        <Bouton
-          style={styleDuBouton}
-          styleQuandLaSourisEstAuDessus={styleDuBouton}
-          quandOnCliqueFaire={quandOnCliqueFaire}
-        >
-          {élémentDuTitre}
-        </Bouton>
+          position: 'relative',
+        }}>
+          <div style={{
+            position: 'absolute',
+            top: 0,
+            width: '100%',
+            height: '100%',
+            background: couleurDeArrièrePlan,
+          }}/>
+          <Bouton
+            style={styleDuBouton}
+            styleQuandLaSourisEstAuDessus={styleDuBouton}
+            quandOnCliqueFaire={quandOnCliqueFaire}
+          >
+            {élémentDuTitre}
+          </Bouton>
+        </div>
       </div>
       <div style={{
         padding: '12px',
