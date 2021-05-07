@@ -4,6 +4,10 @@ const ArrièrePlan = ({
   couleur,
   children,
 }) => {
+  useSynchroniserCouleurDeLArrièrePlanDuBody({
+    couleur,
+  })
+
   return (
     <div style={{
       backgroundColor: couleur,
@@ -28,3 +32,14 @@ const ArrièrePlan = ({
 }
 
 export default ArrièrePlan
+
+const useSynchroniserCouleurDeLArrièrePlanDuBody = ({
+  couleur,
+}) => {
+  React.useEffect(() => {
+    document.body.style.backgroundColor = couleur
+    return () => {
+      document.body.style.backgroundColor = ''
+    }
+  }, [couleur])
+}
