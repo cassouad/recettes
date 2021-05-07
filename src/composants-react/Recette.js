@@ -12,6 +12,7 @@ const Recette = ({
   recette,
   demandeDeRecherche,
   couleurPrincipale,
+  couleurDeArrièrePlan,
   stickyTopPourLeTitreDesRecettes,
 }) => {
   const [laRecetteEstOuverte, setLaRecetteEstOuverte] = React.useState(false)
@@ -28,6 +29,7 @@ const Recette = ({
         élémentDuTitre={élémentDuTitreDeLaRecette}
         quandOnCliqueFaire={() => setLaRecetteEstOuverte(false)}
         couleurPrincipale={couleurPrincipale}
+        couleurDeArrièrePlan={couleurDeArrièrePlan}
         stickyTopPourLeTitre={stickyTopPourLeTitreDesRecettes}
       >
         <div style={{

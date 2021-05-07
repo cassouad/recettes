@@ -7,6 +7,7 @@ const TableauDeRecettes = ({
   tableauDeRecettes,
   demandeDeRecherche,
   couleurPrincipale,
+  couleurDeArrièrePlan,
   stickyTopPourLeTitreDesRecettes,
 }) => {
   const tableauDeRecettesFiltrées = filtreTableauDeRecettes({
@@ -20,6 +21,7 @@ const TableauDeRecettes = ({
     tableauDeRecettes: tableauDeRecettesTriées,
     demandeDeRecherche,
     couleurPrincipale,
+    couleurDeArrièrePlan,
     stickyTopPourLeTitreDesRecettes,
   })
 
@@ -57,6 +59,7 @@ const calculesTableauDElements = ({
   tableauDeRecettes,
   demandeDeRecherche,
   couleurPrincipale,
+  couleurDeArrièrePlan,
   stickyTopPourLeTitreDesRecettes,
 }) => {
   return tableauDeRecettes.map((recette, index) => {
@@ -73,6 +76,7 @@ const calculesTableauDElements = ({
           recette={recette}
           demandeDeRecherche={demandeDeRecherche}
           couleurPrincipale={couleurPrincipale}
+          couleurDeArrièrePlan={couleurDeArrièrePlan}
           stickyTopPourLeTitreDesRecettes={stickyTopPourLeTitreDesRecettes}
         />
       </div>

@@ -45,6 +45,7 @@ const App = () => {
           tableauDeRecettes={recettes}
           demandeDeRecherche={demandeDeRecherche}
           couleurPrincipale={couleurPrincipale}
+          couleurDeArrièrePlan={couleurDeArrièrePlan}
           stickyTopPourLeTitreDesRecettes={'121px'}
         />
       </div>

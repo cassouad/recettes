@@ -6,11 +6,11 @@ const CarteAvecTitreBouton = ({
   élémentDuTitre,
   quandOnCliqueFaire,
   couleurPrincipale,
+  couleurDeArrièrePlan,
   stickyTopPourLeTitre,
 }) => {
   const styleDuBouton = {
-    position: 'sticky',
-    top: stickyTopPourLeTitre,
+    position: 'relative',
     transition: 'all 0.1s ease-out 0s',
     padding: '12px',
     borderRadius: '10px 10px 0px 0px',
@@ -20,13 +20,25 @@ const CarteAvecTitreBouton = ({
 
   return (
     <React.Fragment>
-      <Bouton
-        style={styleDuBouton}
-        styleQuandLaSourisEstAuDessus={styleDuBouton}
-        quandOnCliqueFaire={quandOnCliqueFaire}
-      >
-        {élémentDuTitre}
-      </Bouton>
+      <div style={{
+        position: 'sticky',
+        top: stickyTopPourLeTitre,        
+      }}>
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          width: '100%',
+          height: '100%',
+          background: couleurDeArrièrePlan,
+        }}/>
+        <Bouton
+          style={styleDuBouton}
+          styleQuandLaSourisEstAuDessus={styleDuBouton}
+          quandOnCliqueFaire={quandOnCliqueFaire}
+        >
+          {élémentDuTitre}
+        </Bouton>
+      </div>
       <div style={{
         padding: '12px',
         borderRadius: '0px 0px 10px 10px',    
