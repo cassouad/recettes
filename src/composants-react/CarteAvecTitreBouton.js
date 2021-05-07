@@ -30,6 +30,7 @@ const CarteAvecTitreBouton = ({
           width: '100%',
           height: '100%',
           background: couleurDeArrièrePlan,
+          display: 'none',
         }}/>
         <Bouton
           style={styleDuBouton}
