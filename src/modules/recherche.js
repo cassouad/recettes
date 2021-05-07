@@ -1,19 +1,22 @@
-const formateLaDemande = ({demande}) => formateLaChaîne(demande)
-
-const formateLaChaîne = (chaîne) =>
-  chaîne
+const formateLaDemande = ({demande}) =>
+  demande
     .toLocaleLowerCase()
     .replace(/\s+/g, ' ')
     .replace(/[âà]/g, 'a')
     .replace(/[éèê]/g, 'e')
+    .replace(/[.+*?^$()[\]{}|\\]/g, '')
 
 const estCeQueLaChaîneCorrespondÀLaDemande = ({
   chaîne,
   demande,
 }) => {
-  demande = formateLaChaîne(demande)
+  demande = formateLaDemande({
+    demande,
+  })
   demande = demande.split('').join('.*?')
-  chaîne = formateLaChaîne(chaîne)
+  chaîne = formateLaDemande({
+    demande: chaîne,
+  })
 
   return chaîne.match(demande) !== null
 }

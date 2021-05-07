@@ -440,5 +440,15 @@ describe('Recherche', () => {
 
       expect(réponse).toEqual('a faire, super a e e e !')
     })
+
+    test('doit enlever tous les caractères regex reservés', () => {
+      const demande = 'Les caractères sont : .+*?^$()[]{}|\\'
+
+      const réponse = Recherche.formateLaDemande({
+        demande,
+      })
+
+      expect(réponse).toEqual('les caracteres sont : ')
+    })
   })
 })
