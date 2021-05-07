@@ -2,6 +2,7 @@ const path = require('path')
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = (env, options) => {
   let outputDirectoryName
@@ -21,7 +22,7 @@ module.exports = (env, options) => {
           test: /\.js$/,
           exclude: /node_modules/,
           use: {
-            loader: "babel-loader",
+            loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env']
             }
@@ -33,6 +34,11 @@ module.exports = (env, options) => {
       new HtmlWebpackPlugin({
         template: 'src/index.html',
         inject: true,
+      }),
+      new CopyPlugin({
+        patterns: [
+          { from: 'src/fonts', to: 'fonts' },
+        ],
       }),
       {
         apply: (compiler) => {
