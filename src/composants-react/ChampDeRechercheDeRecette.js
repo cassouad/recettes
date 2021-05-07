@@ -5,18 +5,10 @@ const ChampDeRechercheDeRecette = ({
   demandeDeRecherche,
   setDemandeDeRecherche,
 }) => {
-  const [
-    demandeDeRechercheAffichée,
-    setDemandeDeRechercheAffichée
-  ] = React.useState(demandeDeRecherche)
-
   return (
     <ChampDeTexte
-      valeur={demandeDeRechercheAffichée}
-      setValeur={(valeur) => {
-        setDemandeDeRecherche(valeur.trim())
-        setDemandeDeRechercheAffichée(valeur)
-      }}
+      valeur={demandeDeRecherche}
+      setValeur={setDemandeDeRecherche}
       focusElementQuandIlEstCréé
       style={{
         width: '100%',

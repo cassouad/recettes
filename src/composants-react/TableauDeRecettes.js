@@ -6,6 +6,7 @@ import Recherche from '../modules/recherche'
 const TableauDeRecettes = ({
   tableauDeRecettes,
   demandeDeRecherche,
+  tagAvecLeQuelOnFiltre,
   couleurPrincipale,
   couleurDeArrièrePlan,
   stickyTopPourLeTitreDesRecettes,
@@ -13,6 +14,7 @@ const TableauDeRecettes = ({
   const tableauDeRecettesFiltrées = filtreTableauDeRecettes({
     tableauDeRecettes,
     demandeDeRecherche,
+    tagAvecLeQuelOnFiltre,
   })
   const tableauDeRecettesTriées = trieTableauDeRecettes({
     tableauDeRecettes: tableauDeRecettesFiltrées,
@@ -34,12 +36,27 @@ const TableauDeRecettes = ({
 
 export default TableauDeRecettes
 
-const filtreTableauDeRecettes = ({tableauDeRecettes, demandeDeRecherche}) => {
+const filtreTableauDeRecettes = ({
+  tableauDeRecettes,
+  demandeDeRecherche,
+  tagAvecLeQuelOnFiltre,
+}) => {
   return tableauDeRecettes.filter((recette) => {
-    return Recherche.estCeQueLaChaîneCorrespondÀLaDemande({
-      demande: demandeDeRecherche,
-      chaîne: recette.titre,
-    })
+    const leTitreCorrespondÀLaDemande =
+      Recherche.estCeQueLaChaîneCorrespondÀLaDemande({
+        demande: demandeDeRecherche,
+        chaîne: recette.titre,
+      })
+    
+    const leTableauDeTagsInclueLeTagAvecLeQuelOnFiltre = (
+      tagAvecLeQuelOnFiltre === '' ||
+      recette.tableauDeTags?.includes(tagAvecLeQuelOnFiltre)
+    )
+
+    return (
+      leTitreCorrespondÀLaDemande &&
+      leTableauDeTagsInclueLeTagAvecLeQuelOnFiltre
+    )
   })
 }
 

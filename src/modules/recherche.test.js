@@ -450,5 +450,15 @@ describe('Recherche', () => {
 
       expect(réponse).toEqual('les caracteres sont : ')
     })
+
+    test('doit trin la chaîne', () => {
+      const demande = '  espaces ah ah  '
+
+      const réponse = Recherche.formateLaDemande({
+        demande,
+      })
+
+      expect(réponse).toEqual('espaces ah ah')
+    })
   })
 })

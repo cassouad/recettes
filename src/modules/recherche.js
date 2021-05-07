@@ -1,6 +1,7 @@
 const formateLaDemande = ({demande}) =>
   demande
     .toLocaleLowerCase()
+    .trim()
     .replace(/\s+/g, ' ')
     .replace(/[âà]/g, 'a')
     .replace(/[éèê]/g, 'e')

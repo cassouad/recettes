@@ -1,16 +1,17 @@
 import React from 'react'
 import Recherche from '../modules/recherche'
 
-const TitreDeLaRecette = ({
-  titre,
+const RésultatDUneRecherche = ({
+  résultat,
   demandeDeRecherche,
 }) => {
-  return transformeLeTitreEnÉlément(titre, demandeDeRecherche)
+  
+  return transformeLeRésultatEnÉlément(résultat, demandeDeRecherche)
 }
 
-export default TitreDeLaRecette
+export default RésultatDUneRecherche
 
-const transformeLeTitreEnÉlément = (titre, demandeDeRecherche) => {
+const transformeLeRésultatEnÉlément = (résultat, demandeDeRecherche) => {
   const styleDesLettresQuiMatch = {
     fontWeight: 'bold',
     textDecoration: 'underline',
@@ -20,7 +21,7 @@ const transformeLeTitreEnÉlément = (titre, demandeDeRecherche) => {
     demande: demandeDeRecherche,
   }).split('')
 
-  const recursive = (titre) => {
+  const recursive = (résultat) => {
     if (tableauDeLettres.length) {
       const lettre = tableauDeLettres.shift()
       const [
@@ -29,7 +30,7 @@ const transformeLeTitreEnÉlément = (titre, demandeDeRecherche) => {
         aprèsLaPremièreOccurrenceDeLaLettre,
       ] = Recherche.coupeLaChaîneAvecLaLettre({
         lettre,
-        chaîne: titre,
+        chaîne: résultat,
       })
       return (
         <React.Fragment>
@@ -45,9 +46,9 @@ const transformeLeTitreEnÉlément = (titre, demandeDeRecherche) => {
         </React.Fragment>
       )
     } else {
-      return <span>{titre}</span>
+      return <span>{résultat}</span>
     }
   }
 
-  return recursive(titre)
+  return recursive(résultat)
 }

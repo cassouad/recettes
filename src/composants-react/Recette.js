@@ -2,7 +2,7 @@ import React from 'react'
 
 import CarteBouton from './CarteBouton'
 import CarteAvecTitreBouton from './CarteAvecTitreBouton'
-import TitreDeLaRecette from './TitreDeLaRecette'
+import RésultatDUneRecherche from './RésultatDUneRecherche'
 import TableauDesIngredientsDeLaRecette from './TableauDesIngredientsDeLaRecette'
 import TableauDesInstructionsDeLaRecette from './TableauDesInstructionsDeLaRecette'
 import TableauDeTagsDeLaRecette from './TableauDeTagsDeLaRecette'
@@ -17,8 +17,8 @@ const Recette = ({
 }) => {
   const [laRecetteEstOuverte, setLaRecetteEstOuverte] = React.useState(false)
   const élémentDuTitreDeLaRecette = (
-    <TitreDeLaRecette
-      titre={recette.titre}
+    <RésultatDUneRecherche
+      résultat={recette.titre}
       demandeDeRecherche={demandeDeRecherche}
     />
   )
