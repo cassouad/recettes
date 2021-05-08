@@ -6,12 +6,20 @@ const ChampDeTexte = ({
   texteQuiSAfficheQuandPasDeValeur,
   style,
   focusElementQuandIlEstCréé = false,
+  enregistrerDesActions,
+  nettoyerDesActions,
 }) => {
   const ref = React.useRef(null)
 
   useFocusElementQuandIlEstCréé({
     ref,
     focusElementQuandIlEstCréé,
+  })
+
+  useGérerLesActions({
+    ref,
+    enregistrerDesActions,
+    nettoyerDesActions,
   })
 
   return (
@@ -38,4 +46,26 @@ const useFocusElementQuandIlEstCréé = ({
       ref.current.focus()
     }
   }, [ref, focusElementQuandIlEstCréé])
+}
+
+const useGérerLesActions = ({
+  ref,
+  enregistrerDesActions,
+  nettoyerDesActions,
+}) => {
+  React.useEffect(() => {
+    const focusLeChamp = () => ref.current.focus()
+    const blurLeChamp = () => ref.current.blur()
+
+    enregistrerDesActions?.({
+      focusLeChamp,
+      blurLeChamp,
+    })
+    return () => {
+      nettoyerDesActions?.({
+        focusLeChamp,
+        blurLeChamp,
+      })
+    }
+  }, [ref, enregistrerDesActions, nettoyerDesActions])
 }

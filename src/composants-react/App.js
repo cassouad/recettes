@@ -7,9 +7,15 @@ import TitrePrincipal from './TitrePrincipal'
 import TableauDeRecettes from './TableauDeRecettes'
 import TableauDeTousLesTagsDesRecettes from './TableauDeTousLesTagsDesRecettes'
 import TableauDeTagsAvecLesQuelsOnFiltre from './TableauDeTagsAvecLesQuelsOnFiltre'
+import Commande from './Commande'
 
+/// quand on scroll, on unfocus le champ de recherche.
 const App = () => {
   const [demandeDeRecherche, setDemandeDeRecherche] = React.useState('')
+  const [actionsDuChampDeRecherche, setActionsDuChampDeRecherche] = React.useState({})
+  const enregistrerDesActions = React.useCallback((actions) => {
+    setActionsDuChampDeRecherche(actions)
+  }, [])
   const [
     tableauDeTagsAvecLesQuelsOnFiltre,
     setTableauDeTagsAvecLesQuelsOnFiltre,
@@ -37,6 +43,7 @@ const App = () => {
     doitAfficherLeTableauDesRecettes,
     doitAfficherLeTableauDeTousLesTags,
     doitAfficherLeTagAvecLeQuelOnFiltre,
+    doitAfficherLaCommande,
   } = calculeLesDoitAfficher({
     demandeDeRecherche,
     tableauDeTagsAvecLesQuelsOnFiltre,
@@ -69,6 +76,7 @@ const App = () => {
           <ChampDeRechercheDeRecette
             demandeDeRecherche={demandeDeRecherche}
             setDemandeDeRecherche={setDemandeDeRecherche}
+            enregistrerDesActions={enregistrerDesActions}
           />
         </div>
         {doitAfficherLeTagAvecLeQuelOnFiltre && <div style={{
@@ -83,6 +91,17 @@ const App = () => {
       <div style={{
         padding: '0px 20px 20px 20px'
       }}>
+        {doitAfficherLaCommande && <div style={{
+          paddingBottom: padding,
+        }}>
+          <Commande
+            nom='Filtrer par tag'
+            commande={() => {
+              setDemandeDeRecherche('#')
+              actionsDuChampDeRecherche.focusLeChamp()
+            }}
+          />
+        </div>}
         {doitAfficherLeTableauDesRecettes && <TableauDeRecettes
           tableauDeRecettes={tableauDeRecettes}
           demandeDeRecherche={demandeDeRecherche}
@@ -121,10 +140,13 @@ const calculeLesDoitAfficher = ({
 
   const doitAfficherLeTagAvecLeQuelOnFiltre = tableauDeTagsAvecLesQuelsOnFiltre[0] !== undefined
 
+  const doitAfficherLaCommande = demandeDeRecherche === ''
+
   return {
     doitAfficherLeTableauDeTousLesTags,
     doitAfficherLeTableauDesRecettes,
     doitAfficherLeTagAvecLeQuelOnFiltre,
+    doitAfficherLaCommande,
   }
 }
 

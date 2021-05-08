@@ -4,6 +4,8 @@ import ChampDeTexte from './ChampDeTexte'
 const ChampDeRechercheDeRecette = ({
   demandeDeRecherche,
   setDemandeDeRecherche,
+  enregistrerDesActions,
+  nettoyerDesActions,
 }) => {
   return (
     <ChampDeTexte
@@ -19,6 +21,8 @@ const ChampDeRechercheDeRecette = ({
         borderRadius: '10px',
       }}
       texteQuiSAfficheQuandPasDeValeur={'recherchez une recette !'}
+      enregistrerDesActions={enregistrerDesActions}
+      nettoyerDesActions={nettoyerDesActions}    
     />
   )
 }
