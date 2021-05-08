@@ -6,7 +6,6 @@ import ChampDeRechercheDeRecette from './ChampDeRechercheDeRecette'
 import TitrePrincipal from './TitrePrincipal'
 import TableauDeRecettes from './TableauDeRecettes'
 import TableauDeTousLesTagsDesRecettes from './TableauDeTousLesTagsDesRecettes'
-import TagAvecLeQuelOnFiltre from './TagAvecLeQuelOnFiltre'
 import TableauDeTagsAvecLesQuelsOnFiltre from './TableauDeTagsAvecLesQuelsOnFiltre'
 
 const App = () => {
