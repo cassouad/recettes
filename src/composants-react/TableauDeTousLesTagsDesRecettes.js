@@ -7,6 +7,7 @@ import RésultatDUneRecherche from './RésultatDUneRecherche'
 const TableauDeTousLesTagsDesRecettes = ({
   tableauDeRecettes,
   demandeDeRecherche,
+  tableauDeTagsAvecLesQuelsOnFiltre,
   couleurPrincipale,
   quandOnCliqueSurUnTagFaire,
 }) => {
@@ -17,6 +18,7 @@ const TableauDeTousLesTagsDesRecettes = ({
   tableauDInfosSurUnTag = filtreTableauDInfosSurUnTag({
     tableauDInfosSurUnTag,
     demandeDeRecherche,
+    tableauDeTagsAvecLesQuelsOnFiltre,
   })
 
   tableauDInfosSurUnTag = trieTableauDInfosSurUnTag({
@@ -69,12 +71,19 @@ const transformeDesRecettesEnInfosSurUnTag = ({ tableauDeRecettes }) => {
   }, {}))
 }
 
-const filtreTableauDInfosSurUnTag = ({ tableauDInfosSurUnTag, demandeDeRecherche }) => {
+const filtreTableauDInfosSurUnTag = ({
+  tableauDInfosSurUnTag,
+  demandeDeRecherche,
+  tableauDeTagsAvecLesQuelsOnFiltre,
+}) => {
   return tableauDInfosSurUnTag.filter((infoSurUnTag) => {
-    return Recherche.estCeQueLaChaîneCorrespondÀLaDemande({
-      demande: demandeDeRecherche,
-      chaîne: infoSurUnTag.tagAvecDièse,
-    })
+    return (
+      Recherche.estCeQueLaChaîneCorrespondÀLaDemande({
+        demande: demandeDeRecherche,
+        chaîne: infoSurUnTag.tagAvecDièse,
+      }) &&
+      tableauDeTagsAvecLesQuelsOnFiltre.includes(infoSurUnTag.tagSansDièse) === false
+    )
   })
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import CarteBouton from './CarteBouton'
-import CarteAvecTitreBouton from './CarteAvecTitreBouton'
-import RésultatDUneRecherche from './RésultatDUneRecherche'
+import CarteBouton from '../CarteBouton'
+import CarteAvecTitreBouton from '../CarteAvecTitreBouton'
+import RésultatDUneRecherche from '../RésultatDUneRecherche'
 import TableauDesIngredientsDeLaRecette from './TableauDesIngredientsDeLaRecette'
 import TableauDesInstructionsDeLaRecette from './TableauDesInstructionsDeLaRecette'
 import TableauDeTagsDeLaRecette from './TableauDeTagsDeLaRecette'

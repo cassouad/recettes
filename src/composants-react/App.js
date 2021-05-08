@@ -7,21 +7,27 @@ import TitrePrincipal from './TitrePrincipal'
 import TableauDeRecettes from './TableauDeRecettes'
 import TableauDeTousLesTagsDesRecettes from './TableauDeTousLesTagsDesRecettes'
 import TagAvecLeQuelOnFiltre from './TagAvecLeQuelOnFiltre'
+import TableauDeTagsAvecLesQuelsOnFiltre from './TableauDeTagsAvecLesQuelsOnFiltre'
 
 const App = () => {
   const [demandeDeRecherche, setDemandeDeRecherche] = React.useState('')
   const [
-    tagAvecLeQuelOnFiltre,
-    setTagAvecLeQuelOnFiltre,
-  ] = React.useState('')
+    tableauDeTagsAvecLesQuelsOnFiltre,
+    setTableauDeTagsAvecLesQuelsOnFiltre,
+  ] = React.useState([])
 
   const quandOnCliqueSurUnTagFaire = ({tag}) => {
-    setTagAvecLeQuelOnFiltre(tag)
+    setTableauDeTagsAvecLesQuelsOnFiltre([
+      ...tableauDeTagsAvecLesQuelsOnFiltre,
+      tag,
+    ])
     setDemandeDeRecherche('')
     window.scrollTo(0, 0)
   }
-  const quandOnCliqueSurLeTagAvecLeQuelOnFiltre = () => {
-    setTagAvecLeQuelOnFiltre('')
+  const quandOnCliqueSurUnTagAvecLeQuelOnFiltre = ({tag}) => {
+    setTableauDeTagsAvecLesQuelsOnFiltre(
+      tableauDeTagsAvecLesQuelsOnFiltre.filter(tagCourant => tagCourant !== tag)
+    )
   }
 
   const padding = '10px'
@@ -34,7 +40,12 @@ const App = () => {
     doitAfficherLeTagAvecLeQuelOnFiltre,
   } = calculeLesDoitAfficher({
     demandeDeRecherche,
-    tagAvecLeQuelOnFiltre,
+    tableauDeTagsAvecLesQuelsOnFiltre,
+  })
+
+  const tableauDeRecettes = filtreTableauDeRecettes({
+    tableauDeRecettes: recettes,
+    tableauDeTagsAvecLesQuelsOnFiltre,
   })
 
   return (
@@ -64,9 +75,9 @@ const App = () => {
         {doitAfficherLeTagAvecLeQuelOnFiltre && <div style={{
           paddingBottom: padding,
         }}>
-          <TagAvecLeQuelOnFiltre
-            tag={tagAvecLeQuelOnFiltre}
-            quandOnCliqueFaire={quandOnCliqueSurLeTagAvecLeQuelOnFiltre}
+          <TableauDeTagsAvecLesQuelsOnFiltre
+            tableauDeTagsAvecLesQuelsOnFiltre={tableauDeTagsAvecLesQuelsOnFiltre}
+            quandOnCliqueSurUnTagAvecLeQuelOnFiltre={quandOnCliqueSurUnTagAvecLeQuelOnFiltre}
           />
         </div>}
       </div>
@@ -74,16 +85,17 @@ const App = () => {
         padding: '0px 20px 20px 20px'
       }}>
         {doitAfficherLeTableauDesRecettes && <TableauDeRecettes
-          tableauDeRecettes={recettes}
+          tableauDeRecettes={tableauDeRecettes}
           demandeDeRecherche={demandeDeRecherche}
-          tagAvecLeQuelOnFiltre={tagAvecLeQuelOnFiltre}
+          tableauDeTagsAvecLesQuelsOnFiltre={tableauDeTagsAvecLesQuelsOnFiltre}
           couleurPrincipale={couleurPrincipale}
           couleurDeArrièrePlan={couleurDeArrièrePlan}
           stickyTopPourLeTitreDesRecettes={'121px'}
         />}
         {doitAfficherLeTableauDeTousLesTags && <TableauDeTousLesTagsDesRecettes
-          tableauDeRecettes={recettes}
+          tableauDeRecettes={tableauDeRecettes}
           demandeDeRecherche={demandeDeRecherche}
+          tableauDeTagsAvecLesQuelsOnFiltre={tableauDeTagsAvecLesQuelsOnFiltre}
           couleurPrincipale={couleurPrincipale}
           quandOnCliqueSurUnTagFaire={quandOnCliqueSurUnTagFaire}
         />}
@@ -96,7 +108,7 @@ export default App
 
 const calculeLesDoitAfficher = ({
   demandeDeRecherche,
-  tagAvecLeQuelOnFiltre,
+  tableauDeTagsAvecLesQuelsOnFiltre,
 }) => {
   let doitAfficherLeTableauDesRecettes
   let doitAfficherLeTableauDeTousLesTags
@@ -108,11 +120,22 @@ const calculeLesDoitAfficher = ({
     doitAfficherLeTableauDeTousLesTags = false
   }
 
-  const doitAfficherLeTagAvecLeQuelOnFiltre = tagAvecLeQuelOnFiltre !== ''
+  const doitAfficherLeTagAvecLeQuelOnFiltre = tableauDeTagsAvecLesQuelsOnFiltre[0] !== undefined
 
   return {
     doitAfficherLeTableauDeTousLesTags,
     doitAfficherLeTableauDesRecettes,
     doitAfficherLeTagAvecLeQuelOnFiltre,
   }
+}
+
+const filtreTableauDeRecettes = ({
+  tableauDeRecettes,
+  tableauDeTagsAvecLesQuelsOnFiltre,
+}) => {
+  return tableauDeRecettes.filter((recette) => {
+    return tableauDeTagsAvecLesQuelsOnFiltre.reduce((acc, tag) => {
+      return acc && recette.tableauDeTags.includes(tag)
+    }, true)    
+  })
 }
