@@ -9,7 +9,6 @@ import TableauDeTousLesTagsDesRecettes from './TableauDeTousLesTagsDesRecettes'
 import TableauDeTagsAvecLesQuelsOnFiltre from './TableauDeTagsAvecLesQuelsOnFiltre'
 import Commande from './Commande'
 
-/// quand on scroll, on unfocus le champ de recherche.
 const App = () => {
   const [demandeDeRecherche, setDemandeDeRecherche] = React.useState('')
   const [actionsDuChampDeRecherche, setActionsDuChampDeRecherche] = React.useState({})
@@ -28,11 +27,16 @@ const App = () => {
     ])
     setDemandeDeRecherche('')
     window.scrollTo(0, 0)
+    actionsDuChampDeRecherche.focusLeChamp()
   }
   const quandOnCliqueSurUnTagAvecLeQuelOnFiltre = ({tag}) => {
     setTableauDeTagsAvecLesQuelsOnFiltre(
       tableauDeTagsAvecLesQuelsOnFiltre.filter(tagCourant => tagCourant !== tag)
     )
+  }
+  const quandOnCliqueSurLaCommandeFiltrerParTag = () => {
+    setDemandeDeRecherche('#')
+    actionsDuChampDeRecherche.focusLeChamp()
   }
 
   const padding = '10px'
@@ -96,10 +100,7 @@ const App = () => {
         }}>
           <Commande
             nom='Filtrer par tag'
-            commande={() => {
-              setDemandeDeRecherche('#')
-              actionsDuChampDeRecherche.focusLeChamp()
-            }}
+            commande={quandOnCliqueSurLaCommandeFiltrerParTag}
           />
         </div>}
         {doitAfficherLeTableauDesRecettes && <TableauDeRecettes
