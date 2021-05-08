@@ -4,9 +4,19 @@ import ChampDeTexte from './ChampDeTexte'
 const ChampDeRechercheDeRecette = ({
   demandeDeRecherche,
   setDemandeDeRecherche,
-  enregistrerDesActions,
+  enregistrerDesActions: enregistrerDesActionsDuParent,
   nettoyerDesActions,
 }) => {
+  const [actions, setActions] = React.useState({})
+  const enregistrerDesActions = React.useCallback((actions) => {
+    setActions(actions)
+    enregistrerDesActionsDuParent(actions)
+  }, [enregistrerDesActionsDuParent])
+
+  useQuandSurMobileOnScrollOnEnlèveLeFocus({
+    actions,
+  })
+
   return (
     <ChampDeTexte
       valeur={demandeDeRecherche}
@@ -28,3 +38,17 @@ const ChampDeRechercheDeRecette = ({
 }
 
 export default ChampDeRechercheDeRecette
+
+const useQuandSurMobileOnScrollOnEnlèveLeFocus = ({
+  actions,
+}) => {
+  React.useEffect(() => {
+    const onTouchmove = () => {
+      actions.blurLeChamp?.()
+    }
+    window.addEventListener('touchmove', onTouchmove)
+    return () => {
+      window.removeEventListener('touchmove', onTouchmove)
+    }
+  })
+}
