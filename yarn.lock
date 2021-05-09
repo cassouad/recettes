@@ -6824,6 +6824,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"jsonschema@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "jsonschema@npm:1.4.0"
+  checksum: d2abc356b4b65faacd8ca55beb15fef8c8c2129d3f67a86097b737bf3195a2eb4303623d34a4ec0e830687b681fd517bca2e47b28f6660fa9553126627876c74
+  languageName: node
+  linkType: hard
+
 "jsprim@npm:^1.2.2":
   version: 1.4.1
   resolution: "jsprim@npm:1.4.1"
@@ -8901,6 +8908,7 @@ resolve@^2.0.0-next.3:
     eslint-plugin-react-hooks: ^4.2.0
     html-webpack-plugin: ^5.3.1
     jest: ^26.6.3
+    jsonschema: ^1.4.0
     react: ^17.0.2
     react-dom: ^17.0.2
     webpack: ^5.36.2

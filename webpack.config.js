@@ -42,10 +42,20 @@ module.exports = (env, options) => {
       }),
       {
         apply: (compiler) => {
-          compiler.hooks.watchRun.tapPromise('génération du fichier recettes/index.js', async () => {
+          compiler.hooks.beforeCompile.tapPromise('génération du fichier recettes/index.js', async () => {
             const { stderr } = await exec('node ./src/recettes/indexGénérateur.js')
             if (stderr) {
               console.log(stderr)
+            }
+          })
+        }
+      },
+      {
+        apply: (compiler) => {
+          compiler.hooks.beforeCompile.tapPromise('validation des jsons des recettes', async () => {
+            const { stderr } = await exec('yarn node ./src/recettes/valideTousLesJsons.js')
+            if (stderr) {
+              throw new Error(stderr)
             }
           })
         }
