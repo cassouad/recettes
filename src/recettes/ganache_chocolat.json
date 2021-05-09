@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Bonne Maman",
-  "auteur": "",
+  "titre": "Ganache pour bûche de Noël",
+  "auteur": "Bonne Maman",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""
