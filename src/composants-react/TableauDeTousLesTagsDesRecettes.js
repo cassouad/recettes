@@ -3,6 +3,7 @@ import React from 'react'
 import CarteBouton from './CarteBouton'
 import Recherche from '../modules/recherche'
 import RésultatDUneRecherche from './RésultatDUneRecherche'
+import PasDeRésultats from './PasDeRésultats'
 
 const TableauDeTousLesTagsDesRecettes = ({
   tableauDeRecettes,
@@ -25,29 +26,21 @@ const TableauDeTousLesTagsDesRecettes = ({
     tableauDInfosSurUnTag,
   })
 
+  const tableauDElements = calculeTableauDElements({
+    tableauDInfosSurUnTag,
+    couleurPrincipale,
+    demandeDeRecherche,
+    quandOnCliqueSurUnTagFaire,  
+  })
+
   return (
     <div>
-      {tableauDInfosSurUnTag.map((infoSurUnTag, index) => {
-        let paddingBottom
-        if (index === tableauDeRecettes.length - 1) {
-          paddingBottom = '0px'
-        } else {
-          paddingBottom = '10px'
-        }
-
-        return (
-          <div key={infoSurUnTag.tagAvecDièse} style={{
-            paddingBottom,
-          }}>
-            <Tag
-              infoSurUnTag={infoSurUnTag}
-              couleurPrincipale={couleurPrincipale}
-              demandeDeRecherche={demandeDeRecherche}
-              quandOnCliqueFaire={quandOnCliqueSurUnTagFaire}
-            />
-          </div>
-        )
-      })}
+      {tableauDElements}
+      {tableauDElements.length === 0 &&
+        <PasDeRésultats>
+          Aucun tag ne correspond à votre recherche.  
+        </PasDeRésultats>
+      }
     </div>
   )
 }
@@ -96,6 +89,37 @@ const trieTableauDInfosSurUnTag = ({ tableauDInfosSurUnTag }) => {
   }
 
   return copieDuTableauDInfosSurUnTag.sort(compareDeuxInfosSurUnTag)
+}
+
+const calculeTableauDElements = ({
+  tableauDInfosSurUnTag,
+  couleurPrincipale,
+  demandeDeRecherche,
+  quandOnCliqueSurUnTagFaire,
+}) => {
+  return (
+    tableauDInfosSurUnTag.map((infoSurUnTag, index) => {
+      let paddingBottom
+      if (index === tableauDInfosSurUnTag.length - 1) {
+        paddingBottom = '0px'
+      } else {
+        paddingBottom = '10px'
+      }
+
+      return (
+        <div key={infoSurUnTag.tagAvecDièse} style={{
+          paddingBottom,
+        }}>
+          <Tag
+            infoSurUnTag={infoSurUnTag}
+            couleurPrincipale={couleurPrincipale}
+            demandeDeRecherche={demandeDeRecherche}
+            quandOnCliqueFaire={quandOnCliqueSurUnTagFaire}
+          />
+        </div>
+      )
+    })
+  )
 }
 
 const Tag = ({

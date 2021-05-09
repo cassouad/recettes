@@ -2,6 +2,7 @@ import React from 'react'
 
 import Recette from './Recette'
 import Recherche from '../modules/recherche'
+import PasDeRésultats from './PasDeRésultats'
 
 const TableauDeRecettes = ({
   tableauDeRecettes,
@@ -29,14 +30,9 @@ const TableauDeRecettes = ({
     <div>
       {tableauDElements}
       {tableauDElements.length === 0 &&
-        <div style={{
-          background: 'hsl(0deg 0% 93%)',
-          padding: '10px',
-          borderRadius: '10px',
-          border: '1px dashed black',
-        }}>
+        <PasDeRésultats>
           Aucune recette ne correspond à votre recherche.
-        </div>
+        </PasDeRésultats>
       }
     </div>
   )
