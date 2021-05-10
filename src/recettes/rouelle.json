@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Rouelle à la saintongeaise",
-  "auteur": "",
+  "titre": "Rouelle de veau à la saintongeaise",
+  "auteur": "Patrice",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""
@@ -47,6 +47,7 @@
     } 
   ],
   "tableauInstructions": [
+    "Faire une farce composé :",
     "Hachés crus : oseille, persil.",
     "Ajouter le reste pour faire une farce [Il faut que cela fasse une pâte onctueuse (ajouter de l'huile)].",
     "Saler, poivrer la rouelle.",

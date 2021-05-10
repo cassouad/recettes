@@ -11,18 +11,18 @@
   ],
   "tableauIngredients": [
     {
-      "quantité": 0,
-      "unité": "",
+      "quantité": 0.5,
+      "unité": "verre(s)",
       "nom": "lait"
     },
     {
-      "quantité": 0,
-      "unité": "",
+      "quantité": 80,
+      "unité": "g",
       "nom": "beurre"
     },
     {
-      "quantité": 0,
-      "unité": "",
+      "quantité": 2,
+      "unité": "c. à soupe",
       "nom": "farine"
     },
     {
@@ -44,7 +44,7 @@
   "tableauInstructions": [
     "Dans une casserole, faire fondre le beurre.",
     "Rajouter immédiatement la farine et remuer. (le mélange doit-être une sorte de crème).",
-    "Après un petit instant, rajouter le lait et remuer (rajouiter éventuellement du lmait si la sauce n'est pas assez liquide).",
+    "Après un petit instant, rajouter le lait et remuer (rajouter éventuellement du lait si la sauce n'est pas assez liquide).",
     "Enfin rajouter le sel, poivre et noix de muscade. Remuer.",
     "Facultatif : ajouter de la crème et/ou du parmesan."
   ]

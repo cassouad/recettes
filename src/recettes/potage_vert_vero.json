@@ -1,6 +1,6 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Potage : Velouté vert ou Délice de Matthieu",
+  "titre": "Velouté vert ou Délice de Matthieu",
   "auteur": "Véronique",
   "pour": {
     "quantité": 0,
@@ -19,7 +19,7 @@
     {
       "quantité": 0,
       "unité": "",
-      "nom": "ou salade scarole (2 grosses poignées)"
+      "nom": "salade scarole (2 grosses poignées)"
     },
     {
       "quantité": 0,

@@ -12,8 +12,8 @@
   ],
   "tableauIngredients": [
     {
-      "quantité": 0.5,
-      "unité": "l",
+      "quantité": 50,
+      "unité": "cl",
       "nom": "lait"
     },
     {

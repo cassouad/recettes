@@ -1,0 +1,57 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Flan au citron",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 50,
+      "unité": "cl",
+      "nom": "lait"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 75,
+      "unité": "g",
+      "nom": "sucre poudre"
+    },
+    {
+      "quantité": 40,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire une pâte brisée.",
+    "Garniture intérieure :",
+    "Râper le citron (zeste).",
+    "Faire bouillir le lait avec le zeste. Laisser refroidir.",
+    "Mélanger la farine avec le sucre. Delayer-la avec les jaunes d'oeufs.",
+    "Ajouter le lait sans le zeste",
+    "Verser le tout dans le fond de la tarte.",
+    "Mettre au four (chaleur moyenne thermostat 5 ou 180°)",
+    "Laisser cuire 20 à 25mn.",
+    "Faire une meringue et la mettre sur le flan.",
+    "Mélanger la farine avec le sucre. Delayez-la avec les 4 jaunes d'oeufs.",
+    "Meringue : (2 blancs, 75g sucre et 20g de farine)",
+    "Battre les blancs en neige puis ajouter le sucre en continuant à battre jusqu'à ce que les blancs deviennent nacrés.",
+    "Garnir le flan cuit.",
+    "Saupoudrer de sucre glace à four très doux (2) 20 à 25mn juste pour blondir la meringue."
+  ]
+}

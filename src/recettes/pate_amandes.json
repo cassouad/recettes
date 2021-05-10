@@ -1,0 +1,49 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pâte d'amandes",
+  "auteur": "Bonne Maman",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "pâtes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "poudre d'amandes"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeuf(s) entier(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "jaune d'oeuf"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "rhum (facultatif)"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger beurre mou + sucre.",
+    "Puis ajouter les oeufs, les amandes, rhum ou le cognac",
+  ]
+}
