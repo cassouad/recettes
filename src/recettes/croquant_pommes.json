@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Croquant aux pommes",
-  "auteur": "",
+  "auteur": "Monique (oncle Louis)",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""

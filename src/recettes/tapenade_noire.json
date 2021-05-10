@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Tapenade olives noires",
-  "auteur": "",
+  "auteur": "Armelle",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""
@@ -17,7 +17,7 @@
       "nom": "olives noires (à denoyauter grecques)"
     },
     {
-      "quantité": 2,
+      "quantité": 3,
       "unité": "c. à soupe",
       "nom": "câpres"
     },
@@ -29,10 +29,11 @@
     {
       "quantité": 0,
       "unité": "",
-      "nom": "huile d'olive pour consistance désirée"
+      "nom": "huile d'olive"
     }
   ],
   "tableauInstructions": [
-    "Mélanger."
+    "Mélanger.",
+    "Ajouter de l'huile d'olive pour consistance désirée."
   ]
 }

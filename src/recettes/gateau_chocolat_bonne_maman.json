@@ -1,0 +1,52 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau Chocolat Bonne Maman",
+  "auteur": "Bonne Maman",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 70,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "chocolat noir"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "sachet(s)",
+      "nom": "levure"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire fondre le beurre et le chocolat avec une cuillère à soupe d'eau à feu très doux.",
+    "Dans un saladier, mélanger le sucre, la farine et la levure avec le chocolat et le beurre.",
+    "Ajouter le jaune d'oeuf puis le blanc battu en neige.",
+    "Four 4 ‒ 5 ou 180° pendant 30mn Démouler aussitôt."
+  ]
+}

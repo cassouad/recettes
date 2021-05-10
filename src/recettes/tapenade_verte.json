@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Tapenade olives vertes",
-  "auteur": "",
+  "auteur": "Armelle",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""

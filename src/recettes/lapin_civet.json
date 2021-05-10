@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Civet de lapin",
-  "auteur": "",
+  "auteur": "Bonne Maman",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""

@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Crème anglaise",
-  "auteur": "",
+  "auteur": "Bonne Maman",
   "pour": {
     "quantité": 10,
     "quiOuQuoi": "personne(s)"
@@ -17,17 +17,26 @@
       "nom": "lait"
     },
     {
-      "quantité": 200,
-      "unité": "g",
+      "quantité": 6,
+      "unité": "c. à soupe",
       "nom": "sucre"
     },
     {
-      "quantité": 8,
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "farine"
+    },
+    {
+      "quantité": 3,
       "unité": "",
       "nom": "jaune(s) d'oeufs"
     }
   ],
   "tableauInstructions": [
-    "Mélanger le tout"
+    "Mélanger les oeufs, le sucre et la farine dans une casserole.",
+    "Faire bouillir le lait.",
+    "L'ajouter peu à peu en mélangeant.",
+    "Refaire chauffer en battant.",
+    "Dès que cela bout, sortir et mettre la casserole dans l'eau froide."
   ]
 }

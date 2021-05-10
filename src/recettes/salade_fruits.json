@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Salade de fruits",
-  "auteur": "",
+  "auteur": "Bonne Maman",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""
