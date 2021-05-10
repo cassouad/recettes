@@ -1,0 +1,47 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tarte aux kiwis",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "kirsch"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "kiwis"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "confiture abricot"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "cerise"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire une pâte sablée.",
+    "Faire une crème patisqsière.",
+    "Beurrer un moule à tarte.",
+    "Préparer une crème patissière parfumée au kirsch, garnir la tarte avec la crème et mettre au four 8 pendant 15 minutes.",
+    "Sortir la tarte une fois cuite et laisser refroidir.",
+    "Disposez alors des tranches de kiwis épluchés de façon à recouvrir toute la tarte, et napper ensuite avec de la marmelade blonde d'abricot.",
+    "Poser une cerise confite au milieu de la tarte.",
+    "Servir frais.",
+    "Four 8 pendant 15 minutes."
+  ]
+}

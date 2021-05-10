@@ -1,0 +1,48 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Truffes au chocolat",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "chocolat"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillée"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "jaunes d'oeufs"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sucre glace ou chocolat granulé"
+    } 
+  ],
+  "tableauInstructions": [
+    "Faire fondre le chocolat avec très peu d'eau au bain-Marie.",
+    "Quand le chocolat est fondu, ajouter le beurre petit à petit.",
+    "Retirer du feu une fois le mélange.",
+    "Ajouter les jaunes d'oeufs et le sucre vanillée.",
+    "Remuer continuellement durant cette opération avec une cuillère en bois.",
+    "Laisser refroidir.",
+    "Faites des boules et les rouler dans du chocolat granulé ou sucre glace."
+  ]
+}

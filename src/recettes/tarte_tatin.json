@@ -1,0 +1,44 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tarte Tatin",
+  "auteur": "Catherine",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 2,
+      "unité": "kg",
+      "nom": "pommes"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillée"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire fondre le beurre et les 3/4 du sucre.",
+    "Faire cuire les pommes coupées en morceaux dedans pendant 1h1/2.",
+    "Faire une pâte sucrée.",
+    "L'aplatir et la mettre sur les pommes.",
+    "Au four pendant 30mn à 180°.",
+    "Pour la démouler, faire chauffer le fond du moule puis retourner le moule sur un plat."
+  ]
+}

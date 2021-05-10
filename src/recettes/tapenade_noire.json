@@ -1,0 +1,38 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tapenade olives noires",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "apéritifs"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "olives noires (à denoyauter grecques)"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "câpres"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "selon le goût : ail, anchois"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olive pour consistance désirée"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger."
+  ]
+}

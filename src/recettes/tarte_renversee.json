@@ -1,0 +1,42 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tarte renversée",
+  "auteur": "Tante Monique",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "pommes"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre les pommes coupées en moyen quartier dans le moule en les disposant pour tapisser le fond.",
+    "Malaxer avec les doigts le mélange farine, sucre, beurre sans oublier la pincée de sel.",
+    "La disposer sur les pommes avec les doigts aussi.",
+    "Faire dorer au four une 1/2 heure ou plus à 6."
+  ]
+}

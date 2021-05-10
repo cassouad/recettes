@@ -1,0 +1,60 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tarte aux oignons",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "verre(s)",
+      "nom": "eau (petits)"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "oignons"
+    },
+    {
+      "quantité": 20,
+      "unité": "cl",
+      "nom": "crème fraîche épaisse"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "anchois"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire une pâte brisée.",
+    "Dans une poële, couper les oignons, émincer-les.",
+    "Faire cuire à petit feu jusqu'à ce qu'ils blondissent.",
+    "Saler peu, poivrer.",
+    "Puis mélanger-les avec la crème fraîche.",
+    "Laisser épaissir.",
+    "Etaler sur la pâte.",
+    "Faire avec des anchois une étoile en décoration.",
+    "Mettre au four à 250° pendant 20mn puis éteindre. Laisser dans le four jusqu'à servir."
+  ]
+}

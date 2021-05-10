@@ -1,0 +1,66 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tabboulé libanais",
+  "auteur": "site Aractingi",
+  "pour": {
+    "quantité": 10,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "bouquet(s)",
+      "nom": "persil frisé"
+    },
+    {
+      "quantité": 3,
+      "unité": "bouquet(s)",
+      "nom": "persil plat"
+    },
+    {
+      "quantité": 1,
+      "unité": "bouquet(s)",
+      "nom": "menthe verte"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "tomates mûres mais fermes"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "oignons verts"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "verre(s)",
+      "nom": "blé concassé fin ou 'Bourghol' (à l'américaine 'bulghur')"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "citrons (le jus)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel"
+    }
+  ],
+  "tableauInstructions": [
+    "La veille, effeuiller le persil et la menthe, les laver très bien, les sécher, d'abord avec l'essoreuse et ensuite avec le papier absorbant. Bien séchés, ils se conservent quelques jours au réfrigérateur.",
+    "Laver et tremper le blé concassé pendant 30 mn. Puis l'essorer.",
+    "Hacher menu le persil et la menthe verte. Les verser dans un grand récipient, y incorporer le blé concassé, puis l'oignon haché fin et la tomate coupée en petits dés.",
+    "Assaisonner et ajuster le goût.",
+    "Manger avec des feuilles de laitues romaines."
+  ]
+}

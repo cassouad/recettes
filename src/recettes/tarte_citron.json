@@ -1,0 +1,48 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tarte au citron",
+  "auteur": "Catherine",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "moule de diamètre 26 cm"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "citrons (gros)"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire une tarte sablée.",
+    "L'intérieur :",
+    "Travailler les oeufs + sucre + zestes finement rapés + jus d'un demi citron.",
+    "Lorsque le sucre est fondu, ajouter le beurre fondu tiède.",
+    "Gouter, ajouter le reste du jus de citron (au gout de chacun).",
+    "Verser dans le fond de la tarte.",
+    "Si l'on veut couvrir de meringue :",
+    "2 blancs battus en neige très fermedans lequel on rajoute 100g de sucre semoule ( 40 à 50g de sucre par oeuf) et une pincée de sel.",
+    "Faites blondir à feu doux une 10aine de minutes.",
+    "Cuisson 30 mn (four 5‒6 ou 180°)."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tarte amandine aux poires",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "crème patissière"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre glace"
+    },
+    {
+      "quantité": 110,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "poudre d'amandes"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 15,
+      "unité": "g",
+      "nom": "maïzena"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "rhum (petit)"
+    }
+  ],
+  "tableauInstructions": [
+    "Pétrir beurre à la fourchette.",
+    "Puis ajouter les amandes + sucre + l'oeuf + le blanc + maïzena + rhum.",
+    "Mélanger à la crème patissière.",
+    "Garnir le fond de la tarte puis mettre les poires coupées en 2."
+  ]
+}

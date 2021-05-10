@@ -1,0 +1,59 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Taboulé",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "semoule moyenne couscous"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "tomates hachés"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "gros oignons hachés"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "persil haché et même mixer"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "menthe"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "huile (d'olive)"
+    },
+    {
+      "quantité": 10,
+      "unité": "feuille(s)",
+      "nom": "basilic coupées très fines"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout.",
+    "Laisser reposer une nuit.",
+    "On peut rajouter avant de servir des tomates et des poivrons hachés."
+  ]
+}

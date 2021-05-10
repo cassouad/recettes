@@ -1,0 +1,130 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Blanquette de veau",
+  "auteur": "",
+  "pour": {
+    "quantité": 8,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "épaule ou de sauté de veau,"
+    },
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "champignons de Paris"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "poireau"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "branche de céleri"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "échalote"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "jaunes d'oeuf"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 70,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "crème fraîche allégée à 5% de MG"
+    },
+    {
+      "quantité": 4,
+      "unité": "c. à soupe",
+      "nom": "vin blanc sec"
+    },
+    {
+      "quantité": 1,
+      "unité": "bouquet(s)",
+      "nom": "garni (persil, thym, laurier)"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "clous de girofle"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "brins de persil plat"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Pelez les carottes, l'ail, l'échalote et l'oignon.",
+    "Piquez l'oignon avec les clous de girofle et coupez-le en 4.",
+    "Coupez l'échalote en deux et hachez l'ail.",
+    "Tranchez les carottes, le céleri et les blancs de poireau en rondelles.",
+    "Nettoyez et émincez les champignons grossièrement.",
+    "Tranchez la viande en morceaux d'environ 70 g.",
+    "Dans une cocotte, une marmite ou un faitout, portez à ébullition 2 l d'eau.",
+    "Puis plongez-y les morceaux de viande pendant maximum 1 min pour les blanchir (les débarrasser de leurs impuretés et de leur amidon).",
+    "Videz alors le contenu de la cocotte dans une passoire afin de jeter l'eau de cuisson tout en récupérant les morceaux de veau.",
+    "Passez la viande sous l'eau froide, égouttez-la, puis remettez-la dans le fond de la cocotte. (Etape non indispensable)",    
+    "Ensuite, ajoutez l'oignon, l'échalote, l'ail, le poireau, le céleri, les carottes et bouquet garni. Salez et poivrez.",
+    "Mouillez avec le vin puis ajoutez de l'eau de façon à immerger la viande et les légumes.",
+    "Couvrez, portez à ébullition, puis baissez le feu et laissez mijoter environ 1h30 à petits frémissements.",    
+    "Pendant la cuisson de la viande, faites revenir dans une poêle les champignons (environ 10 min à feu moyen), avec 20 g de beurre et les 3/4 du jus du citron.",
+    "Puis préparez un roux blond : dans une casserole, faites fondre le reste de beurre, saupoudrez-le avec la farine, mélangez vivement le tout au fouet jusqu'à ce que le beurre ait été entièrement absorbé et que le tout brunisse légèrement, puis stoppez la cuisson et laissez refroidir.",
+    "Une fois que la viande est cuite, versez le contenu de la cocotte dans une fine passoire de façon à filtrer le bouillon de cuisson dans un saladier.",
+    "Rallumez le feu sous la casserole contenant le roux.",
+    "Versez le bouillon en plusieurs fois et fouettez en permanence pour y délayer le roux, faire épaissir la sauce et la porter à ébullition.",
+    "Pour finir, remettez la viande et les légumes (sans les aromates) dans la cocotte.,",
+    "Ajoutez les champignons poêlés.",
+    "Mélangez le tout à la sauce et réchauffez pendant 10 à 15 min.",
+    "Au moment de servir, mélangez la crème et les jaunes d'oeuf.",
+    "Puis incorporez ce mélange à la sauce, en mélangeant sans arrêt pour ne pas laisser bouillir.",
+    "Parfumez avec le reste du jus de citron, puis disposez dans un plat creux et décorez avec les brins de persil."
+  ]
+}

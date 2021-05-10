@@ -1,0 +1,55 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Zallouk d'aubergines",
+  "auteur": "Catherine",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "légumes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "aubergines"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "persil haché"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "ail frais"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cumin"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "paprika doux"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "citrons"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre les aubergines en morceaux à blanchir avec sel, citron, tête d'ail non décortiquée couverte d'eau.", "Egouter dans passoire.",
+    "Mettre huile à chauffer.",
+    "Jeter les aubergines et écraser à la fourchette en décortiquant l'ail.",
+    "Faire mijoter jusqu'à ce qu'il n'y ait plus d'eau avec persil haché, ail frais, cumin, sel, poivre, paprika doux."
+  ]
+}

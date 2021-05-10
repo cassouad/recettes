@@ -1,0 +1,33 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Tapenade olives vertes",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "apéritifs"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "olives vertes (denoyautées)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "câpres"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "basilice et ail"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauté de veau",
+  "auteur": "",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "épaules désossée"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "brins de céléri"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "huile"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "vin blan"
+    },
+    {
+      "quantité": 1,
+      "unité": "boite(s)",
+      "nom": "sauce tomate"
+    },
+    {
+      "quantité": 50,
+      "unité": "cl",
+      "nom": "bouillon"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "bouquet de persil"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Viande coupée en gros cubes.",
+    "Hacher les légumes.",    
+    "Dans une cocotte, verser l'huile, faire revenir les légumes pendant 2 à 3 mn sur feu moyen puis les morceaux de viande.",
+    "Saler et poivrer.",
+    "Ajouter le vin blanc, laisser évaporer quelques minutes sur feu vif.",
+    "Ajouter la sauce tomate, diluée avec 1 louche de bouillon.",
+    "Eventuellement ajouter du bouillon pour que la viande baigne juste à hauteur.", "Mélanger, couvrer.",
+    "Laisser mijoter 2 heures sur feu doux afin que la sauce réduise.",
+    "Ajouter zeste de citron 10mn avant la fin de la cuisson.",
+    "Mélanger et server très chaud."
+  ]
+}
