@@ -1,45 +1,54 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Quatre quarts",
-  "auteur": "",
+  "titre": "Pâte à quatre‒quarts",
+  "auteur": "Bonne Maman",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""
   },
   "tableauDeTags": [
     "patisseries",
-    "gateaux",
-    "desserts"
+    "pâtes"
   ],
   "tableauIngredients": [
     {
-      "quantité": 50,
-      "unité": "g",
-      "nom": "farine"
+      "quantité": 4,
+      "unité": "",
+      "nom": "oeufs"
     },
     {
-      "quantité": 50,
-      "unité": "g",
-      "nom": "beurre"
-    },
-    {
-      "quantité": 50,
+      "quantité": 200,
       "unité": "g",
       "nom": "sucre"
     },
     {
-      "quantité": 1,
-      "unité": "",
-      "nom": "oeuf(s)"
+      "quantité": 200,
+      "unité": "g",
+      "nom": "farine"
     },
     {
-      "quantité": 0,
-      "unité": "",
-      "nom": "un paquet de levure"
+      "quantité": 200,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 5,
+      "unité": "g",
+      "nom": "sel"
+    },
+    {
+      "quantité": 5,
+      "unité": "g",
+      "nom": "levure chimique"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "lait"
     }
   ],
   "tableauInstructions": [
-    "on met tout ensemble, on mélange",
-    "on met au four à 180°."
+    "Mélanger le tout.",
+    "[il existe une variante avec de la semoule]"
   ]
 }

@@ -12,7 +12,7 @@
   "tableauIngredients": [
     {
       "quantité": 300,
-      "unité": "gousse(s)",
+      "unité": "g",
       "nom": "farine"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "quantité": 20,
-      "unité": "gousse(s)",
+      "unité": "g",
       "nom": "levure de boulanger"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "quantité": 150,
-      "unité": "gousse(s)",
+      "unité": "g",
       "nom": "beurre"
     },
     {
@@ -41,8 +41,8 @@
       "nom": "sel"
     },
     {
-      "quantité": 5,
-      "unité": "c. à soupe",
+      "quantité": 150,
+      "unité": "g",
       "nom": "lait"
     },
     {
@@ -57,8 +57,14 @@
     }
   ],
   "tableauInstructions": [
+    "Faire le levain :",
     "Délayer la levure avec les 5 cuillères de lait et 5 cuillères de farine, laisser reposer 2 heures.",
-    "Ensuite mélanger farine, oeufs, sel, sucre, beurre et levain (le mélange précédent), laisser reposer une heure.",
-    "Etaler et et mettre le cervelas chaud au milieu de la pâte, l'enrouler, mettre une cheminée et dorer avec le jaune d'oeuf."
+    "Ensuite mélanger farine, oeufs, sel, sucre, beurre et levain, laisser reposer une heure.",
+    "Faire cuire le saucisson (saucisse de Lyon) dans de l'eau qui frémit",
+    "Etaler et et mettre le cervelas chaud (sans la peau) au milieu de la pâte.", "L'enrouler, mettre une cheminée et dorer avec le jaune d'oeuf.",
+    "Four 180° ou thermostat 6°",
+    "Faire cuire à feu doux 30mn à 45mn.",
+    "On peut faire réchauffer la brioche en l'entourant de papier aluminium pour éviter de la faire sécher.",
+    "(Astuce : on  peut la prétrancher avant de la mettre en cuisson)."
   ]
 }

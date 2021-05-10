@@ -17,6 +17,11 @@
       "nom": "courgettes"
     },
     {
+      "quantité": 0,
+      "unité": "",
+      "nom": "poireaux"
+    },
+    {
       "quantité": 1,
       "unité": "",
       "nom": "oignon"
@@ -25,6 +30,16 @@
       "quantité": 0,
       "unité": "",
       "nom": "pommes de terre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "ail"
     }
   ],
   "tableauInstructions": [

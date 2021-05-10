@@ -3,8 +3,8 @@
   "titre": "Pâte brisée",
   "auteur": "",
   "pour": {
-    "quantité": 0,
-    "quiOuQuoi": "pour un petit moule"
+    "quantité": 1,
+    "quiOuQuoi": "moule moyen"
   },
   "tableauDeTags": [
     "patisseries",
@@ -12,12 +12,12 @@
   ],
   "tableauIngredients": [
     {
-      "quantité": 100,
+      "quantité": 200,
       "unité": "g",
       "nom": "farine"
     },
     {
-      "quantité": 50,
+      "quantité": 100,
       "unité": "g",
       "nom": "beurre"
     },

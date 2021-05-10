@@ -3,14 +3,18 @@
   "titre": "Meringues",
   "auteur": "",
   "pour": {
-    "quantité": 0,
-    "quiOuQuoi": "Pour un blanc d'oeuf"
+    "quantité": 1,
+    "quiOuQuoi": "blanc d'oeuf"
   },
   "tableauDeTags": [
     "patisseries"
   ],
   "tableauIngredients": [
     {
+      "quantité": 1,
+      "unité": "",
+      "nom": "blanc d'oeuf"
+    },{
       "quantité": 50,
       "unité": "g",
       "nom": "sucre"
