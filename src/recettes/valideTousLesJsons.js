@@ -21,15 +21,24 @@ fs.readdirSync(__dirname).forEach(nomDuFichier => {
     if (extensionDuFichier === extensionDesFichiersJson) {
       const cheminDuFichier = path.join(__dirname, nomDuFichier)
       const contenuDuFichier = fs.readFileSync(cheminDuFichier, 'utf-8')
-      const res = validate(
-        JSON.parse(contenuDuFichier),
-        JSON.parse(schéma),
-      )
-
-      if (res.valid === false) {
+      try {
+        const res = validate(
+          JSON.parse(contenuDuFichier),
+          JSON.parse(schéma),
+        )
+  
+        if (res.valid === false) {
+          tableauDesFichiersInvalides.push({
+            nomDuFichier,
+            errors: res.errors,
+          })
+        }
+      } catch {
         tableauDesFichiersInvalides.push({
           nomDuFichier,
-          errors: res.errors,
+          errors: [{
+            stack: 'Json invalide (JSON.parse a sans doute échoué)'
+          }]
         })
       }
     }
