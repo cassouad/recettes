@@ -1,0 +1,86 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Dalade du jardin de curé",
+  "auteur": "",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 60,
+      "unité": "g",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 60,
+      "unité": "g",
+      "nom": "céleri"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "ail écrasé"
+    },
+    {
+      "quantité": 40,
+      "unité": "g",
+      "nom": "huile d'olive"
+    },
+    {
+      "quantité": 40,
+      "unité": "g",
+      "nom": "petits pois"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "pousses de soja"
+    },
+    {
+      "quantité": 60,
+      "unité": "cl",
+      "nom": "vin"
+    },
+    {
+      "quantité": 20,
+      "unité": "cl",
+      "nom": "sauce vinaigrette"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "petits lardons"
+    },
+    {
+      "quantité": 4,
+      "unité": "",
+      "nom": "poignée de salade mélangée et de pousse de soja"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "ciboulette et cerfeuil"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre les carottes, céleri, l'ail écrasé et l'huile d'olive ensemble.",
+    "Mettre les petits pois avec du gros sel dans l'eau bouillante.",
+    "Tremper les pousses de soja pendant 20s.",
+    "Mélanger le vin avec la vinaigrette.",
+    "Dans un bouillon plonger l'oeuf (4mn environ). Le retirer et le mettre sous l'eau froide.",
+    "Faire sauter les petits lardons.",
+    "---",
+    "Dans un grand récipient, y mettre tout.",
+    "Rajouter salade et soja, ciboulette et cerfeuil hachés, sel et poivre.",
+    "Mélanger le tout."
+  ]
+}

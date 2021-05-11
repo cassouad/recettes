@@ -3,8 +3,8 @@
   "titre": "Galette des rois à la frangipane",
   "auteur": "Bonne Maman",
   "pour": {
-    "quantité": 0,
-    "quiOuQuoi": ""
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
   },
   "tableauDeTags": [
     "patisseries",
@@ -46,17 +46,22 @@
       "quantité": 1,
       "unité": "c. à soupe",
       "nom": "rhum (facultatif)"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "fève"
     }
   ],
   "tableauInstructions": [
-    "Préchauffez le four 7/8 (220( degrés).",
+    "Préchauffez le four 7 (220° degrés).",
+    "Préparation de la frangipane :",
     "Travaillez le beurre mou avec le sucre jusqu'à ce que le mélange soit homogène et mousseux.",
     "Ajoutez la poudre d'amandes, les oeufs et le rhum ; mélangez bien.",
     "Déroulez la pâte sur la plaque du four en conservant la feuille de cuisson ; ajouter la pâte d'amande (beurre mou + sucre, mélanger ; puis ajouter les oeufs, les amandes, rhum ou le cognac) et étalez-la jusqu'à 2 cm du bord.",
     "Fermer avec la seconde pâte feuilletée ; soudez les deux pâtes en pressant le tour avec vos doigts, puis retournez le bord comme un ourlet en le pressant ; marquez le bord avec les dents d'une fourchette.",
     "la dorer avec un troisième jaune d'oeuf dilué dans un peu d'eau froide.",
     "Avec la lame de couteau, dessinez des croisillons sur le dessus ; piquez légèrement la pâte pour éviter qu'elle ne gonfle trop.",
-     "Si on aime, rajouter du fromage.",
-     "Four 180‒200 pendant 20 à 30mn (la galette doit être bien dorée au dessus et au dessous)"
+    "Four 180‒200 pendant 20 à 30mn (la galette doit être bien dorée au dessus et au dessous)"
   ]
 }

@@ -3,8 +3,8 @@
   "titre": "Crème patissière",
   "auteur": "Catherine",
   "pour": {
-    "quantité": 0.5,
-    "quiOuQuoi": "litre(s)"
+    "quantité": 50,
+    "quiOuQuoi": "centilitre(s)"
   },
   "tableauDeTags": [
     "patisseries",
@@ -17,13 +17,13 @@
       "nom": "jaune(s) d'oeufs "
     },
     {
-      "quantité": 125,
+      "quantité": 100,
       "unité": "g",
       "nom": "sucre"
     },
     {
-      "quantité": 0.5,
-      "unité": "l",
+      "quantité": 50,
+      "unité": "cl",
       "nom": "lait"
     },
     {
@@ -45,6 +45,7 @@
   "tableauInstructions": [
     "Travailler jaunes + sucre.",
     "Puis fécule et lait bouillant.",
-    "Porter sur feu doux jusqu'à ébullition sans cesser de remuer <br>(la parfumer à froid)."
+    "Porter sur feu doux jusqu'à ébullition sans cesser de remuer.",
+    "(la parfumer à froid)."
   ]
 }

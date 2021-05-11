@@ -1,0 +1,46 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Madeleines",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+    {
+      "quantité": 75,
+      "unité": "g",
+      "nom": "sucre poudre"
+    },
+    {
+      "quantité": 75,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "zeste citron, orange"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger dans un saladier l'oeuf et le sucre.",
+    "Puis rajouter la farine.",
+    "Puis le beurre fondu.",
+    "Cuire th5 pendant 8 à 10mn."
+  ]
+}

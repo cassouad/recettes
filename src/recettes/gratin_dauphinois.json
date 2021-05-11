@@ -1,0 +1,67 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gratin dauphinois",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "légumes",
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 2,
+      "unité": "kg",
+      "nom": "pommes de terre"
+    },
+    {
+      "quantité": 1,
+      "unité": "l",
+      "nom": "lait froid"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "crème fraiche épaisse"
+    },
+    {
+      "quantité": 80,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "gruyère"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "noix de muscade"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    }
+  ],
+  "tableauInstructions": [
+    "Frotter le plat avec la gousse d'ail.",
+    "Mettre une couche de pomme de terre crue.",
+    "Poivrer, saler, noix de muscade.",
+    "Mettre une couche de fromage râpée.",
+    "Puis une couche de pommes de terre.",
+    "Puis de fromage. etc...",
+    "Mettre le lait mélangé à la crème par dessus.",
+    "Enfin mettre le fromage râpée.",
+    "Mettre au four (2h au total), th 4.",
+    "Au bout de 3/4h de cuisson mettre le gruyère."
+  ]
+}

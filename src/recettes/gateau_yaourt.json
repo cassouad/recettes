@@ -1,0 +1,63 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gateau au yaourt",
+  "auteur": "Martine",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "yaourt"
+    },
+    {
+      "quantité": 0.75,
+      "unité": "sachet(s)",
+      "nom": "levure"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "",
+      "nom": "pot de yaourt d'huile"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "pots de yaourt de sucre"
+    },
+    {
+      "quantité": 2.5,
+      "unité": "",
+      "nom": "pots de yaourt de farine"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillé ou zeste ou rhum"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cognac"
+    }
+
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout avec les jaunes.",
+    "Battre les blancs.",
+    "Les rajouter puis le cognac.",
+    "Four à 4-5 pendant 30mn."
+  ]
+}

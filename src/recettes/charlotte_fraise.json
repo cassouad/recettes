@@ -3,8 +3,8 @@
   "titre": "Charlotte au coulis de fraise",
   "auteur": "Catherine",
   "pour": {
-    "quantité": 0,
-    "quiOuQuoi": ""
+    "quantité": 1,
+    "quiOuQuoi": "Moule de grande taille"
   },
   "tableauDeTags": [
     "patisseries",
@@ -13,12 +13,35 @@
   ],
   "tableauIngredients": [
     {
-      "quantité": 0,
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "poires au sirop ou pêches ou abricots"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "fraises"
+    },
+    {
+      "quantité": 4,
       "unité": "",
-      "nom": "à faire"
+      "nom": "feuilles de gélatine"
     }
   ],
   "tableauInstructions": [
-    "A faire"
+    "Mettre la gelatine à tremper dans de l'eau tiède.",
+    "Egoutter les poires, les couper en lamelles.",
+    "Les mettre à tremper dans un peu d'alcool de poires.",
+    "Faire une crème anglaise (3/4 l).",
+    "Y incorporer les feuilles de gélatine.",
+    "Laisser refroidir.",
+    "Y incorporer la crème chantilly montée et les poires.",
+    "Tapisser le moule de boudoirs (le fond et les cotés).",
+    "Verser le mélange crème anglaise et poires.",
+    "Mettre une assiette dessus.",
+    "Mettre au frigidaire pendant 12 heures.",
+    "Pour le coulis :",
+    "Faire cuire un peu les fraises, sucre (au gout) et le jus de citron à feu doux.",
+    "Le passer au mixeur."
   ]
 }

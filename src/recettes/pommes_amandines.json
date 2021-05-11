@@ -1,0 +1,93 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Casserole de Pommes amandines",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "pommes à chair ferme (reinettes par ex.)"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 15,
+      "unité": "cl",
+      "nom": "lait froid"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café",
+      "nom": "fécule"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "poudre d'amandes"
+    },
+    {
+      "quantité": 5,
+      "unité": "cl",
+      "nom": "calvados"
+    },
+    {
+      "quantité": 15,
+      "unité": "cl",
+      "nom": "crème fraiche"
+    },
+    {
+      "quantité": 20,
+      "unité": "g",
+      "nom": "beurre pour la crème"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre pour la crème"
+    }
+  ],
+  "tableauInstructions": [
+    "Eplucher et couper en fines lamelles les pommes.",
+    "Faire chauffer nle beurre dans une poêle.",
+    "Quand il est chaud, y mettre les pommes.",
+    "Dorer-les en les retournant délicatement sans les briser.",
+    "Saupoudrer avec le sucre.",
+    "Laisser légèrement caraméliser.",
+    "Puis retirer du feu.",
+    "Allumer le four (moyen).",
+    "Dans un saladier, casser les oeufs.",
+    "Ajouter le sucre et la crème.",
+    "Dans un bol, délayer la fécule avec le lait froid.",
+    "Ajouter ce mélange aux oeufs.",
+    "Ajouter les amandes. Mélanger.",
+    "Ajouter les pommes.",
+    "Dans la poêle où on a cuit les pommes, ajouter le calvados.",
+    "Mettre à feu doux.",
+    "Gratter le fond de la pôele à la cuillère en bois (déglaçage).",
+    "L'ajouter au reste.",
+    "Beurrer un plat (de préférence une casserole en fonte).",
+    "Verser la préparation.",
+    "Mettre à four moyen pendant 45mn environ.",
+    "Servir tiède ou froid dans la casserole de cuisson."
+  ]
+}

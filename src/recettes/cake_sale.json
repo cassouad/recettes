@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Cake salé",
-  "auteur": "",
+  "auteur": "Vincente",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""
@@ -49,7 +49,7 @@
     {
       "quantité": 125,
       "unité": "g",
-      "nom": "lard fumé et/ou"
+      "nom": "lard fumé et/ou jambon et/ou crevettes"
     },
     {
       "quantité": 150,

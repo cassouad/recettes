@@ -1,0 +1,71 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Moules Poulette",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    ""
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 3,
+      "unité": "l",
+      "nom": "moules"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "carottes"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1,
+      "unité": "bouteille(s)",
+      "nom": "garni"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "jaunes d'oeufs"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "c. à soupe",
+      "nom": "farine"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "persil"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Au début, faire comme pour les moules marinières.",
+    "Dans une casserole, faire fpndre le beurre et mélanger avec la farine sur feu doux.",
+    "Ajouter petit à petit le jus de cuisson.",
+    "Laisser épaissir sur feu doux en tournant.",
+    "Retirer du feu au premier bouillon.",
+    "Mettre les jaunes d'oeufs dans un grand bol.",
+    "Verser la sauce très doucement en tournant vivement.",
+    "Ne pas remettre sur le feu.",
+    "Mettre dans un plat les moules et verser la sauce dessus.",
+    "Parsermer de persil."
+  ]
+}

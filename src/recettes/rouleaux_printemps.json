@@ -1,0 +1,77 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Rouleaux de printemps",
+  "auteur": "Annick",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "soja"
+    },
+    {
+      "quantité": 300,
+      "unité": "g",
+      "nom": "émincé de porc ou poulet"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "chou coupé fin"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "champignons noirs"
+    },
+    {
+      "quantité": 200,
+      "unité": "g",
+      "nom": "petites crevettes congelées"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "vermicelle"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "menthe fraiche"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "salade"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sauce de soja"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "Nuöc Nam"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le tout"
+  ]
+}

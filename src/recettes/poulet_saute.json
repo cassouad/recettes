@@ -1,0 +1,62 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Poulet sauté",
+  "auteur": "Bonne Maman",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "poulet (1kg200 environ)"
+    },
+    {
+      "quantité": 50,
+      "unité": "",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "échalotte"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "grosse tomate"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "à liqueur de cognac (facultatif)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "thym, laurier, persil"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Couper le poulet en 8 morceaux.",
+    "Faire dorer les morceaux de poulet sur feu vif, dans une poêle contenant 30g de beurre.",
+    "Au fur et à mesure qu'ils sont bien dorés, les déposer dans une cocotte avec une noix de beurre",
+    "Ajouter l'échalotte hachée dans la cocotte.",
+    "Arroser de cognac.",
+    "Faire flamber sur feu vif.",
+    "Ajouter ensuite la tomate coupée et pelée (meilleur).",
+    "Ajouter le thym, laurier, sel, poivre.",
+    "La isser mijoter sur feu doux pendant 25mn.",
+    "Oter le thym, le laurier et parsemer de persil haché.",
+    "(On peut remplacer le cognac par du vin blanc)"
+  ]
+}

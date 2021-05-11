@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Créma",
-  "auteur": "",
+  "auteur": "Espagnol",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""

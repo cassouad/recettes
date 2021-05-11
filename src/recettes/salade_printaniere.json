@@ -1,0 +1,91 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade printanière",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 750,
+      "unité": "g",
+      "nom": "haricots verts frais très fins"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "courgettes"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "gros fenouil ou 2 petits"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "boite(s)",
+      "nom": "poivrons rouges"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "champignons de Paris"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "",
+      "nom": "citron"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "ketchup (facultatif)"
+    },
+    {
+      "quantité": 1,
+      "unité": "bol(s)",
+      "nom": "mayonnaise"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "persil, cerfeuil"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "feuilles de menthe fraiche (facultatif)"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    }
+  ],
+  "tableauInstructions": [
+    "Eplucher les haricots, laver, couper en morceaux de 30cm.",
+    "Les cuire 30mn.",
+    "Les égoutter (garder le jus pour un potaage).",
+    "Les courgettes : les cuire sans les éplucher 10mn.",
+    "Les égoutter. Les laisser refroidir.",
+    "Couper en rondelle.",
+    "Faire durcir les oeufs.",
+    "Les couper en quartier.",
+    "Couper en rondelles les champignons, les arroser de citron et saupoudrer de sel fin.",
+    "Râper le fenouil.",
+    "Couper en lanière les poivrons.",
+    "Tout disposer dans un plat.",
+    "Saupoudrer de persil, cerfeuil, menthe hachée.",
+    "Décorer avec les quartier d'oeufs durs.",
+    "Préparer une mayonnaise moutardée, une vinaigrette relevée."
+  ]
+}
