@@ -13,14 +13,39 @@
     {
       "quantité": 0,
       "unité": "",
-      "nom": "Maquereaux "
+      "nom": "maquereaux"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "vin blanc"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "tomates en purée"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "laurier et fines herbes"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "noix de beurre"
     }
   ],
   "tableauInstructions": [
     "Préparer les filets de poisson, puis les passer à la farine.",
     "Les mettre dans un plat allant au four.",
     "Couper un oignon en fines lamelles.",
-    "Un verre de vin blanc, tomate sen purée, fines herbes, laurier, une noix de beurre.",
-    "Faire dorer le tout environ 10 minutes (!!) au four."
+    "Ajouter le vin blanc, de la tomate sen purée, des fines herbes, du laurier, une noix de beurre.",
+    "Faire dorer le tout environ 10 minutes au four."
   ]
 }

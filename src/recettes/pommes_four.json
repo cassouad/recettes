@@ -1,7 +1,7 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Pommes cuites au four",
-  "auteur": "",
+  "auteur": "Bonne Maman",
   "pour": {
     "quantité": 0,
     "quiOuQuoi": ""

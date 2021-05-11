@@ -18,7 +18,7 @@
     {
       "quantité": 2,
       "unité": "",
-      "nom": "oeufs"
+      "nom": "jaunes d'oeufs"
     },
     {
       "quantité": 1,
@@ -27,8 +27,8 @@
     }
   ],
   "tableauInstructions": [
-    "Faire chauffer le beurre environ.",
-    "Quand le beurre est fondu, y ajouter en dehors du feu les jaunes d'oeuf.",
+    "Faire chauffer le beurre.",
+    "Quand le beurre est fondu, y ajouter, en dehors du feu, les jaunes d'oeuf.",
     "Mettre le jus des moules égoutté (si on a fait des moules), puis le citron, ainsi que le sel (attention très peu si on a mis le jus).",
     "Faire cuire en ajoutant la farine."
   ]

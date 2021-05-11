@@ -1,0 +1,63 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Cassolettes de cerises",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "ramequins (assez grands)"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "cerises fraiches"
+    },
+    {
+      "quantité": 2,
+      "unité": "verre(s)",
+      "nom": "de vin rouge (Bordeaux)"
+    },
+    {
+      "quantité": 225,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "blancs d'oeufs"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "poudre d'amandes"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    }
+  ],
+  "tableauInstructions": [
+    "Dénoyauter les cerises.",
+    "Faire bouillir le vin + 100g de sucre.",
+    "Jeter les cerises dedans.",
+    "Cuire à petits bouillons 5mn.",
+    "Retirer du feu et répartir les fruits et le liquide dans les ramequins.",
+    "Mettre la pincée de sel dans les blancs.",
+    "Monter les blancs en neige.",
+    "Puis ajouter 125g de sucre en pluie : les blancs doivent être bien fermes.",
+    "Puis ajouter les amandes en poudre.",
+    "Verser dans les ramequins.",
+    "Cuire à feu doux à 3-4.",
+    "Server chaud ou froid."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Mousse de pommes, sauce normande",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "pommes (reinettes)"
+    },
+    {
+      "quantité": 5,
+      "unité": "",
+      "nom": "blancs d'oeufs"
+    },
+    {
+      "quantité": 300,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "cannelle"
+    },
+    {
+      "quantité": 50,
+      "unité": "cl",
+      "nom": "crème fraiche"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "liqueur de calvados"
+    }
+  ],
+  "tableauInstructions": [
+    "Dans une casserole, mettre les pommes épluchées + 125g de sucre + la cannelle + quelques cuillères d'eau.",
+    "Cuire à couvert.",
+    "Faire une purée de pommmes.",
+    "La remettre sur le feu pour l'assécher quelques minutes.",
+    "Refroidir.",
+    "Puis la mettre dans le frigo pendant 1 heure.",
+    "Battre les blancs en neige en incorporant petit à petit 125g de sucre.",
+    "Battre la compote avec un fouet puis mettre les blancs.",
+    "Remettre la mousse 1h au frigo.",
+    "Quelques minutes avant de servir, mettre la crème + le reste de sucre dans une casserole.",
+    "Amener à ébullition puis mettre le calvados.",
+    "Servir les 2."
+  ]
+}

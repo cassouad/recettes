@@ -1,0 +1,96 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gateau basque",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "desserts",
+    "gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "grand moule"
+    },
+    {
+      "quantité": 5,
+      "unité": "",
+      "nom": "oeufs"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "beurre en pommade"
+    },
+    {
+      "quantité": 220,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillé ou bâton de vanille fendu en 2"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "levure"
+    },
+    {
+      "quantité": 290,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 50,
+      "unité": "cl",
+      "nom": "lait"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "poudre d'amandes"
+    },
+    {
+      "quantité": 4,
+      "unité": "cl",
+      "nom": "rhum (facultatif)"
+    }
+  ],
+  "tableauInstructions": [
+    "La veille, préparer la pâte et la crème.",
+    "La pâte :",
+    "Mettre 125g de beurre pommade (tout mou) puis ajouter 125g de sucre et le sucre vanillé.",
+    "Battre au fouet. Bien remuer.",
+    "Ajouter 2 oeufs entiers puis 250g de farine et la levure.",
+    "Faire une boule et la mettre au frais recouverte d'un film alimentaire.",
+    "La crème :",
+    "Faire bouillir le lait avec le sucre vanillé ou le baton de vanille.",
+    "Dans un saladier, mettre 3 jaunes d'oeufs, ajouter le sucre (95g) et enfin la farine (35g)",
+    "Lorsque le lait bout, verser-le sur la préparation.",
+    "Bien remuer puis la remettre dans la casserole sur le feu en ne cessant jamais de remuer.",
+    "Au bout de 2mn d'ébullition, remettre le tout dans le saladier.",
+    "Saupoudrer d'un peu de sucre glace (pour éviter de faire une croûte).",
+    "Laisser refroidir.",
+    "Le lendemain, allumer le four à 180° ou th6.",
+    "Couper votre boule en 2.",
+    "Aplatir et le mettre au fond du moule préalablement beurré en remontant les bords jusqu'en haut et remettre au frais.",
+    "Prendre la crème.",
+    "Ajouter les amandes et 2cl de rhum (facultatif).",
+    "Bien remuer.",
+    "La mettre dans le moule.",
+    "Aplatir la 2ème partie de la boule.",
+    "La placer dessus en soudant les bords avec les doigts.",
+    "Dorer le dessus avec un pinceau (1 jaune d'oeuf délayé avec 1 cuillère à soupe d'eau).",
+    "Si on a gardé un peu de pâte, confectionner un décor pour mettre dessus le gateau.",
+    "Strier à la fourchette le dessus du gateau.",
+    "Cuire pendant 40mn à 180°.",
+    "Laisser refroidir"
+  ]
+}

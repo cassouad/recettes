@@ -18,7 +18,7 @@
     {
       "quantité": 2,
       "unité": "verre(s)",
-      "nom": "vin blanc ou une petite bouteille"
+      "nom": "vin blanc (grand(s)) ou une petite bouteille"
     },
     {
       "quantité": 1,
@@ -33,12 +33,12 @@
   ],
   "tableauInstructions": [
     "Peler, mixer les échalotes et les mettre dans une casserole.",
-    "Rajouter le vin blanc",
+    "Rajouter le vin blanc.",
     "Faire cuire doucement pendant un certain temps et quand ça devient une pâte, enlever.",
-    "Mettre au feu, rajouter la crème fraiche",
-    "Faire bien cuire en remuant (bien mélanger)",
-    "Puis au bain marie, prendre le beurre coupée en 15 morceaux puis mettre un morceau, remuer, et ainsi de suite",
-    "servir",
+    "Mettre au feu, rajouter la crème fraiche.",
+    "Faire bien cuire en remuant (bien mélanger).",
+    "Puis au bain marie, prendre le beurre coupée en 15 morceaux puis mettre un morceau, remuer, et ainsi de suite.",
+    "servir.",
     "(Jean‒Baptiste l'a fait avec succès en août 2010)"
   ]
 }

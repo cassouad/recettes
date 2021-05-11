@@ -1,6 +1,6 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Couscous",
+  "titre": "Couscous algérien",
   "auteur": "Bastos",
   "pour": {
     "quantité": 8,
@@ -16,7 +16,7 @@
       "nom": "boeuf"
     },
     {
-      "quantité": 0,
+      "quantité": 1,
       "unité": "",
       "nom": "poule"
     },

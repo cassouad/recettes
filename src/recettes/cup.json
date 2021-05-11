@@ -24,7 +24,7 @@
     {
       "quantité": 0.5,
       "unité": "",
-      "nom": "citron"
+      "nom": "citron (le jus)"
     },
     {
       "quantité": 2,
@@ -39,12 +39,17 @@
     {
       "quantité": 1,
       "unité": "verre(s)",
+      "nom": "à madère de cognac"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
       "nom": "à madère de sirop de framboise"
     }
   ],
   "tableauInstructions": [
-    "Pêlez le tout, mettez une heure sur glace.",
-    "Passer pour servir.",
+    "Mélangerle tout, mettre à glacer une heure.",
+    "Passer le mélanger pour servir.",
     "Vous pouvez ajouter du vin blanc sur la préparation si vous remarquez que vous manquerez de cup ; faites le assez tôt pour qu'il puisse un peu macérer.",
     "Le cup sera moins fort mais excellent tout de même."
   ]

@@ -1,0 +1,45 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Salade noire et blanche",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 300,
+      "unité": "g",
+      "nom": "pruneaux"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "poires"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "pignons"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "orange"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillé"
+    }
+  ],
+  "tableauInstructions": [
+    "Cuire les pruneaux dans de l'eau avec le zeste d'orange pendant un petit instant.",
+    "Couper en 4 les poires et les pocher dans de l'eau vanillée.",
+    "Mélanger pruneaux, poires et les pignons.",
+    "Arroser de jus d'orange."
+  ]
+}

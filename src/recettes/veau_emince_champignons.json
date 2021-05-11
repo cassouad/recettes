@@ -3,15 +3,15 @@
   "titre": "Émincé de veau aux champignons",
   "auteur": "",
   "pour": {
-    "quantité": 0,
-    "quiOuQuoi": ""
+    "quantité": 2,
+    "quiOuQuoi": "personne(s)"
   },
   "tableauDeTags": [
     "viandes"
   ],
   "tableauIngredients": [
     {
-      "quantité": 0,
+      "quantité": 2,
       "unité": "",
       "nom": "émincé(s) de veau"
     },
@@ -39,7 +39,7 @@
   "tableauInstructions": [
     "Faire cuire les émincés à la poêle, les mettre de côté.",
     "Faire un hachis de persil, d'oignons et d'échalote. Faire revenir.",
-    "Faire cuire une livre de champignons de Paris pour 2 escalopes.",
+    "Faire cuire les champignons de Paris.",
     "Faire une béchamel à laquelle vous ajouterez les champignons.",
     "Mettre dans un plat allant au four les émincés, puis les fines herbes, et recouvrir de la béchamel aux champignons. Faire dorer le tout au four."
   ]

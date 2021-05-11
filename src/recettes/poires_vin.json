@@ -1,0 +1,40 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Poires au vin",
+  "auteur": "",
+  "pour": {
+    "quantité": 6,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 6,
+      "unité": "",
+      "nom": "grosses poires"
+    },
+    {
+      "quantité": 1,
+      "unité": "bouteille(s)",
+      "nom": "vin rouge (St Emilion)"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "sucre"
+    }
+  ],
+  "tableauInstructions": [
+    "Eplucher et couper les poires en 2 (oter les pépins).",
+    "Dans une casserole mettre le vin et le sucre.",
+    "Porter à ébullition.",
+    "Puis y mettre les poires. Les laisser à petits frémissements pendant 10mn.",
+    "Retirer les poires.",
+    "Laisser réduire le sirop à découvert pendant 20mn.",
+    "Verser sur les poires.",
+    "Refroidir.",
+    "Servir glacé."
+  ]
+}
