@@ -1,6 +1,6 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Gâteau Chocolat (Bonne Maman)",
+  "titre": "Gâteau au chocolat (Bonne Maman)",
   "auteur": "Bonne Maman",
   "pour": {
     "quantité": 0,

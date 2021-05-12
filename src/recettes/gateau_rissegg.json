@@ -1,10 +1,10 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Gâteau de Rissegg",
-  "auteur": "",
+  "auteur": "Recette Suisse",
   "pour": {
     "quantité": 0,
-    "quiOuQuoi": "Suisse"
+    "quiOuQuoi": ""
   },
   "tableauDeTags": [
     "patisseries",
