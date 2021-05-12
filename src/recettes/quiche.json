@@ -11,6 +11,11 @@
   ],
   "tableauIngredients": [
     {
+      "quantité": 1,
+      "unité": "",
+      "nom": "pâte brisée"
+    },
+    {
       "quantité": 3,
       "unité": "",
       "nom": "oeufs"
