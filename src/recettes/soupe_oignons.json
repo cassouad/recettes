@@ -12,8 +12,8 @@
   ],
   "tableauIngredients": [
     {
-      "quantité": 1,
-      "unité": "l",
+      "quantité": 50,
+      "unité": "cl",
       "nom": "eau"
     },
     {
@@ -22,9 +22,14 @@
       "nom": "beurre"
     },
     {
-      "quantité": 3,
+      "quantité": 2,
       "unité": "",
       "nom": " gros oignons par personne"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "oignon pour le plat"
     },
     {
       "quantité": 2,
@@ -69,7 +74,7 @@
     "Ajouter l'ail, faire fondre.",
     "Bien faire revenir les oignons dans le beurre et l'ail. Faire dorer.",
     "Puis mettre la farine.",
-    "Ajouter le vin blanc et l'eau.",
+    "Ajouter le vin blanc et l'eau pour le déglaçage de la casserole.",
     "Dans le bol mettre au fond une couche de pain.",
     "Puis la soupe, une 2ème couche de pain, le fromage.",
     "Passer le bol au grill pour que la surface soit dorée.",
