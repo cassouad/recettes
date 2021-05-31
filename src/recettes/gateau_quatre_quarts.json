@@ -8,8 +8,10 @@
   },
   "tableauDeTags": [
     "patisseries",
-    "pâtes"
+    "gateaux",
+    "desserts"
   ],
+  "cheminLocalVersImage": "images/quatre_quart.jpg",
   "tableauIngredients": [
     {
       "quantité": 4,
@@ -48,7 +50,11 @@
     }
   ],
   "tableauInstructions": [
-    "Mélanger le tout.",
+    "Mélanger d'abord beurre + sucre, puis ajouter les oeufs un par un.",
+    "Autre méthode : oeufs + sucre puis le beurra fondu.",
+    "Ajouter le lait.",
+    "Ajouter en dernier la farine et la levure.",
+    "Ne pas oublier de beurrer le plat.",
     "[il existe une variante avec de la semoule]"
   ]
 }
