@@ -1,0 +1,55 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Rizotto",
+  "auteur": "Nicolas",
+  "pour": {
+    "quantité": 4,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 400,
+      "unité": "g",
+      "nom": "riz"
+    },
+    {
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "vin blanc"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "tomates cerises"
+    },
+    {
+      "quantité": 50,
+      "unité": "cl",
+      "nom": "eau"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "bouillons kub"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "parmesan"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "huile d'olives"
+    }
+  ],
+  "tableauInstructions": [
+    "Dans casserole mettre le riz un verre de vin blanc, 250g de tomates cerises coupées en 2.",
+    "1/2 l d’eau dans laquelle on fait fondre 2 bouillons kub.",
+    "Mettre ensuite l’eau sur tout ce qu’on a préparé + 3 c. à soupe d’huile d’olives. Remuez le tout et mettre sur le feu jusqu’à ce que le liquide est disparu en mélangeant continuellement.",
+    "En fin de cuisson rajouter 3 c. d’huile d’olives et environ 100g de parmesan."
+  ]
+}

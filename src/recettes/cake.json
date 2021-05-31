@@ -11,6 +11,7 @@
     "gateaux",
     "desserts"
   ],
+  "cheminLocalVersImage": "images/cake.jpg",
   "tableauIngredients": [
     {
       "nom": "oeufs",

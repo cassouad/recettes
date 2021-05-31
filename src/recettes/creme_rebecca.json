@@ -10,6 +10,7 @@
     "desserts",
     "crèmes"
   ],
+  "cheminLocalVersImage": "images/creme_rebecca.jpg",
   "tableauIngredients": [
     {
       "quantité": 1,

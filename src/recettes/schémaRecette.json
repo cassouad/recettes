@@ -128,6 +128,9 @@
         "type": "string",
         "minLength": 1
       }
+    },
+    "cheminLocalVersImage": {
+      "type": "string"
     }
   }
 }

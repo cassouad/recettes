@@ -38,6 +38,7 @@ module.exports = (env, options) => {
       new CopyPlugin({
         patterns: [
           { from: 'src/fonts', to: 'fonts' },
+          { from: 'src/images', to: 'images' },
         ],
       }),
       {

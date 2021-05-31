@@ -9,6 +9,7 @@
   "tableauDeTags": [
     "viandes"
   ],
+  "cheminLocalVersImage": "images/blanquette_veau.jpg",
   "tableauIngredients": [
     {
       "quantité": 1,
@@ -21,22 +22,22 @@
       "nom": "champignons de Paris"
     },
     {
-      "quantité": 2,
+      "quantité": 3,
       "unité": "",
       "nom": "carottes"
     },
     {
       "quantité": 3,
       "unité": "",
-      "nom": "poireau"
+      "nom": "poireau (facultatif)"
     },
     {
       "quantité": 1,
       "unité": "",
-      "nom": "branche de céleri"
+      "nom": "branche de céleri (facultatif)"
     },
     {
-      "quantité": 1,
+      "quantité": 2,
       "unité": "",
       "nom": "citron"
     },
@@ -76,9 +77,9 @@
       "nom": "crème fraîche allégée à 5% de MG"
     },
     {
-      "quantité": 4,
-      "unité": "c. à soupe",
-      "nom": "vin blanc sec"
+      "quantité": 1,
+      "unité": "verre(s)",
+      "nom": "vin blanc sec (un bon verre)"
     },
     {
       "quantité": 1,
@@ -93,7 +94,7 @@
     {
       "quantité": 4,
       "unité": "",
-      "nom": "brins de persil plat"
+      "nom": "brins de persil plat (facultatif)"
     },
     {
       "quantité": 0,
@@ -105,17 +106,16 @@
     "Pelez les carottes, l'ail, l'échalote et l'oignon.",
     "Piquez l'oignon avec les clous de girofle et coupez-le en 4.",
     "Coupez l'échalote en deux et hachez l'ail.",
-    "Tranchez les carottes, le céleri et les blancs de poireau en rondelles.",
+    "Tranchez les carottes (en rondelles ou en cubes), le céleri et les blancs de poireau en rondelles (facultatif).",
     "Nettoyez et émincez les champignons grossièrement.",
     "Tranchez la viande en morceaux d'environ 70 g.",
-    "Dans une cocotte, une marmite ou un faitout, portez à ébullition 2 l d'eau.",
-    "Puis plongez-y les morceaux de viande pendant maximum 1 min pour les blanchir (les débarrasser de leurs impuretés et de leur amidon).",
-    "Videz alors le contenu de la cocotte dans une passoire afin de jeter l'eau de cuisson tout en récupérant les morceaux de veau.",
-    "Passez la viande sous l'eau froide, égouttez-la, puis remettez-la dans le fond de la cocotte. (Etape non indispensable)",    
+    "Facultatif :",
+    "Dans une cocotte, une marmite ou un faitout, portez à ébullition 2 l d'eau.    Puis plongez-y les morceaux de viande pendant maximum 1 min pour les blanchir (les débarrasser de leurs impuretés et de leur amidon). Videz alors le contenu de la cocotte dans une passoire afin de jeter l'eau de cuisson tout en récupérant les morceaux de veau. Passez la viande sous l'eau froide, égouttez-la, puis remettez-la dans le fond de la cocotte. (Etape non indispensable)",
+    "Mettre la viande dans la cocotte et faire revenir les morceaux de veau.",
     "Ensuite, ajoutez l'oignon, l'échalote, l'ail, le poireau, le céleri, les carottes et bouquet garni. Salez et poivrez.",
     "Mouillez avec le vin puis ajoutez de l'eau de façon à immerger la viande et les légumes.",
     "Couvrez, portez à ébullition, puis baissez le feu et laissez mijoter environ 1h30 à petits frémissements.",    
-    "Pendant la cuisson de la viande, faites revenir dans une poêle les champignons (environ 10 min à feu moyen), avec 20 g de beurre et les 3/4 du jus du citron.",
+    "Pendant la cuisson de la viande, faites revenir dans une poêle les champignons (environ 10 min à feu moyen), avec 20 g de beurre et les 3/4 d'un jus du citron.",
     "Puis préparez un roux blond : dans une casserole, faites fondre le reste de beurre, saupoudrez-le avec la farine, mélangez vivement le tout au fouet jusqu'à ce que le beurre ait été entièrement absorbé et que le tout brunisse légèrement, puis stoppez la cuisson et laissez refroidir.",
     "Une fois que la viande est cuite, versez le contenu de la cocotte dans une fine passoire de façon à filtrer le bouillon de cuisson dans un saladier.",
     "Rallumez le feu sous la casserole contenant le roux.",

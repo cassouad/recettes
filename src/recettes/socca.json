@@ -1,0 +1,44 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Socca",
+  "auteur": "Philippe",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "apéritifs",
+    "entrées"
+  ],
+  "cheminLocalVersImage": "",
+  "tableauIngredients": [
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "farine de pois chiche"
+    },
+    {
+      "quantité": 45,
+      "unité": "cl",
+      "nom": "eau"
+    },
+    {
+      "quantité": 4,
+      "unité": "c. à soupe",
+      "nom": "huile d'olives"
+    },
+    {
+      "quantité": 3,
+      "unité": "pincée(s)",
+      "nom": "sel (grosses)"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger la farine de pois chiche avec l'eau.",
+    "Ajouter l'huile d'olives.",
+    "Enfin ajouter le sel",
+    "Dans un plat spécial socca ou plat pizza.",
+    "10mn au grill.",
+    "Il faut qu’elle soit grillée au dessus"
+  ]
+}

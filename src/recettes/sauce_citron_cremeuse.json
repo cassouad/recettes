@@ -1,0 +1,54 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauce citron crémeuse",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "sauces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 20,
+      "unité": "cl",
+      "nom": "crème liquide"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "moutarde"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "ciboulette"
+    }
+  ],
+  "tableauInstructions": [
+    "PRÉPARATION :",
+    "ÉTAPE 1",
+    "Lavez et ciselez la ciboulette.",
+    "ÉTAPE 2",
+    "Pressez le jus de citron, puis gardez-le.",
+    "ÉTAPE 3",
+    "Dans une casserole, fondez le beurre à feu doux. Rajoutez la moutarde. Remuez jusqu’à ce que le mélange soit parfaitement homogène.",
+    "ÉTAPE 4",
+    "Ensuite, délayez-le avec la crème liquide et le jus de citron.",
+    "ÉTAPE 5",
+    "Mijotez cette sauce sur feu doux afin d’avoir une consistance nappante. Ne la laissez pas bouillir.",
+    "ÉTAPE 6",
+    "Enfin, rectifiez l’assaisonnement et ajoutez la ciboulette."
+  ]
+}

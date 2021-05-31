@@ -7,6 +7,7 @@ import TableauDesIngredientsDeLaRecette from './TableauDesIngredientsDeLaRecette
 import TableauDesInstructionsDeLaRecette from './TableauDesInstructionsDeLaRecette'
 import TableauDeTagsDeLaRecette from './TableauDeTagsDeLaRecette'
 import AuteurDeLaRecette from './AuteurDeLaRecette'
+import ImagesDeLaRecette from './ImagesDeLaRecette'
 
 const Recette = ({
   recette,
@@ -37,6 +38,13 @@ const Recette = ({
         }}>
           <TableauDeTagsDeLaRecette
             tableauDeTags={recette.tableauDeTags}
+          />
+        </div>
+        <div style={{
+          paddingBottom: '10px',
+        }}>
+          <ImagesDeLaRecette
+            cheminLocalVersImage={recette.cheminLocalVersImage}
           />
         </div>
         <div style={{
