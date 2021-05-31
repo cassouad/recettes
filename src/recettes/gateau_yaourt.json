@@ -1,6 +1,6 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Gateau au yaourt",
+  "titre": "Gâteau au yaourt",
   "auteur": "Martine",
   "pour": {
     "quantité": 0,
