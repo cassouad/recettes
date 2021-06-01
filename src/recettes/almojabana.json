@@ -1,10 +1,10 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Almojabana",
-  "auteur": "Nicolas et Daniella",
+  "auteur": "Nicolas et Daniela",
   "pour": {
     "quantité": 10,
-    "quiOuQuoi": "almojabana"
+    "quiOuQuoi": "almojabanas"
   },
   "tableauDeTags": [
     "patisseries"
