@@ -1,0 +1,63 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gougère",
+  "auteur": "Nicolas et Daniela",
+  "pour": {
+    "quantité": 10,
+    "quiOuQuoi": "gougères"
+  },
+  "tableauDeTags": [
+    "patisseries"
+  ],
+  "tableauIngredients": [
+    {
+      "nom": "farine de blé",
+      "quantité": 150,
+      "unité": "g"
+    },
+    {
+      "nom": "oeuf(s)",
+      "quantité": 4,
+      "unité": ""
+    },
+    {
+      "nom": "fromage rapé (gruyère ou comté)",
+      "quantité": 150,
+      "unité": "g"
+    },
+    {
+      "nom": "eau",
+      "quantité": 25,
+      "unité": "cl"
+    },
+    {
+      "nom": "beurre",
+      "quantité": 80,
+      "unité": "g"
+    },
+    {
+      "nom": "sel",
+      "quantité": 1,
+      "unité": "pincée(s)"
+    },
+    {
+      "nom": "poivre",
+      "quantité": 1,
+      "unité": "pincée(s)"
+    },
+    {
+      "nom": "muscade",
+      "quantité": 1,
+      "unité": "pincée(s)"
+    }
+  ],
+  "tableauInstructions": [
+    "Dans une casserolle, porter à ébullition l'eau et le beurre.",
+    "Hors du feu, ajouter la farine.",
+    "Faire sécher la pâte à feu doux si nécessaire.",
+    "Laisser tiédir, et incorporer les oeufs un par un.",
+    "Ajouter le fromage, le sel, le poivre et la muscade.",
+    "Disposer des boules de pâte sur une plaque.",
+    "Cuire 25 minutes à 200°C."
+  ]
+}

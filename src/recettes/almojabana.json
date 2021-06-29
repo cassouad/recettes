@@ -1,10 +1,10 @@
 {
   "$schema": "./schémaRecette.json",
   "titre": "Almojabana",
-  "auteur": "Nicolas et Daniella",
+  "auteur": "Nicolas et Daniela",
   "pour": {
-    "quantité": 0,
-    "quiOuQuoi": ""
+    "quantité": 10,
+    "quiOuQuoi": "almojabanas"
   },
   "tableauDeTags": [
     "patisseries"
@@ -26,18 +26,23 @@
       "unité": ""
     },
     {
+      "nom": "fromage type mozzarella",
+      "quantité": 125,
+      "unité": "g"
+    },
+    {
       "nom": "fromage type feta",
       "quantité": 200,
       "unité": "g"
     },
     {
-      "nom": "huile de colza",
+      "nom": "huile d'olive",
       "quantité": 1,
       "unité": "c. à soupe"
     },
     {
       "nom": "levure chimique",
-      "quantité": 0.5,
+      "quantité": 1,
       "unité": "sachet(s)"
     }
   ],
