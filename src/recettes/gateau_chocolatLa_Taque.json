@@ -1,0 +1,49 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gâteau au chocolat (Restaurant La Taque)",
+  "auteur": "Catherine (Restaurant La Taque)",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "chocolat noir"
+    },
+    {
+      "quantité": 75,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 8,
+      "unité": "",
+      "nom": "jaunes d'oeuf(s)"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "(grosse) de crème de marron"
+    }    
+  ],
+  "tableauInstructions": [
+    "1- Faire fondre et mélanger au bain-Marie, le chocolat et le beurre.",
+    "2- Blanchir les jaunes d'oeufs avec le sucre",
+    "Mélanger 1 + 2 + la grosse cuillère de crème de marron.",
+    "Cuire à 130° pendant 30mn dans un moule à manquer.",
+    "Démouler le lendemain en chauffant le moule sur le gaz.",
+    "Accompagner le gateau d'une sauce caramel."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauce caramel",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "sauces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 25,
+      "unité": "cl",
+      "nom": "crème fraiche liquide"
+    }
+  ],
+  "tableauInstructions": [
+    "Faire caramel avec le sucre et eau.",
+    "Puis rajouter la crème."
+  ]
+}
