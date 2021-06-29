@@ -83,6 +83,7 @@ export default [
   require('./gateau_yaourt'),
   require('./gauffres_anciennes'),
   require('./gnocchis'),
+  require('./gougere'),
   require('./gratin_dauphinois'),
   require('./houmous'),
   require('./lamington'),
