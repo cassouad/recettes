@@ -87,6 +87,10 @@
           },
           "unité": {
             "type": "string",
+            "pattern": "^(|g|kg|ml|cl|dl|l|cm|3/4|1/2|1/4|c\\. à café|c\\. à soupe|sachet\\(s\\)|boite\\(s\\)|ptte\\(s\\) boite\\(s\\)|verre\\(s\\)|pincée\\(s\\)|feuille\\(s\\)|gousse\\(s\\)|pot\\(s\\)|gousse\\(s\\)|grain\\(s\\)|tranche\\(s\\)|bouteille\\(s\\)|bol\\(s\\)|barre\\(s\\)|brique\\(s\\)|bouquet\\(s\\)|botte\\(s\\)|tasse\\(s\\))$"
+          },
+          "unité0": {
+            "type": "string",
             "enum": [
               "",
               "g",
@@ -96,6 +100,9 @@
               "dl",
               "l",
               "cm",
+              "3/4",
+              "1/2",
+              "1/4",
               "c. à café",
               "c. à soupe",
               "sachet(s)",
@@ -114,7 +121,8 @@
               "barre(s)",
               "brique(s)",
               "bouquet(s)",
-              "botte(s)"
+              "botte(s)",
+              "tasse(s)"
             ]
           }
         }

@@ -130,6 +130,7 @@ export default [
   require('./poulet'),
   require('./poulet_basquaise'),
   require('./poulet_citron'),
+  require('./poulet_curry_colombie'),
   require('./poulet_saute'),
   require('./pudim_bresilien'),
   require('./punch'),

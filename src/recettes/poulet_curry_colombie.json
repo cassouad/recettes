@@ -1,0 +1,104 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Poulet au curry à la colombienne",
+  "auteur": "Daniella",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "poitrines de poulet sans peau et sans os"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe", 
+      "nom": "d'huile d'olive"
+    },
+    {
+      "quantité": 1,
+      "unité": "", 
+      "nom": "oignon"
+    },
+    {
+      "quantité": 2,
+      "unité": "gousse(s)", 
+      "nom": "ail"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe", 
+      "nom": "de poudre de curry"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café", 
+      "nom": "de cannelle"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à café", 
+      "nom": "de poudre de paprika"
+    },
+    {
+      "quantité": 1,
+      "unité": "feuille(s)", 
+      "nom": "de laurier"
+    },
+    {
+      "quantité": 1,
+      "unité": "", 
+      "nom": "petit bout de gingembre"
+    },
+    {
+      "quantité": 0,
+      "unité": "", 
+      "nom": "sel"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe", 
+      "nom": "de concentré de tomates"
+    },
+    {
+      "quantité": 1,
+      "unité": "", 
+      "nom": "yaourt nature"
+    },
+    {
+      "quantité": 0.75,
+      "unité": "tasse(s)", 
+      "nom": "de lait de coco"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "", 
+      "nom": "jus d'un citron"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "c. à café", 
+      "nom": "de poivre de cayenne"
+    },
+    {
+      "quantité": 0,
+      "unité": "", 
+      "nom": "des feuilles de coriandre"
+    }
+  ],
+  "tableauInstructions": [
+    "Couper le poulet en morceaux. Hacher l'oignon et l'ail. Râper le gingembre.",
+    " ",
+    " Chauffer l'huile d'olive dans une poële à feu moyen. Faire revenir l'oignon jusqu'à ce qu'il soit légèrement doré. Incorporer l'ail, le curry, la cannelle, le paprika, le laurier, le gingembre et le sucre. Saler et mélanger en continu pendant 2 minutes.",
+    "  ",
+    "Ajouter les morceaux de poulet, le concentré de tomates, le yaourt et le lait de coco. Porter à ébullition, résuire le feu et laisser mijoter pendant 25 mn.",
+    "   ",
+    "Ajouter le jus de citron et le poivre de Cayenne et laisser mijoter encore 5mn.",
+    "Ajouter de la coriandre dans l'assiette uniquement."
+  ]
+}
