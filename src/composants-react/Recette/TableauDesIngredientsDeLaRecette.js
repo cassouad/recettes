@@ -33,13 +33,15 @@ const TableauDesIngredientsDeLaRecette = ({
         width: '100%',
       }}>
         <tbody>
-          {tableauIngredients?.map(({ nom, quantité, unité }) => {
+          {tableauIngredients?.map(({ nom, quantité, unité, proportion }) => {
             let quantitéEtUnité
             let textAlign = 'left'
             if (quantité && unité) {
               quantitéEtUnité = `${quantité} ${unité}`
             } else if (quantité) {
               quantitéEtUnité = quantité
+            } else if (proportion) {
+              quantitéEtUnité = `${proportion}`
             } else {
               quantitéEtUnité = '-'
               textAlign = 'center'

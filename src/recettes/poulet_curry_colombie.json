@@ -51,9 +51,8 @@
       "nom": "de laurier"
     },
     {
-      "quantité": 1,
-      "unité": "", 
-      "nom": "petit bout de gingembre"
+      "proportion": "Un petit bout", 
+      "nom": " de gingembre"
     },
     {
       "quantité": 0,
@@ -71,24 +70,20 @@
       "nom": "yaourt nature"
     },
     {
-      "quantité": 0.75,
-      "unité": "tasse(s)", 
+      "proportion": "3/4 de tasse", 
       "nom": "de lait de coco"
     },
     {
-      "quantité": 0.5,
-      "unité": "", 
+      "proportion": "1/2", 
       "nom": "jus d'un citron"
     },
     {
-      "quantité": 0.5,
-      "unité": "c. à café", 
+      "proportion": "1/2 c. à café", 
       "nom": "de poivre de cayenne"
     },
     {
-      "quantité": 0,
-      "unité": "", 
-      "nom": "des feuilles de coriandre"
+      "proportion": "des feuilles", 
+      "nom": "de coriandre"
     }
   ],
   "tableauInstructions": [
