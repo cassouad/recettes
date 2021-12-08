@@ -11,9 +11,39 @@
   ],
   "tableauIngredients": [
     {
-      "quantité": 600,
+      "quantité": 1,
+      "unité": "",
+      "nom": "réchaud"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "bruleur à pâte"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "caquelon ou poëlon"
+    },
+    {
+      "quantité": 420,
       "unité": "g",
-      "nom": "de différents fromages"
+      "nom": "de Beaufort"
+    },
+    {
+      "quantité": 420,
+      "unité": "g",
+      "nom": "de Comté"
+    },
+    {
+      "quantité": 420,
+      "unité": "g",
+      "nom": "de gruyère suisse"
+    },
+    {
+      "quantité": 60,
+      "unité": "g",
+      "nom": "d'Emmental (facultatif)"
     },
     {
       "quantité": 5,
@@ -21,9 +51,14 @@
       "nom": "Kirsch (optionnel)"
     },
     {
-      "quantité": 3,
-      "unité": "verre(s)",
+      "quantité": 40,
+      "unité": "cl",
       "nom": "vin blanc sec"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "d'ail'"
     },
     {
       "quantité": 1,
@@ -33,17 +68,19 @@
     {
       "quantité": 0,
       "unité": "",
-      "nom": "sel et poivre"
+      "nom": "poivre"
     }
   ],
   "tableauInstructions": [
-    "Frotter le poêlon à l'ail.",
-    "Verser le vin blanc sec. Poivrer et saler.",
-    "Lorsque le vin, bout, ajouter le gruyère râpé.",
+    "Frotter le poêlon  ou caquelonà l'ail.",
+    "Verser le vin blanc sec. Poivrer.",
+    "Faire chauffer le vin sur le feu",
+    "Lorsque le vin bout, ajouter le gruyère râpé ou coupé en dés.",
     "Laisser fondre.",
     "Ajouter lee Kirsch. (optionnel)",
     "Chauffer sans arrêt : la fondue doit bouillir constamment.",
     "Couper le pain en gros dés.",
+    "Placer le poëlon sur le réchaud",
     "Chaque convive piquera un morceau et se servira en enroulant bien le fromage autour de sa fourchette."
   ]
 }
