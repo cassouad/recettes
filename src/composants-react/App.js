@@ -2,12 +2,8 @@ import React from 'react'
 
 import recettes from '../recettes'
 import ArrièrePlan from './ArrièrePlan'
-import ChampDeRechercheDeRecette from './ChampDeRechercheDeRecette'
-import TitrePrincipal from './TitrePrincipal'
-import TableauDeRecettes from './TableauDeRecettes'
-import TableauDeTousLesTagsDesRecettes from './TableauDeTousLesTagsDesRecettes'
-import TableauDeTagsAvecLesQuelsOnFiltre from './TableauDeTagsAvecLesQuelsOnFiltre'
-import Commande from './Commande'
+import InterfacePrincipale from './InterfacePrincipale'
+import ManagerDuMenu from './ManagerDuMenu'
 
 const App = () => {
   const [demandeDeRecherche, setDemandeDeRecherche] = React.useState('')
@@ -62,63 +58,34 @@ const App = () => {
     <ArrièrePlan
       couleur={couleurDeArrièrePlan}
     >
-      <div style={{
-        backgroundColor: couleurDeArrièrePlan,
-        position: 'sticky',
-        top: 0,
-        padding: '20px 20px 0px 20px',
-        zIndex: 2,
-      }}>
-        <div style={{
-          paddingBottom: padding,
-        }}>
-          <TitrePrincipal />
-        </div>
-        <div style={{
-          paddingBottom: padding,
-        }}>
-          <ChampDeRechercheDeRecette
-            demandeDeRecherche={demandeDeRecherche}
-            setDemandeDeRecherche={setDemandeDeRecherche}
-            enregistrerDesActions={enregistrerDesActions}
-          />
-        </div>
-        {doitAfficherLeTagAvecLeQuelOnFiltre && <div style={{
-          paddingBottom: padding,
-        }}>
-          <TableauDeTagsAvecLesQuelsOnFiltre
-            tableauDeTagsAvecLesQuelsOnFiltre={tableauDeTagsAvecLesQuelsOnFiltre}
-            quandOnCliqueSurUnTagAvecLeQuelOnFiltre={quandOnCliqueSurUnTagAvecLeQuelOnFiltre}
-          />
-        </div>}
-      </div>
-      <div style={{
-        padding: '0px 20px 20px 20px'
-      }}>
-        {doitAfficherLaCommande && <div style={{
-          paddingBottom: padding,
-        }}>
-          <Commande
-            nom='Filtrer par tag'
-            commande={quandOnCliqueSurLaCommandeFiltrerParTag}
-          />
-        </div>}
-        {doitAfficherLeTableauDesRecettes && <TableauDeRecettes
-          tableauDeRecettes={tableauDeRecettes}
-          demandeDeRecherche={demandeDeRecherche}
-          tableauDeTagsAvecLesQuelsOnFiltre={tableauDeTagsAvecLesQuelsOnFiltre}
-          couleurPrincipale={couleurPrincipale}
+      <ManagerDuMenu
+        couleurPrincipale={couleurPrincipale}
+      >
+        <InterfacePrincipale
           couleurDeArrièrePlan={couleurDeArrièrePlan}
-          stickyTopPourLeTitreDesRecettes={'121px'}
-        />}
-        {doitAfficherLeTableauDeTousLesTags && <TableauDeTousLesTagsDesRecettes
-          tableauDeRecettes={tableauDeRecettes}
-          demandeDeRecherche={demandeDeRecherche}
-          tableauDeTagsAvecLesQuelsOnFiltre={tableauDeTagsAvecLesQuelsOnFiltre}
           couleurPrincipale={couleurPrincipale}
+      
+          padding={padding}
+      
+          demandeDeRecherche={demandeDeRecherche}
+          setDemandeDeRecherche={setDemandeDeRecherche}
+      
+          enregistrerDesActions={enregistrerDesActions}
+      
+          doitAfficherLeTagAvecLeQuelOnFiltre={doitAfficherLeTagAvecLeQuelOnFiltre}
+          tableauDeTagsAvecLesQuelsOnFiltre={tableauDeTagsAvecLesQuelsOnFiltre}
+          quandOnCliqueSurUnTagAvecLeQuelOnFiltre={quandOnCliqueSurUnTagAvecLeQuelOnFiltre}
+      
+          doitAfficherLaCommande={doitAfficherLaCommande}
+          quandOnCliqueSurLaCommandeFiltrerParTag={quandOnCliqueSurLaCommandeFiltrerParTag}
+      
+          doitAfficherLeTableauDesRecettes={doitAfficherLeTableauDesRecettes}
+          tableauDeRecettes={tableauDeRecettes}
+      
+          doitAfficherLeTableauDeTousLesTags={doitAfficherLeTableauDeTousLesTags}
           quandOnCliqueSurUnTagFaire={quandOnCliqueSurUnTagFaire}
-        />}
-      </div>
+        />
+      </ManagerDuMenu>
     </ArrièrePlan>
   )
 }

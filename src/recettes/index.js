@@ -190,5 +190,6 @@ export default [
   require('./veau_blanquette'),
   require('./veau_emince_champignons'),
   require('./veau_saute'),
+  require('./veloute_butternut'),
   require('./zallouk'),
 ]

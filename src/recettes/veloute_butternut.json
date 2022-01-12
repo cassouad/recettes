@@ -1,0 +1,52 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Velouté de butternut",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "potages"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "butternuts"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oignons"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "bouillon cube"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "de crème fraîche"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "curry"
+    }
+  ],
+  "tableauInstructions": [
+    "Peler les butternuts et les couper en dés",
+    "Ciseler les oignons",
+    "Blondir pendant 2mn environ les oignons avec de l'huile d'olive.",
+    "Puis ajouter les bouillons-cubes émiettés. Bien remuer.",
+    "Recouvrir d'eau bouillante juste au-dessus des légumes.",
+    "Ajouter le curry.",
+    "Laisser cuire un certain temps.",
+    "Mixer puis ajouter la crème fraîche.",
+    "Saler et poivrer.",
+    "On peut ajouter une pincée de cannelle."
+  ]
+}
