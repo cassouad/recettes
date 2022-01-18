@@ -1,0 +1,71 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Gateau au pavot",
+  "auteur": "Daniela et Nicolas",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 225,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "oeuf(s)"
+    },
+
+    {
+      "quantité": 175,
+      "unité": "g",
+      "nom": "beurre ramolli"
+    },
+    {
+      "quantité": 175,
+      "unité": "ml",
+      "nom": "lait"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "jus de citrons"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "levure chimique"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "pincée de sel"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "de pavot"
+    }
+  ],
+  "tableauInstructions": [
+    "Préchauffer le four à 180°",
+    "Tamiser la farine dans un saladier et ajouter la levure et le sel",
+    "Dans un autre récipient, battre le beurre ramolli ,(il ne doit pas être fondu), avec le sucre jusqu'à l'obtention d'un mélange crémeux",
+    "Incorporer les oeufs un à un",
+    "Ajouter le jus de citron et les graines de pavot.",
+    "Verser le lait et le mélange de farine en 2 fois.",
+    "Mettre la pâte dans un moule à cake beurré et enfourner pour 50 à 55 mn de cuisson."
+  ]
+}
