@@ -73,6 +73,7 @@ export default [
   require('./gateau_chocolatPhilou'),
   require('./gateau_chocolat_bonne_maman'),
   require('./gateau_pain_beni'),
+  require('./gateau_pavot'),
   require('./gateau_petit_beurre'),
   require('./gateau_quatre_quarts'),
   require('./gateau_rissegg'),
