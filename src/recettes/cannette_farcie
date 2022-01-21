@@ -1,0 +1,63 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Canette  farçie",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "canette"
+    },
+    {
+      "proportion": "1,5 tranches",
+      "nom": "de pain de mie"
+    },
+    {
+      "quantité": 1,
+      "unité": "c. à soupe",
+      "nom": "d'huile d'olive"
+    },
+    {
+      "quantité": 2,
+      "unité": "c. à soupe",
+      "nom": "de lait"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "de viande hâchée"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "de chair à saucisse"
+    },
+    {
+      "proportion": "150 à 200g",
+      "nom": "de marron en petits morceaux"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel et poivre"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "cumin et herbes de Provence"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger tous les ingreédients pour la farce. Bien malaxer.",
+    "Remplir la canette.",
+    "Puis enfourner au four.",
+    "Cuire pendant 10mn à 250° puis 2heures à 160°."
+  ]
+}
