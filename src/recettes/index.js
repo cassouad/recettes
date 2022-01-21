@@ -25,6 +25,7 @@ export default [
   require('./cake'),
   require('./cake_legumes'),
   require('./cake_sale'),
+  require('./canette_farcie'),
   require('./canneles'),
   require('./carbonade'),
   require('./cassolettes_cerises'),

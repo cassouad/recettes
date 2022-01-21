@@ -1,6 +1,6 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Canette  farçie",
+  "titre": "Canette farçie",
   "auteur": "",
   "pour": {
     "quantité": 0,
@@ -55,9 +55,9 @@
     }
   ],
   "tableauInstructions": [
-    "Mélanger tous les ingreédients pour la farce. Bien malaxer.",
+    "Mélanger tous les ingrédients de la farce. Bien malaxer.",
     "Remplir la canette.",
     "Puis enfourner au four.",
-    "Cuire pendant 10mn à 250° puis 2heures à 160°."
+    "Cuire pendant 10 mn à 250° puis 2 heures à 160°."
   ]
 }
