@@ -1,0 +1,63 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Cake à la banane",
+  "auteur": "Nicolas",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "moule à Cake"
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "gateaux",
+    "desserts"
+  ],
+  "tableauIngredients": [
+    {
+      "proportion": "3 ou 4",
+      "nom": "bananes"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "levure chimique"
+    },
+    {
+      "quantité": 0.5,
+      "unité": "c. à café",
+      "nom": "de canelle"
+    },
+    {
+      "quantité": 1,
+      "unité": "pincée(s)",
+      "nom": "sel"
+    },
+    {
+      "quantité": 125,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "oeuf(s)"
+    }
+  ],
+  "tableauInstructions": [
+    "Mélanger le beurre et les bananes.",
+    "Ajouter les oeufs un à un",
+    "Ajouter la farine, le sucre, la levure chimique, le sel et la cannelle et bien mélanger",
+    "Mettre dans un moule à cake.",
+    "Ajouter des fruits secs comme des noix ou des noisettes selon le goût",
+    "Cuire au four à 180°C pendant 45 à 55 minutes."
+  ]
+}
