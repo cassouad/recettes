@@ -23,6 +23,7 @@ export default [
   require('./buche_noel'),
   require('./bugnes'),
   require('./cake'),
+  require('./cake_banane'),
   require('./cake_legumes'),
   require('./cake_sale'),
   require('./canette_farcie'),

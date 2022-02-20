@@ -35,12 +35,12 @@
     {
       "quantité": 20,
       "unité": "cl",
-      "nom": "crème liquide"
+      "nom": "crème liquide entière (pas plus)"
     },
     {
       "quantité": 5,
       "unité": "c. à soupe",
-      "nom": "crème épaisse"
+      "nom": "crème épaisse entière"
     },
     {
       "quantité": 0,
@@ -60,8 +60,7 @@
     "L'étaler : en faire une grosse meringue plate de 25 cm de diamètre.",
     "(cuisson 1 heure à 120 degré).",
     "Ensuite ajouter sur la meringue une couche de crème fouettée.",
-    "Crème fouettée : battre crème liquide avec la crème épaisse et un peu de sucre.",
-    "Puis une couche de fruits",
-    "Cuisson: 1 heure à 120° pour la meringue."
+    "Crème fouettée : battre crème liquide avec la crème épaisse et un peu de sucre (rajouter de la crème épaisse suivant la consistance).",
+    "Puis une couche de fruits."
   ]
 }
