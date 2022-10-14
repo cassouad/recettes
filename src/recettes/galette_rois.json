@@ -11,6 +11,7 @@
     "gateaux",
     "desserts"
   ],
+  "cheminLocalVersImage": "images/galette.jpg",
   "tableauIngredients": [
     {
       "quantité": 2,

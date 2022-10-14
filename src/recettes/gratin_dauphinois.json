@@ -10,6 +10,7 @@
     "légumes",
     "plats"
   ],
+  "cheminLocalVersImage": "images/gratin.jpg",
   "tableauIngredients": [
     {
       "quantité": 2,

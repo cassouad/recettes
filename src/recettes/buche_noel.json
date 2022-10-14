@@ -11,6 +11,7 @@
     "gateaux",
     "desserts"
   ],
+  "cheminLocalVersImage": "images/buche.jpg",
   "tableauIngredients": [
     {
       "quantité": 5,
