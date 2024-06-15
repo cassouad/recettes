@@ -170,6 +170,7 @@ export default [
   require('./sauce_citron_cremeuse'),
   require('./sauce_mousseline'),
   require('./saucisson_chocolat'),
+  require('./schémaRecette'),
   require('./socca'),
   require('./sorbet_citron'),
   require('./sorbet_fraise'),
