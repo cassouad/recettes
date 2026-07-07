@@ -9,7 +9,7 @@ Il **doit être lancé avec Node 16** : avec Node 18 ou plus récent (par ex. No
 `yarn start` plante avec l'erreur
 `TypeError: BigInt.prototype.toString requires that 'this' be a BigInt`.
 
-On gère les versions de Node avec [nvm](https://github.com/nvm-sh/nvm).
+On gère les versions de Node avec [nvm](nvm use 16).
 
 La première fois seulement, installer Node 16 :
 ```sh
