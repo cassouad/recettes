@@ -14,7 +14,11 @@ const schéma = fs.readFileSync(path.join(__dirname, 'schémaRecette.json'), 'ut
 const tableauDesFichiersInvalides = []
 
 fs.readdirSync(__dirname).forEach(nomDuFichier => {
-  if (tableauDesNomsDeFichiersÀIgnorer.includes(nomDuFichier) === false) {
+  // Sur macOS, readdirSync renvoie les noms en Unicode NFD (décomposé),
+  // alors que les littéraux du code source sont en NFC (composé).
+  // On normalise les deux côtés pour que la comparaison fonctionne.
+  const nomDuFichierNormalisé = nomDuFichier.normalize('NFC')
+  if (tableauDesNomsDeFichiersÀIgnorer.includes(nomDuFichierNormalisé) === false) {
     const extensionDuFichier = path.extname(nomDuFichier)
     const extensionDesFichiersJson = '.json'
   

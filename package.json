@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "yarn install && yarn webpack serve --host 0.0.0.0 --mode development",
+    "start": "NODE_OPTIONS='' yarn install && NODE_OPTIONS='' yarn webpack serve --host 0.0.0.0 --mode development",
     "test": "yarn jest",
     "lint": "yarn eslint .",
     "checkEveryChangeAreCommit": "git diff --quiet --exit-code",

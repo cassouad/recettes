@@ -13,12 +13,16 @@ const tableauDesNomsDeFichiersÀIgnorer = [
 ]
 
 fs.readdirSync(__dirname).forEach(nomDuFichier => {
-  if (tableauDesNomsDeFichiersÀIgnorer.includes(nomDuFichier) === false) {
+  // Sur macOS, readdirSync renvoie les noms en Unicode NFD (décomposé),
+  // alors que les littéraux du code source sont en NFC (composé).
+  // On normalise les deux côtés pour que la comparaison fonctionne.
+  const nomDuFichierNormalisé = nomDuFichier.normalize('NFC')
+  if (tableauDesNomsDeFichiersÀIgnorer.includes(nomDuFichierNormalisé) === false) {
     const extensionDuFichier = path.extname(nomDuFichier)
     const extensionDesFichiersJson = '.json'
   
     if (extensionDuFichier === extensionDesFichiersJson) {
-      const nomDuFichierSansExtension = path.basename(nomDuFichier, extensionDesFichiersJson)
+      const nomDuFichierSansExtension = path.basename(nomDuFichierNormalisé, extensionDesFichiersJson)
       contenuDuFichierIndex += `  require('./${nomDuFichierSansExtension}'),\n`
     }
   }
