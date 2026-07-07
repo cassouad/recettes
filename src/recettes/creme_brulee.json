@@ -3,7 +3,7 @@
   "titre": "Crème brulée",
   "auteur": "",
   "pour": {
-    "quantité": 10,
+    "quantité": 6,
     "quiOuQuoi": "personne(s)"
   },
   "tableauDeTags": [
@@ -12,38 +12,40 @@
   ],
   "tableauIngredients": [
     {
-      "quantité": 800,
-      "unité": "g",
-      "nom": "crème liquide (fleurette)"
+      "quantité": 500,
+      "unité": "ml",
+      "nom": "crème entière fluide (ou à 35%)"
     },
+
     {
-      "quantité": 200,
-      "unité": "g",
-      "nom": "lait"
-    },
-    {
-      "quantité": 150,
+      "quantité": 50,
       "unité": "g",
       "nom": "sucre"
     },
     {
-      "quantité": 12,
+      "quantité": 6,
       "unité": "",
       "nom": "jaune(s) d'oeufs"
     },
     {
-      "quantité": 2,
+      "quantité": 1,
       "unité": "gousse(s)",
-      "nom": "vanille"
+      "nom": "vanille + goutte vanille"
+    },
+    {
+      "quantité": 6,
+      "unité": "c. à soupe",
+      "nom": "cassonade (sucre roux) pour caraméliser"
     }
   ],
   "tableauInstructions": [
-    "Faire bouillir la crème + lait + vanille.",
-    "Blanchir jaune + sucre.",
-    "Ajouter ‒1 au mélange.",
-    "Mettre dans des petits pots.",
-    "Four 180 degrés.",
-    "Sortir du four quand la crème est prise (30 minutes environ).",
-    "Faire caraméliser du sucre par dessus."
+    "Préchauffer le four à 160°.",
+    "Dans une casserole faire chauffer 500 ml de crème dans laquelle on ajoute les grains de vanille obtenus en grattant la gousse de vanille fendue avec la pointe d'un couteau et porter à petite ébullition puis laisser infuser hors du feu pendant 10/15 min environ.",
+    "Blanchir les jaunes et le sucre.",
+    "Retirer la gousse de vanille puis verser la crème sur le mélange en fouettant.",
+    "Remplir 6 ramequins que l'on place dans un bain marie (une plaque de cuisson avec de l'eau chaude)",
+    "Four 160 degrés  (25 minutes environ).",
+    "Sortir du four quand la crème est prise.",
+    "Faire caraméliser le sucre roux par dessus."
   ]
 }
