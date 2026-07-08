@@ -1,0 +1,61 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Pisaladière",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "entrées",
+    "pâtes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 50,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 3,
+      "unité": "c. à soupe",
+      "nom": "d'huile d'olives"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "levure de bière"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "margarine"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "peu de lait et un peu d'eau"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "sel, poivre, muscade"
+    }
+  ],
+  "tableauInstructions": [
+    "Dans un saladier, mettre la farine, verser le lait tiédi délayé avec la levure de bière. Y ajouter la matière grasse ",
+    "Remuer avec un peu d'eau jusqu'à ce que la pâte gonfle lorsqu'on enfonce le doigt dedans.",
+    "Pincer de sel.",
+    "Mettre dans le four sans feu durant 2 heuressans ouvrir pour qu'elle monte bien.",
+    "Faire attention qu'il n'y ai pas de courant d'air.",
+    "Ou bien utiliser de la farine de pizza.",
+    "Ensuite ajouter les oignons et les olives.",
+    "Mettre feu doux.",
+    "(Les oignons : les aire mijoter à feu très doux recouvert avec de l'huile)."
+  ]
+}
