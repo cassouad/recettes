@@ -5,7 +5,7 @@
     "lint": "yarn eslint .",
     "checkEveryChangeAreCommit": "git diff --quiet --exit-code",
     "pushDocsFolder": "git add ./docs && git commit -m 'update github page' && git push",
-    "updateGithubPage": "yarn checkEveryChangeAreCommit && NODE_OPTIONS='' yarn lint && NODE_OPTIONS='' yarn test && NODE_OPTIONS='' yarn webpack --mode production && yarn pushDocsFolder"
+    "updateGithubPage": "NODE_OPTIONS='' yarn checkEveryChangeAreCommit && NODE_OPTIONS='' yarn lint && NODE_OPTIONS='' yarn test && NODE_OPTIONS='' yarn webpack --mode production && NODE_OPTIONS='' yarn pushDocsFolder"
   },
   "dependencies": {
     "@babel/core": "^7.14.0",
