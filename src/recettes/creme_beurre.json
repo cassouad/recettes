@@ -1,0 +1,47 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Crème au beurre",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries",
+    "crèmes"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 3,
+      "unité": "",
+      "nom": "blancs d'oeufs"
+    },
+    {
+      "quantité": 150,
+      "unité": "g",
+      "nom": "sucre en poudre"
+    },
+    {
+      "quantité": 1,
+      "unité": "sachet(s)",
+      "nom": "sucre vanillé"
+    },
+    {
+      "quantité": 100,
+      "unité": "g",
+      "nom": "parfun café ou chocolat ou praliné fondu ou noix de coco"
+    }
+  ],
+  "tableauInstructions": [
+    "Dans une casserole, faire cuire à feu modéré le sucre juste recouvert d'eau, cuire à feu modéré, jusqu'à ce qu'une goutte, tombant d'une fourchette, laisse un fil.",
+    "Monter les blancs puis ajouter le sirop bouillant en filet jusqu'à ce qu'ils blanchissent et fassent le ruban.",
+    "Laisser refroidir jusqu'à complet refroidissement.",
+    "Travailler le beurre en pommade (molle) puis ajouter petit à petit le mélange oeuf- sucre et sucre vanillé.",
+    "Ajouter le parfum café, chocolat, praliné fondu (100g), noix de coco ..."
+  ]
+}
