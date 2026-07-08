@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "start": "NODE_OPTIONS='' yarn install && NODE_OPTIONS='' yarn webpack serve --host 0.0.0.0 --mode development",
+    "test": "yarn jest",
+    "lint": "yarn eslint .",
+    "checkEveryChangeAreCommit": "git diff --quiet --exit-code",
+    "pushDocsFolder": "git add ./docs && git commit -m 'update github page' && git push",
+    "updateGithubPage": "NODE_OPTIONS='' yarn checkEveryChangeAreCommit && NODE_OPTIONS='' yarn lint && NODE_OPTIONS='' yarn test && NODE_OPTIONS='' yarn webpack --mode production && NODE_OPTIONS='' yarn pushDocsFolder"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "@yarnpkg/pnpify": "^3.0.0-rc.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.1",
+    "eslint": "^7.25.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
+    "jsonschema": "^1.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Crème brulée",
+  "titre": "Crème brûlée",
   "auteur": "",
   "pour": {
     "quantité": 6,

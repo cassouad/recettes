@@ -1,0 +1,37 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Glace à la fraises ou framboises",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "glaces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "kg",
+      "nom": "fraises"
+    },
+    {
+      "quantité": 500,
+      "unité": "g",
+      "nom": "sucre"
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron"
+    }
+  ],
+  "tableauInstructions": [
+    "Nettoyer les fraises.",
+    "Mélanger au mixeur les fraises et le sucre.",
+    "Mettre au refrigerateur pendant 3 heures.",
+    "Puis remélanger.",
+    "Remettre au frigo.",
+    "Le refaire une 2ème."
+  ]
+}

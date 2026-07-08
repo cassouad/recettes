@@ -189,6 +189,7 @@ export default [
   require('./tarte_oignons'),
   require('./tarte_renversee'),
   require('./tarte_tatin'),
+  require('./tartiflette'),
   require('./tomates_farcies'),
   require('./tomates_provencale'),
   require('./truffes_chocolat'),

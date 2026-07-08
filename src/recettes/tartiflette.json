@@ -1,60 +1,77 @@
 {
   "$schema": "./schémaRecette.json",
-  "titre": "Tarte aux oignons",
+  "titre": "Tartiflette",
   "auteur": "",
   "pour": {
-    "quantité": 0,
-    "quiOuQuoi": ""
+    "quantité": 8,
+    "quiOuQuoi": "personnes"
   },
   "tableauDeTags": [
-    "entrées"
+    "plats"
   ],
   "tableauIngredients": [
     {
-      "quantité": 200,
+      "quantité": 350,
       "unité": "g",
-      "nom": "farine"
+      "nom": "oignons"
     },
     {
       "quantité": 100,
       "unité": "g",
-      "nom": "beurre"
+      "nom": "crème fraîche liquide"
+    },
+    {
+      "quantité": 2,
+      "unité": "",
+      "nom": "reblochons bien faits"
+    },
+    {
+      "quantité": 4,
+      "unité": "c. à soupe",
+      "nom": "huile"
+    },
+    {
+      "quantité": 2,
+      "unité": "kg",
+      "nom": "pommes de terre"
     },
     {
       "quantité": 1.5,
       "unité": "verre(s)",
-      "nom": "eau (petits)"
+      "nom": "vin blanc sec"
     },
     {
-      "quantité": 1,
-      "unité": "pincée(s)",
-      "nom": "sel"
+      "quantité": 350,
+      "unité": "g",
+      "nom": "lardons fumés"
     },
     {
-      "quantité": 1,
-      "unité": "kg",
-      "nom": "oignons"
-    },
-    {
-      "quantité": 20,
-      "unité": "cl",
-      "nom": "crème fraîche épaisse"
+      "quantité": 2,
+      "unité": "gousse(s)",
+      "nom": "ail"
     },
     {
       "quantité": 0,
       "unité": "",
-      "nom": "anchois"
+      "nom": "sel, poivre"
     }
   ],
   "tableauInstructions": [
-    "Faire une pâte brisée.",
-    "Dans une poële, couper les oignons, émincer-les.",
-    "Faire cuire à petit feu jusqu'à ce qu'ils blondissent.",
-    "Saler peu, poivrer.",
-    "Puis mélanger-les avec la crème fraîche.",
-    "Laisser épaissir.",
-    "Etaler sur la pâte.",
-    "Faire avec des anchois une étoile en décoration.",
-    "Mettre au four à 250° pendant 20mn puis éteindre. Laisser dans le four jusqu'à servir."
+    "ETAPE 1",
+    "Eplucher les pommes de terre, les couper en dés ou en grosses rondelles, bien les rincer et les essuyer dans un torchon propre.",
+    "ETAPE 2",
+    "Faire chauffer l'huile dans une poële, y faire fondre les oignons.",
+    "ETAPE 3",
+    "Lorsque les oignons sont fondus, ajouter les pommes de terre et les faire dorer de tous les cotés.",
+    "ETAPE 4",
+    "Lorsqu'elles sont dorés, ajouter les lardons et finir de cuire. Eponger le surplus de gras avec une feuille de papier essuie-tout. Déglacer la poële au vin blanc.",
+    "ETAPE 5",
+    "D'autre part, gratter la croûte du reblochon et le couper en deux (ou en quatre).",
+    "ETAPE 6",
+    "Préchauffer le four à 200°C (thermostat 6-7) et préparer un plat à gratin en frottant le fond et les bords avec la gousse d'ail épuchée et saupoudrer de noix de muscade.",
+    "ETAPE 7",
+    "Dans le plat à gratin, étaler une couche de pomme de terre aux lardons, disposer dessus lma moitié du reblochon, puis de nouveau des pommes de terre. Recouvrez le tout de crême fraîche. Terminer avec le reste de reblochon (croûte vers les pommes de terre).",
+    "ETAPE 8",
+    "Enfourner pour environ 20 à 30 minutes de cuisson."
   ]
 }
