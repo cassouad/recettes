@@ -1,0 +1,50 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Sauce Nantua",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "sauces"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 54,
+      "unité": "g",
+      "nom": "farine"
+    },
+    {
+      "quantité": 54,
+      "unité": "g",
+      "nom": "beurre"
+    },
+    {
+      "quantité": 267,
+      "unité": "g",
+      "nom": "crème épaisse"
+    },
+    {
+      "quantité": 1.5,
+      "unité": "",
+      "nom": "boite de homardf"
+    },
+    {
+      "quantité": 66,
+      "unité": "cl",
+      "nom": "lait"
+    }
+    
+  ],
+  "tableauInstructions": [
+    "Fondre le beurre",
+    "Ajouter la farine",
+    "Délayer le lait",
+    "Saler, poivrer.",
+    "Feu doux jusqu'à épaississement.",
+    "Ajouter le homard et la crème.",
+    "Cuire 15 mn puis ajouter le cognac.",
+    "Puis mettre la sauce sur les quenelles, 20mn au four."
+  ]
+}
