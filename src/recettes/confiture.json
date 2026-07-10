@@ -16,9 +16,9 @@
       "nom": "fruits dénoyautés frais ou surgelés"
     },
     {
-      "quantité": 1,
-      "unité": "kg",
-      "nom": "sucre spécial confiture"
+      "quantité": 750,
+      "unité": "g",
+      "nom": "sucre spécial confiture ou 2g de stevia pour 100g de sucre."
     }
   ],
   "tableauInstructions": [

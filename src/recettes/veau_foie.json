@@ -1,0 +1,34 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Foie de veau",
+  "auteur": "",
+  "pour": {
+    "quantité": 1,
+    "quiOuQuoi": "personne(s)"
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "cheminLocalVersImage": "",
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "morceau de foie."
+    },
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "citron"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    }
+  ],
+  "tableauInstructions": [
+    "Mettre le foie de veau mariné dans du jus de citron, avant de le faire cuire dans une poële avec un peu d'ail",
+    "Le faire revenir dans un peu d'huile d'olive selon que l'on préfère bien cuit ou à point."
+  ]
+}

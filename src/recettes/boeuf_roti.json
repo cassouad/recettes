@@ -1,0 +1,34 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "Rôti de boeuf",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": " "
+  },
+  "tableauDeTags": [
+    "viandes"
+  ],
+  "cheminLocalVersImage": "",
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "rôti de boeuf."
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "eau et herbes"
+    },
+    {
+      "quantité": 1,
+      "unité": "gousse(s)",
+      "nom": "ail"
+    }
+  ],
+  "tableauInstructions": [
+    "Badigeonner la veille, le rôti d'ail pilé avec un peu d'eau et des herbes.",
+    "Faire cuire au four 15mn par livre à 250°C."
+  ]
+}

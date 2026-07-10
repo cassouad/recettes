@@ -1,0 +1,36 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "buñuelos",
+  "auteur": "Isabel",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "patisseries","gateaux"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "farine spéciale buñuelos"
+    },
+    {
+      "quantité": 0,
+      "unité": "g",
+      "nom": "fromage style féta"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "eau"
+    }
+  ],
+  "tableauInstructions": [
+    "Même quantité de farine spéciale buñuelos et de fromage de fêta.",
+    "Moitié d'eau. (Attention si le fromage est mouillé mettre un peu moins d'eau.)",
+    "Mélanger le tout puis faire des boules.",
+    "Chauffer de l'huile de tournesol chaud sans plus et faire dorer..",
+    "Les buñuelos remontent et restent ronds."
+  ]
+}

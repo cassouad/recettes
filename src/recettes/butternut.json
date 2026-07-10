@@ -1,0 +1,41 @@
+{
+  "$schema": "./schémaRecette.json",
+  "titre": "gratin de butternut",
+  "auteur": "",
+  "pour": {
+    "quantité": 0,
+    "quiOuQuoi": ""
+  },
+  "tableauDeTags": [
+    "légumes", "plats"
+  ],
+  "tableauIngredients": [
+    {
+      "quantité": 1,
+      "unité": "",
+      "nom": "butternut"
+    },
+    {
+      "quantité": 250,
+      "unité": "g",
+      "nom": "de poitrine fumée"
+    },
+    {
+      "quantité": 20,
+      "unité": "cl",
+      "nom": "de crème liquide"
+    },
+    {
+      "quantité": 0,
+      "unité": "",
+      "nom": "Différentes herbes : basilic et ciboulette par exemple."
+    }
+  ],
+  "tableauInstructions": [
+      "Découper le butternut en morceaux cuit à la vapeur 10mn.",
+      "Couper la poitrine fumée en petits morceaux rissolées à la poële.",
+      "Couper les différentees herbes.",
+      "Mettre la crème liquide légère Puis saupoudrer de parmesan.",
+      "Four à 200° et temps à surveiller"
+  ]
+}
